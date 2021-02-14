@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85.54" height="23.803" viewBox="0 0 85.54 23.803">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1.025" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.52" stop-color="#fdfdfd"/>
+      <stop offset="0.78" stop-color="#f5f5f5"/>
+      <stop offset="0.98" stop-color="#e8e8e8"/>
+      <stop offset="1" stop-color="#e6e6e6"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_3666" data-name="Grupo 3666" transform="translate(-63.217 -212.245)">
+    <path id="Caminho_11155" data-name="Caminho 11155" d="M1010.986,178.5h10.973c-3.764,4.161-1.71,9.066-1.71,13.728s.5,6.888-2.409,9.715h0l47.346.359c5.156,0,9.338-5.326,9.34-11.9h0c0-6.574-4.182-11.9-9.34-11.9Z" transform="translate(-925.77 33.742)" fill="url(#linear-gradient)"/>
+    <path id="Caminho_17375" data-name="Caminho 17375" d="M1010.986,178.5h10.973c-3.764,4.161-1.71,9.066-1.71,13.728s.5,6.888-2.409,9.715h0l47.346.359c5.156,0,9.338-5.326,9.34-11.9h0c0-6.574-4.182-11.9-9.34-11.9Z" transform="translate(1137.743 414.55) rotate(180)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

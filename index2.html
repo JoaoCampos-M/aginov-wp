@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="bt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agência</title>
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/animacoes.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+  <link rel="stylesheet" href="./css/cards.css" />
+  <link rel="stylesheet" href="./css/global-styles.css" />
+  <link rel="stylesheet" href="./css/fonts.css" />
+  <link rel="stylesheet" href="./css/section.css" />
+  <link rel="stylesheet" href="./css/map.css">
+  <link rel="stylesheet" href="css/midia-luiz.css">
+  <link rel="stylesheet" href="./css/midia-joao.css">
+  <link rel="stylesheet" href="./css/toggle.css"/>
+</head>
+
+<body>
+  <div class="baner-inicio">
+    <header>
+      <div class="menu-icones">
+        <div class="logo-Aginov">
+          <img src="img/logo-aginov-desk.svg" alt="" />
+        </div>
+        <nav class="navbar-principal">
+          <div class="navbar-item">
+            <p class="inicio-op"> Início</p>
+            <div class="barra-navbar"></div>
+              <ul class="inicio d-none">
+                <li>A agencia</li>
+                <li>Empresa</li>
+                <li>Teste</li>
+                <li>menu1</li>
+              </ul>
+          </div>
+          <div class="navbar-item">
+            <p class="menu2-op">Portfólio</p>
+            <div class="barra-navbar"></div>
+            <ul class="menu2 d-none">
+              <li>menu2</li>
+              <li>menu2</li>
+              <li>menu2</li>
+              <li>menu2</li>
+            </ul>
+          </div>
+          <div class="navbar-item">
+            <p class="menu3-op">Parcerias</p>
+            <div class="barra-navbar"></div>
+            <ul class="menu3 d-none">
+              <li>menu3</li>
+              <li>menu3</li>
+              <li>menu3</li>
+              <li>menu3</li>
+            </ul>
+          </div>
+          <div class="navbar-item">
+            <p class="empreend-op">Empreendedorismo</p>
+            <div class="barra-navbar"></div>
+            <ul class="empreend d-none">
+              <li>Cursos e Eventos</li>
+              <li>Empresas Júnior</li>
+              <li>Incubadoras da Unemat</li>
+              <li>Ecossistema de inovação</li>
+              <li>Disciplinas de Empreendedorismo</li>
+            </ul>
+          </div>
+          <div class="navbar-item">
+            <p class="contato-op">Contato</p>
+            <div class="barra-navbar"></div>
+            <ul class="contato d-none">
+              <li>menu4</li>
+              <li>menu4</li>
+              <li>menu4</li>
+              <li>menu4</li>
+            </ul>
+          </div>
+        </nav>
+        <div class="area-pesq">
+          <div class="logo-vitrine">
+            <img id="brasao" src="img/brasao-unemat.svg" alt="" onmouseover="trocaImage()" />
+          </div>
+          <div>
+            <div class="search-forms">
+              <div class="pesquisa-img">
+                <img class="search-button-img" src="img/lupa-branca.svg" id="pesquisa-img" onclick="opensearch()" alt=""
+                  srcset="" />
+              </div>
+              <form class="pesquisa d-none" id="pesquisa" action="" method="post">
+                <div class="barra-pesquisa">
+                  <input type="search" class="search-bar" />
+                  <button class="search-button" type="submit" value="">
+                    <img class="search-button-img" src="img/lupa-azul.svg" alt="" onclick="opensearch()" />
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-icones-mobile">
+        <div id="open" class="dropdown open-dropdown" onclick=" menu() ">
+          <img  class="btn-drop" src="img/menu-dropdown-open.svg" alt="">
+        </div>
+
+        <div id="close" class=" dropdown d-none close-dropdown">
+          <img class="btn-drop" src="img/menu-dropdown-close.svg" onclick=" menu()" alt="">
+          <div class="menu-list">
+            <ul class="opcao-list">
+              <li class="elements-list"><a class="item-menu-color" id="menu-drop-1" href="#">
+                  <p class="iten-list-option">Inicio</p>
+                </a>
+                <ul class="list-item-menu d-none" id="submenu-drop-1">
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                </ul>
+              </li>
+              <li class="elements-list"><a class="item-menu-color" id="menu-drop-2" href="#">
+                  <p class="iten-list-option">Portfólio</p>
+                </a>
+                <ul class="list-item-menu d-none" id="submenu-drop-2">
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                </ul>
+              </li>
+              <li class="elements-list"><a class="item-menu-color" id="menu-drop-3" href="#">
+                  <p class="iten-list-option">Parcerias</p>
+                </a>
+                <ul class="list-item-menu d-none" id="submenu-drop-3">
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                </ul>
+              </li>
+              <li class="elements-list"><a class="item-menu-color" id="menu-drop-4" href="#">
+                  <p class="iten-list-option">Empreendedorismo</p>
+                </a>
+                <ul class="list-item-menu d-none" id="submenu-drop-4">
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                </ul>
+              </li>
+              <li class="elements-list"><a class="item-menu-color" id="menu-drop-5" href="#">
+                  <p class="iten-list-option">Contato</p>
+                </a>
+                <ul class="list-item-menu d-none" id="submenu-drop-5">
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                  <li class="item-menu-drop"><a href="#" class="item-menu-color">menu</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <img class="bg-dropdown" src="img/background-footer.svg" alt="">
+        </div>
+        <nav class="nav-mobile navbar-principal">
+          <div class="logo-Aginov">
+            <img src="img/logo-aginov-mobi.svg" alt="" />
+          </div>
+          <form class="pesquisa " id="pesquisa" action="" method="post">
+            <div class="barra-pesquisa">
+              <input type="search" class="search-bar" />
+              <button class="search-button" type="submit" value="">
+                <img class="search-button-img" src="img/lupa-azul.svg" alt="" onclick="opensearch()" />
+              </button>
+            </div>
+          </form>
+        </nav>
+      </div>
+      <img class="bg-header-wave " src="./img/background-header-2.svg" />
+      <img class="bg-header-wave header-temp-1 zindex" src="./img/background-header.svg" />
+      <img class="bg-header-wave zindex mr-03" src="./img/background-header.svg" />
+
+    </header>
+
+    <section>
+      <img class="bg-header-cicle-1" src="img/circles-line.svg" />
+      <img class="bg-header-square-1" src="./img/square.svg" alt="" />
+      <div class="cards-header">
+        <div class="card-h-item">
+          <p class="card-h-titulo">
+            <strong> Transferência </strong> de Tecnologia
+          </p>
+          <a class="btn-saibamais">Saiba Mais</a>
+          <div class="card-h-body">
+            <img src="./img/img-computer-vitrine.svg" alt="" />
+          </div>
+        </div>
+        <div class="card-h-item">
+          <p class="card-h-titulo">
+            <strong> Alianças </strong> Estratégicas
+          </p>
+          <a class="btn-saibamais">Saiba Mais</a>
+          <div class="card-h-body">
+            <img src="./img/img-computer-vitrine.svg" alt="" />
+          </div>
+        </div>
+        <div class="card-h-item">
+          <p class="card-h-titulo">
+            <strong> Empreendedorismo </strong> e Logística
+          </p>
+          <a class="btn-saibamais">Saiba Mais</a>
+          <div class="card-h-body">
+            <img src="./img/img-computer-vitrine.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <img class="bg-header-wave-2 img-bg temp2" src="img/background-midias2.svg" alt="">
+    <img class="bg-header-wave-2 img-bg" src="img/background-midias2.svg" alt="">
+    <img class="bg-header-wave-2 img-bg temp3" src="img/background-midias.svg" alt="">
+  <img class="bg-header-wave-2 img-bg temp1" src="img/background-midias3.svg" alt="">
+  </div>
+
+  <section class="container p-rel">
+    <div class="services-description">
+      <div class="description-item">
+        <h1 class="title-1">Vitrine</h1>
+        <h3 class="subtitle-1">de Tecnologia</h3>
+        <p class="text margin-left">
+          Acesse nosso Portfólio de patentes, softwares e outros ativos e
+          <b>INOVE</b> na sua empresa.
+        </p>
+        <button type="submit" class="btn-blue">Saber Mais</button>
+      </div>
+      <div class="description-item desktop">
+        <img class="img-description" src="img/img-computer-vitrine.svg" alt="" />
+      </div>
+    </div>
+    <div class="services-description">
+      <div class="description-item desktop">
+        <img class="img-description" src="img/img-computer-ecossistema.svg" alt="" />
+      </div>
+      <div class="description-item">
+        <h1 class="title-1 align-r">Ecossistema</h1>
+        <h3 class="subtitle-1 f-end">de Inovação</h3>
+        <div class="d-flex f-end">
+          <p class="text margin-right  text-align">
+            A UNEMAT tem, ao longo dos anos, apoiado ações e fomentado a cultura
+            empreendedora e de inovação na sua comunidade universitária, o
+            promovendo inspirar ambientes de inovação que se comunicam e
+            interagem como um <b>Ecossistema</b>
+          </p>
+        </div>
+        <button type="submit" class="btn-blue float-r">Saber Mais</button>
+      </div>
+    </div>
+    <img class="img-bg vitrine-circle" src="./img/circles-line.svg" alt="">
+    <img class="img-bg vitrine-circle2" src="./img/circles-line.svg" alt="">
+    <img class="img-bg vitrine-square" src="./img/square-divided.svg" alt="">
+  </section>
+  <section class="prop-intelectual container p-rel">
+    <!-- <img src="./img/background-propriedade-2.svg" class="prop-int-bg desktop temp2"> -->
+    <img src="./img/background-propriedade-3.svg" class="prop-int-bg desktop temp6" style="z-index: -2;">
+    <img src="./img/background-propriedade-2.svg" class="prop-int-bg desktop temp3">
+    <img src="./img/background-propriedade.svg" class="prop-int-bg desktop temp2">
+    <div class="text-image">
+      <div class="w-50">
+        <h2 class="principal-title-2">Propriedade</h2>
+        <p class="caption-2">Intelectual</p>
+        <div class="text-container">
+          <p class="txt-1">
+            A Propriedade Intelectual indica a produção do intelecto nos
+            segmentos industrial, científico, literário ou artístico. Assim
+            algumas criações intelectuais poderão ter uma proteção definida
+            por legislação.
+          </p>
+        </div>
+        <a class="btn-saber-mais-1" href="">Saber Mais</a>
+      </div>
+
+      <img class="desktop" src="./img/img-computer-propriedade.svg" />
+    </div>
+  </section>
+  <section class="container p-rel">
+    <div class="services-description">
+      <div class="description-item mg-1 order-desk">
+        <div class="cards-lives-groups">
+          <div class="cards-lives">
+            <div class="cards-info">
+              <p class="cards-info-title">Unemat in Live</p>
+              <p class="cards-info-subtitle">O webinar da Unemat</p>
+              <div class="row-1">
+                <div class="row-2">
+                  <img src="img/icon-calendario.svg" alt="">
+                  <p class="cards-info-text">10 e 11 AGO 2021</p>
+                </div>
+                <div class="row-2">
+                  <img src="img/icon-horario.svg" alt="">
+                  <p class="cards-info-text">18:00h as 19:00h</p>
+                </div>
+              </div>
+              <div class="row-1">
+                <div class="row-2">
+                  <img src="img/icon-localizacao.svg" alt="">
+                  <p class="cards-info-text">ONLINE</p>
+                </div>
+                <div class="row-2">
+                  <img src="img/icon-informacao.svg" alt="">
+                  <p class="cards-info-text">CURSO</p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-categoria">
+              <p>Empreendedorismo</p>
+            </div>
+            <div class="cards-temas">
+              <p class="cards-info-subtitle"><b>Tema:</b></p>
+              <p class="cards-info-text">O século XXI e 1/2 - o que vai mudar no
+                Empreendedorismo mundial?</p>
+              <button type="submit" class="btn-blue">Saber Mais</button>
+              <div class="row-1">
+                <div class="row-2">
+                  <a href="#"><img src="img/icon-compartilhar.svg" alt=""></a>
+                </div>
+                <div class="row-2">
+                  <a href="#"><img src="img/icon-internet.svg" alt=""></a>
+                  <a href="#"><img src="img/icon-twitter.svg" alt=""></a>
+                  <a href="#"><img src="img/icon-facebook.svg" alt=""></a>
+                  <a href="#"><img src="img/icon-instagram.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-lives">
+            <div class="cards-info">
+              <p class="cards-info-title">Unemat in Live</p>
+              <p class="cards-info-subtitle">O webinar da Unemat</p>
+              <div class="row-1">
+                <div class="row-2">
+                  <img src="img/icon-calendario.svg" alt="">
+                  <p class="cards-info-text">10 e 11 AGO 2021</p>
+                </div>
+                <div class="row-2">
+                  <img src="img/icon-horario.svg" alt="">
+                  <p class="cards-info-text">18:00h as 19:00h</p>
+                </div>
+              </div>
+              <div class="row-1">
+                <div class="row-2">
+                  <img src="img/icon-localizacao.svg" alt="">
+                  <p class="cards-info-text">ONLINE</p>
+                </div>
+                <div class="row-2">
+                  <img src="img/icon-informacao.svg" alt="">
+                  <p class="cards-info-text">CURSO</p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-categoria">
+              <p>Empreendedorismo</p>
+            </div>
+            <div class="cards-temas">
+              <p class="cards-info-subtitle"><b>Tema:</b></p>
+              <p class="cards-info-text">O século XXI e 1/2 - o que vai mudar no
+                Empreendedorismo mundial?</p>
+              <button type="submit" class="btn-blue">Saber Mais</button>
+              <div class="row-1">
+                <div class="row-2">
+                  <a href="#"><img src="img/icon-compartilhar.svg" alt=""></a>
+                </div>
+                <div class="row-2">
+                  <a href="#"><img src="img/icon-internet.svg" alt=""></a>
+                  <a href="#"><img src="img/icon-twitter.svg" alt=""></a>
+                  <a href="#"><img src="img/icon-facebook.svg" alt=""></a>
+                  <a href="#"><img src="img/icon-instagram.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-lives">
+            <div class="cards-info">
+              <p class="cards-info-title">Unemat in Live</p>
+              <p class="cards-info-subtitle">O webinar da Unemat</p>
+              <div class="row-1">
+                <div class="row-2">
+                  <img src="img/icon-calendario.svg" alt="">
+                  <p class="cards-info-text">10 e 11 AGO 2021</p>
+                </div>
+                <div class="row-2">
+                  <img src="img/icon-horario.svg" alt="">
+                  <p class="cards-info-text">18:00h as 19:00h</p>
+                </div>
+              </div>
+              <div class="row-1">
+                <div class="row-2">
+                  <img src="img/icon-localizacao.svg" alt="">
+                  <p class="cards-info-text">ONLINE</p>
+                </div>
+                <div class="row-2">
+                  <img src="img/icon-informacao.svg" alt="">
+                  <p class="cards-info-text">CURSO</p>
+                </div>
+              </div>
+            </div>
+            <div class="cards-categoria">
+              <p>Empreendedorismo</p>
+            </div>
+            <div class="cards-temas">
+              <p class="cards-info-subtitle"><b>Tema:</b></p>
+              <p class="cards-info-text">O século XXI e 1/2 - o que vai mudar no
+                Empreendedorismo mundial?</p>
+              <button type="submit" class="btn-blue">Saber Mais</button>
+              <div class="row-1">
+                <div class="row-2">
+                  <a href="#"><img src="img/icon-compartilhar.svg" alt=""></a>
+                </div>
+                <div class="row-2">
+                  <a href="#"><img src="img/icon-internet.svg" alt=""></a>
+                  <a href="#"><img src="img/icon-twitter.svg" alt=""></a>
+                  <a href="#"><img src="img/icon-facebook.svg" alt=""></a>
+                  <a href="#"><img src="img/icon-instagram.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="description-item pad-top-10 order-moba">
+        <h1 class="title-1 align-r">Eventos e Cursos</h1>
+        <h3 class="subtitle-1 f-end">em destaques</h3>
+        <div class="d-flex f-end desktop">
+          <p class="text margin-right align-r">
+            Conheça e participe dos proximos Eventos e cursos!
+            <br><br>
+            <b>Veja todos os curso e Eventos</b>
+          </p>
+        </div>
+
+        <button type="submit" class="btn-blue float-r desktop">Saber Mais</button>
+      </div>
+    </div>
+    <img class="img-bg events-calendar" src="./img/calendar.svg" alt="">
+    <img class="img-bg events-circle" src="./img/circles-point.svg" alt="">
+    <img class="img-bg events-hash1" src="./img/hashtag.svg" alt="">
+    <img class="img-bg events-hash2" src="./img/hashtag.svg" alt="">
+    <img class="img-bg events-spot" src="./img/mancha.svg" alt="">
+  </section>
+  <section class="container midias-noticias p-rel">
+    <h2 class="principal-title-1">AGINOV</h2>
+    <p class="caption-1">Nas mídias Sociais</p>
+    <div class="cards-midias-sociais">
+      <div class="card-ms-item">
+        <p class="card-ms-titulo">
+          <strong> Redes Sociais</strong> Siga AGINOV
+        </p>
+        <div class="social-icons">
+          <div class="social-toggle" >
+            <img class="tg-face" src="./img/facebook.svg" alt="Página do Facebook" />
+          </div>
+          <div class="social-toggle" >
+            <img src="./img/instagram.svg" alt="Instagram" />
+          </div>
+          <div class="social-toggle" >
+            <img src="./img/twitter.svg" alt="" />
+          </div>
+        </div>
+        <div class="social-controls" >
+          <div class="sc-item" >
+             <label class="switch">
+              <input class="check-face" type="checkbox" checked>
+              <span class="slider round sl-face"></span>
+          </label>
+          </div>
+         <div class="sc-item">
+           <label class="switch">
+              <input class="check-insta" type="checkbox">
+              <span class="slider round sl-insta"></span>
+          </label>
+         </div>
+          <div class="sc-item">
+             <label class="switch">
+              <input class="check-twit" type="checkbox">
+              <span class="slider round sl-twit"></span>
+          </label>
+          </div>
+        </div>
+        <div class="card-ms-body check-content-face d-block ">
+          <img src="./img/facebook.svg" />  
+          <a class="btn-saibamais">Saiba Mais</a>
+        </div>
+        <div class="card-ms-body check-content-insta d-none">
+          <img src="./img/instagram.svg" />  
+          <a class="btn-saibamais">Saiba Mais</a>
+        </div>
+        <div class="card-ms-body check-content-twit d-none" >
+          <img src="./img/twitter.svg" />  
+          <a class="btn-saibamais">Saiba Mais</a>
+        </div>
+      </div>
+      <div class="card-ms-item">
+        <p class="card-ms-titulo">
+          <strong>AGINOV no Youtube</strong> Conheça nosso canal!
+        </p>
+        <div class="social-icons">
+          <img src="./img/youtube.svg" alt="" />
+        </div>
+        <div class="card-ms-body">
+          <img src="./img/canal.png" alt="" />
+          <a class="btn-saibamais">Saiba Mais</a>
+        </div>
+      </div>
+      <!-- <div class="card-ms-item">
+        <p class="card-ms-titulo">
+          <strong> AGINOV na Mídia </strong>Notícias recomendadas
+        </p>
+        <div class="social-icons">
+          <img src="./img/img.svg" alt="" />
+        </div>
+        <div class="card-ms-body">
+          <img src="./img/canal.png" alt="" />
+          <a class="btn-saibamais">Saiba Mais</a>
+        </div>
+      </div> -->
+    </div>
+    <img class="img-bg midias-circle" src="./img/circles-complete.svg" alt="">
+    <img class="img-bg midias-circle2" src="./img/circles-line.svg" alt="">
+    
+  </section>
+  <img class="bg-contatos img-bg" src="img/background-midias2.svg" alt="">
+    <img class="bg-contatos img-bg temp2" src="img/background-midias2.svg" alt="">
+  <img class="bg-contatos img-bg temp1" src="img/background-midias.svg" alt="">
+  <img class="bg-contatos img-bg temp3" src="img/background-midias3.svg" alt="">
+  
+  <section class="container p-rel mg-t-20">
+    <div class="services-description">
+      <div class="description-item text-align-right desktop">
+        <h3 class="caption-2">Venha Conhecer a</h3>
+        <h1 class="principal-title-2">AGINOV!</h1>
+        <img class="img-mapa" src="img/img-mapa-mt.svg" alt="">
+        <div class="map-indicator map-indicator-1">
+
+        </div>
+        <div class="map-preview map-preview-1 d-none">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.0298361322207!2d-57.68012932754182!3d-16.06394145374641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x939aff9cf7b2364f%3A0xf68936c5bf131a59!2sRisc%20-%20Centro%20de%20Inova%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1612469278638!5m2!1spt-BR!2sbr"
+            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+      <div class="description-item text-align-right">
+        <h1 class="principal-title-2">Contato</h1>
+        <h3 class="caption-2">Transparência Pública</h3>
+        <div class="text-container">
+          <p class="txt-1 margin-right-green">
+            <strong class="text-1">Fale Conosco</strong>
+            Agência de Inovação da Universidade do Estado de Mato Grosso
+            <br> <br>
+            Pró-Reitoria de Pesquisa e Pós-graduação - PRPPG<br>
+            Av: Tancredo Neves, Nº 1095, Cavalhada III<br>
+            Cep: 78200.000 Cáceres-MT<br>
+            Telefones: +55 (65)3221-0040<br>
+            Email: diretoria.nit@unemat.br<br>
+            <br><br>
+            Horário de expediente:<br>
+            Matutino: 08h às 12h<br>
+            Vespertino: 14h às 18h<br>
+          </p>
+        </div>
+        </dixv>
+      </div>
+  </section>
+  <footer class="p-rel">
+    <img class="bg-footer" src="img/background-footer2.svg ">
+    <!-- <img class="bg-footer temp2" src="./img/background-footer2.svg"> -->
+    <img class="bg-footer temp4" src="img/background-footer2.svg ">
+    <img class="bg-footer temp3" src="img/background-footer.svg ">
+        <img class="bg-footer temp5" src="./img/background-midias3.svg ">
+        
+    <div class="container-footer">
+      <div class="desenvolvido">
+        <p class="color-1 font-1">Unemat – Universidade do Mato Grosso Desenvolvido por Risc - Centro de Inovação</p>
+      </div>
+      <div class="endereco desktop">
+        <p class="color-1 font-3 margin">Endereço</p>
+        <p class="color-1 font-4">Av. Tal, 2230</p>
+        <p class="color-1 font-4">Cavalhada II, Cáceres </p>
+        <p class="color-1 font-4">Brasil - 782xxxx</p>
+      </div>
+      <div class="fale-conosco">
+        <p class="color-1 font-2 margin">Fale conosco</p>
+        <p class="color-1 font-1">Contato@unemat.br</p>
+        <p class="color-1 font-1">+55 (65) 99999-9999 </p>
+
+
+        <div class="icon">
+          <img src="img/facebook-icon.svg" alt="">
+          <img src="img/twitter-3.svg" alt="">
+          <img src="img/instagram-2016.svg" alt="">
+        </div>
+      </div>
+      <div class="logo-footer desktop">
+        <img width="184" height="55">
+      </div>
+    </div>
+  </footer>
+  <script src="js/nav.js"></script>
+  <script src="js/search-buton.js"></script>
+  <script src="./js/map.js"></script>
+  <script src="js/menu-dropdown.js"></script>
+  <script src="./js/social-toggle2.js" ></script>
+</body>
+
+</html>

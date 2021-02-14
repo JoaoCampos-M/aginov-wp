@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1299.113"
+   height="185.69299999999998"
+   version="1.1"
+   id="svg150"
+   sodipodi:docname="background-footer2.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata156">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs154" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="718"
+     id="namedview152"
+     showgrid="false"
+     inkscape:zoom="0.87087945"
+     inkscape:cx="936.1053"
+     inkscape:cy="203.79922"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Grupo_3406" />
+  <g
+     id="g139">
+    <title
+       id="title136">background</title>
+    <rect
+       fill="none"
+       id="canvas_background"
+       height="187.693"
+       width="1301.113"
+       y="-1"
+       x="-1" />
+  </g>
+  <g
+     id="g148">
+    <title
+       id="title141">Layer 1</title>
+    <g
+       id="Grupo_3406">
+      <path
+         d="m 0.85932,189.24639 c -3.0657,-29.96076 -0.74641271,-80.32625 -0.74641271,-80.32625 0,0 -8.47819909,-94.304834 5.26274091,-92.478784 C 75.497528,25.760776 149.36285,53.40597 232.65833,63.61953 c 107.0079,13.1224 143.71704,29.482694 246.96035,26.100344 11.43267,-0.37481 114.60367,-20.749355 114.60367,-20.749355 0,0 66.01243,-4.320538 69.65338,-4.608738 159.53091,7.367033 185.00765,60.109399 310.32147,14.838363 129.9591,-31.343896 137.508,-60.642769 289.7633,-37.836405 45.4551,6.808733 55.1682,-12.16851 55.1682,-12.16851 l -5.6974,157.830781 c 0,0 -1169.20881,9.64898 -1312.57198,2.22036 z"
+         id="Caminho_11207"
+         inkscape:connector-curvature="0"
+         style="fill:#018194"
+         sodipodi:nodetypes="ccccccccscccc" />
+    </g>
+  </g>
+</svg>

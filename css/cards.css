@@ -1,0 +1,213 @@
+.cards-header {
+  display: flex;
+    justify-content: space-around;
+    width: 75vw;
+    margin: 0px auto;
+    margin-top: 7vh;
+}
+.card-h-item {
+  display: flex;
+  flex-direction: column;
+  min-width: 30%;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 0px 5px;
+  box-shadow: 2px 2px 20px gray;
+}
+.card-h-item a {
+  font-weight: bold;
+  color: rgb(24, 52, 86);
+  background-color: #ff8902;
+  padding: 8px 20px;
+  margin: 5px auto;
+  width: max-content;
+}
+.card-h-titulo {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1.2vw;
+  text-align: center;
+  color: rgb(24, 52, 86);
+  font-family: Rubik-Light;
+}
+
+.card-h-body {
+}
+.card-h-body img {
+  width: 100%;
+}
+
+.cards-midias-sociais {
+  display: flex;
+  justify-content: space-around;
+  width: 70vw;
+  margin: 0px auto;
+  margin-top: 5vh;
+}
+.card-ms-item {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  background-color: white;
+  margin: 0px 5px;
+  padding: 5px 10px;
+  box-shadow: 2px 2px 20px gray;
+}
+.social-icons img{
+   height: 100%;
+}
+.card-ms-item .social-icons {
+  display: flex;
+  justify-content: space-around;
+  /* margin: 5px 0px; */
+  padding: 10px 0px;
+}
+.card-ms-item .social-controls {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 0px;
+}
+.social-controls .sc-item{
+
+}
+.social-icons .social-toggle{
+  padding: 1px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+.card-ms-item a {
+  display: block;
+  font-weight: bold;
+  color: white;
+  background-color: #183456;
+  padding: 10px 25px;
+  margin: 5px auto;
+  width: max-content;
+}
+.card-ms-titulo {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1.1vw;
+  text-align: center;
+  color: black;
+  font-family: Rubik-Light;
+  background-color: white;
+}
+
+.card-ms-titulo strong {
+  font-size: 1.3vw;
+}
+
+.card-ms-body {
+  margin: 0px 10px;
+  box-shadow: 1px 1px 10px lightgray;
+}
+.card-ms-body img {
+  width: 100%;
+}
+.bg-header-cicle-1 {
+  opacity: 0.4;
+  position: absolute;
+  top: 20vh;
+  left: 5vw;
+  width: 20vw;
+  z-index: -1;
+}
+.bg-header-square-1 {
+  position: absolute;
+  top: 35vh;
+  right: 5vw;
+  width: 18vw;
+  height: 18vw;
+  z-index: -1;
+}
+
+/* cards de Eventos e Cursos */
+.cards-lives-groups{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:  wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.cards-lives{
+  max-width: 18vw;
+  min-width: 250px;
+  box-shadow: 0px 3px 29px -9px rgba(0,0,0,0.75);
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px; 
+}
+
+.cards-info{
+  background-color: #ff8902;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column  ;
+  align-items: center;
+}
+
+.row-1{
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 5px 0;
+}
+.row-2{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-right: 5px;
+}
+
+.row-2 img{
+  margin-right: 5px;
+  width: 1vw;
+}
+
+.cards-info-title{
+  font-size: 1.8rem;
+  font-family: Rubik-Bold;
+  margin-bottom: 5px;
+}
+
+.cards-info-subtitle{
+  font-size: 1.1rem;
+  font-family: Rubik-Light;
+  margin-bottom: 5px;
+}
+
+.cards-info-text{
+  font-size: 0.7rem;
+  font-family: Rubik-Light;
+}
+
+.cards-categoria{
+  background-color: #183456;
+  padding: 7px 15px;
+  width: max-content;
+  margin: -12px 0 0 -8px;
+}
+
+.cards-categoria p{
+  color: white;
+  font-size: 0.8rem;  
+  font-family: Rubik-Bold;
+}
+
+.cards-temas{
+  padding: 5px 5px 0 5px;
+  display: flex;
+  flex-direction: column  ;
+  align-items: center;
+  text-align: center;
+}
+/*
+Outros estilos que mais tarde devem ser movidos para os arquivos certos
+*/
+

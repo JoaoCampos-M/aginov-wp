@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50.779" height="23.106" viewBox="0 0 50.779 23.106">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.767" cy="1.443" r="1.791" gradientTransform="translate(-0.916) scale(2.831 1)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9ed32"/>
+      <stop offset="0.06" stop-color="#f8d939"/>
+      <stop offset="0.19" stop-color="#f5a54d"/>
+      <stop offset="0.38" stop-color="#f0536c"/>
+      <stop offset="0.47" stop-color="#ee2a7b"/>
+      <stop offset="0.65" stop-color="#ec2a7c"/>
+      <stop offset="0.72" stop-color="#e52a80"/>
+      <stop offset="0.78" stop-color="#d92a87"/>
+      <stop offset="0.82" stop-color="#c72a91"/>
+      <stop offset="0.86" stop-color="#b02a9d"/>
+      <stop offset="0.89" stop-color="#942aad"/>
+      <stop offset="0.93" stop-color="#732abf"/>
+      <stop offset="0.96" stop-color="#4c2ad5"/>
+      <stop offset="0.98" stop-color="#212aed"/>
+      <stop offset="1" stop-color="#002aff"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.26" cy="1.208" r="1.714" gradientTransform="translate(0.247) scale(0.507 1)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9ed32"/>
+      <stop offset="0.06" stop-color="#f8d939"/>
+      <stop offset="0.19" stop-color="#f5a54d"/>
+      <stop offset="0.37" stop-color="#f0536c"/>
+      <stop offset="0.45" stop-color="#ee2a7b"/>
+      <stop offset="0.51" stop-color="#e92a7e"/>
+      <stop offset="0.58" stop-color="#dc2a85"/>
+      <stop offset="0.66" stop-color="#c62a91"/>
+      <stop offset="0.73" stop-color="#a72aa3"/>
+      <stop offset="0.81" stop-color="#7f2ab9"/>
+      <stop offset="0.89" stop-color="#4e2ad4"/>
+      <stop offset="0.97" stop-color="#152af3"/>
+      <stop offset="1" stop-color="#002aff"/>
+    </radialGradient>
+  </defs>
+  <g id="Componente_182_2" data-name="Componente 182 – 2">
+    <path id="Caminho_11191" data-name="Caminho 11191" d="M179.011,35.574a14.5,14.5,0,0,0,0-23.064H176.56a14.5,14.5,0,0,1,0,23.064h0l1.851.042h-1.039Z" transform="translate(-133.942 -12.51)" fill="url(#radial-gradient)"/>
+    <path id="Caminho_11193" data-name="Caminho 11193" d="M53.411,14.87a11.549,11.549,0,0,0-6.992-2.36H23.952a11.546,11.546,0,0,0-6.99,2.36h0a11.531,11.531,0,0,0,0,18.341h0a11.533,11.533,0,0,0,6.99,2.363H46.419a11.532,11.532,0,0,0,6.991-2.362h0a11.533,11.533,0,0,0,0-18.341Z" transform="translate(-12.421 -12.51)" fill="url(#radial-gradient-2)"/>
+  </g>
+  <path id="Caminho_11194" data-name="Caminho 11194" d="M79.78,44.389H73.6a4.98,4.98,0,0,1-4.977-4.975V33.962A4.983,4.983,0,0,1,73.6,29H79.78a4.983,4.983,0,0,1,4.975,4.975v5.453A4.98,4.98,0,0,1,79.78,44.389ZM73.6,30.109a3.874,3.874,0,0,0-3.871,3.869V39.43A3.876,3.876,0,0,0,73.6,43.281H79.78a3.876,3.876,0,0,0,3.869-3.871V33.957a3.874,3.874,0,0,0-3.869-3.869Z" transform="translate(-54.028 -24.718)" fill="#fff"/>
+  <path id="Caminho_11195" data-name="Caminho 11195" d="M87.06,50.419a4.43,4.43,0,1,1,4.43-4.43A4.43,4.43,0,0,1,87.06,50.419Zm0-7.753a3.323,3.323,0,1,0,3.323,3.323A3.323,3.323,0,0,0,87.06,42.666Z" transform="translate(-64.4 -34.017)" fill="#fff"/>
+  <path id="Caminho_11196" data-name="Caminho 11196" d="M114.758,39.469a.919.919,0,1,1-.919-.919A.919.919,0,0,1,114.758,39.469Z" transform="translate(-86.826 -31.789)" fill="#fff"/>
+</svg>

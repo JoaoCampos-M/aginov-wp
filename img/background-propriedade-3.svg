@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1369.8361"
+   height="454.41"
+   viewBox="0 0 1369.8361 454.41002"
+   version="1.1"
+   id="svg40"
+   sodipodi:docname="background-propriedade-3.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata44">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="718"
+     id="namedview42"
+     showgrid="false"
+     inkscape:zoom="0.47811724"
+     inkscape:cx="751.47724"
+     inkscape:cy="88.896127"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Grupo_3666" />
+  <defs
+     id="defs32">
+    <clipPath
+       id="clip-path">
+      <rect
+         id="Retângulo_2917"
+         data-name="Retângulo 2917"
+         width="1339.299"
+         height="289"
+         x="0"
+         y="0"
+         style="fill:none" />
+    </clipPath>
+    <clipPath
+       id="clip-path-2">
+      <rect
+         id="Retângulo_2916"
+         data-name="Retângulo 2916"
+         width="1289.827"
+         height="289"
+         x="0"
+         y="0"
+         style="fill:none" />
+    </clipPath>
+  </defs>
+  <g
+     id="Grupo_3666"
+     data-name="Grupo 3666"
+     transform="matrix(1,0,0,0.82662289,44.41505,-1487.6301)">
+    <g
+       id="Grupo_3424"
+       data-name="Grupo 3424"
+       transform="matrix(-0.9919388,0.190809,-0.19281337,-0.98162718,1325.0188,1813.161)"
+       clip-path="url(#clip-path)"
+       style="stroke-width:0.99478871">
+      <path
+         id="Caminho_14672"
+         data-name="Caminho 14672"
+         d="m 1402.743,208.652 c -46.536,15.164 -99.854,18.914 -133.848,18.973 -64.265,0.111 -113.549,-13.481 -149.515,-30.1 -28.409,-13.134 -55.4,-26.578 -79.777,-40.6 C 979.571,122.618 929.666,119.273 905.113,115.981 833.779,106.487 688.076,117.273 583.79,100.736 376.724,67.9 334.619,-12.311 0,1.606"
+         transform="translate(-39.888,2.92)"
+         stroke-miterlimit="10"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff8902;stroke-width:2.98436618;stroke-miterlimit:10" />
+    </g>
+    <rect
+       style="fill:none;stroke-width:1.09988248"
+       id="rect68"
+       width="1354.7092"
+       height="157.44395"
+       x="-30.365118"
+       y="1797.4182" />
+  </g>
+</svg>

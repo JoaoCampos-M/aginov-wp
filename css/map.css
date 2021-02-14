@@ -1,0 +1,42 @@
+.map-preview{
+  width: max-content;
+  padding: 12px 8px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #f3fcf9;
+  box-shadow: 0px 0px 5px black;
+}
+
+.map-preview iframe {
+  margin: 0;
+  border: 0;
+  width: 15vw;
+  height: 15vh;
+  box-shadow: 0px 0px 6px gray;
+}
+
+.map-preview-1{
+  margin-top:18.5vw;
+  margin-left: 21vw;
+}
+
+.map-indicator{
+  /* background: red; */
+  margin: auto;
+  top: 0;
+  left: 0;
+  position: absolute;
+  border-radius: 50%;
+  min-width: 2vw;
+  min-height: 2vw;
+  /* box-shadow: 0px 0px 5px black; */
+  z-index: 2;
+  cursor: pointer;
+}
+
+.map-indicator-1{
+  margin-top: 28.5vw;
+  margin-left: 24.5vw;
+}

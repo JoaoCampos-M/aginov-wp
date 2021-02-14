@@ -1,0 +1,318 @@
+@media (max-width: 360px) {
+  .desktop {
+    display: none;
+  }
+  .cards-header {
+    flex-wrap: wrap;
+    width: 90vw;
+  }
+  .baner-inicio {
+    height: max-content;
+  }
+  .card-h-item {
+    margin: 10px 5px;
+ 
+  }
+  .card-h-titulo {
+    font-size: 1.1rem;
+  }
+  * {
+    font-size: 1.2rem;
+  }
+  .title-1 {
+    font-size: 2rem;
+  }
+  .subtitle-1 {
+    font-size: 1.8rem;
+  }
+  .principal-title-2 {
+    font-size: 2rem;
+  }
+  .caption-2 {
+    font-size: 1.8rem;
+  }
+  .principal-title-1 {
+    font-size: 2rem;
+  }
+  .caption-1 {
+    font-size: 1.8rem;
+  }
+  .container {
+    padding: 10px;
+  }
+  .services-description {
+    flex-wrap: wrap;
+  }
+  .description-item {
+    max-width: 100%;
+  }
+  .container-footer {
+    position: initial;
+    flex-wrap: wrap;
+    background: #206666;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  footer {
+    position: initial;
+    height: max-content;
+  }
+  .cards-midias-sociais {
+    flex-wrap: wrap;
+    width: 90vw;
+  }
+  .card-ms-item {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .w-50 {
+    max-width: 100%;
+  }
+  .cards-lives-groups {
+    width: 90vw;
+  }
+  .cards-lives {
+    max-width: 100%;
+  }
+  .prop-intelectual {
+    background-image: url("../img/background-propriedade-2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-footer {
+    bottom: initial;
+    margin-top: -6vh;
+  }
+}
+@media (max-width: 480px) {
+  .desktop {
+    display: none;
+  }
+  .cards-header {
+    flex-wrap: wrap;
+    width: 90vw;
+  }
+  .baner-inicio {
+    height: max-content;
+  }
+  .card-h-item {
+    margin: 10px 5px;
+  }
+  .card-h-titulo {
+    font-size: 1.1rem;
+  }
+  * {
+    font-size: 1.2rem;
+  }
+  .title-1 {
+    font-size: 2rem;
+  }
+  .subtitle-1 {
+    font-size: 1.8rem;
+  }
+  .principal-title-2 {
+    font-size: 2rem;
+  }
+  .caption-2 {
+    font-size: 1.8rem;
+  }
+  .principal-title-1 {
+    font-size: 2rem;
+  }
+  .caption-1 {
+    font-size: 1.8rem;
+  }
+  .container {
+    padding: 10px;
+  }
+  .services-description {
+    flex-wrap: wrap;
+  }
+  .description-item {
+    max-width: 100%;
+  }
+  .container-footer {
+    position: initial;
+    flex-wrap: wrap;
+    background: #206666;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  footer {
+    position: initial;
+    height: max-content;
+  }
+  .cards-midias-sociais {
+    flex-wrap: wrap;
+    width: 90vw;
+  }
+  .card-ms-item {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .w-50 {
+    max-width: 100%;
+  }
+  .cards-lives-groups {
+    width: 90vw;
+  }
+  .cards-lives {
+    max-width: 100%;
+  }
+  .prop-intelectual {
+    background-image: url("../img/background-propriedade-2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 800px) {
+  .desktop {
+    display: none;
+  }
+  .cards-header {
+    flex-wrap: wrap;
+    width: 90vw;
+  }
+  .baner-inicio {
+    height: max-content;
+  }
+  .card-h-item {
+    margin: 10px 5px;
+    max-width: 450px;
+  }
+  .card-h-titulo {
+    font-size: 1.1rem;
+  }
+  * {
+    font-size: 1.2rem;
+  }
+  .title-1 {
+    font-size: 2rem;
+    white-space: pre-wrap;
+  }
+  .subtitle-1 {
+    font-size: 1.8rem;
+  }
+  .principal-title-2 {
+    font-size: 2rem;
+  }
+  .caption-2 {
+    font-size: 1.8rem;
+  }
+  .principal-title-1 {
+    font-size: 2rem;
+  }
+  .caption-1 {
+    font-size: 1.8rem;
+  }
+  .container {
+    padding: 10px;
+  }
+  .services-description {
+    flex-wrap: wrap;
+  }
+  .description-item {
+    max-width: 100%;
+  }
+  .container-footer {
+    position: initial;
+    flex-wrap: wrap;
+    background: #018194;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  footer {
+    position: initial;
+    height: max-content;
+  }
+  .bg-footer {
+    bottom: initial;
+    margin-top: -6vh;
+  }
+  .cards-midias-sociais {
+    flex-wrap: wrap;
+    width: 90vw;
+    max-width: 500px;
+  }
+  .card-ms-item {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .w-50 {
+    max-width: 100%;
+  }
+  .cards-lives-groups {
+    width: 95vw;
+
+  }
+  .cards-lives {
+    max-width: 350px;
+    width: 100%;
+    margin: 10px auto;
+  }
+  .prop-intelectual {
+    background-image: url("../img/background-propriedade-2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  section.prop-intelectual {
+    padding: 10vh 10px;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+  .desenvolvido,
+  .fale-conosco {
+    width: auto;
+    padding: 10px;
+  }
+  .card-ms-titulo {
+    font-size: 1rem;
+  }
+  .card-ms-titulo strong {
+    font-size: 1.1rem;
+  }
+  .row-2 img {
+    width: 2vh;
+  }
+  .row-1 {
+    width: 100%;
+  }
+  .cards-info {
+    padding: 15px 10px;
+  }
+  .icon img {
+    width: 3vh;
+  }
+  .bg-header-cicle-1 {
+    width: 40vw;
+  }
+  .bg-header-wave-2 {
+    bottom: initial;
+    margin-top: -25vw;
+  }
+  .events-hash1{
+    width: 30vw;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .events-hash2{
+    margin-left: 30vw;
+    width: 15vw;
+  }
+  .midias-circle {
+    width: 45vw;
+  }
+}
+/* @media (max-width: 801px) { */
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+/* }; */
+/* @media (max-width: 1025px) { */
+  /* big landscape tablets, laptops, and desktops */
+/* } */
+/* @media (min-width: 1281px) { */
+  /* hi-res laptops and desktops */
+/* } */

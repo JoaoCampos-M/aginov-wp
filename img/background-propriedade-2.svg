@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1375.9049"
+   height="454.40952"
+   viewBox="0 0 1375.9049 454.40953"
+   version="1.1"
+   id="svg3997"
+   sodipodi:docname="background-propriedade-2.svg"
+   inkscape:export-filename="/opt/lampp/htdocs/Agencia/img/background-propriedade.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata4001">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="718"
+     id="namedview3999"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="1.3371818"
+     inkscape:cx="1259.812"
+     inkscape:cy="368.40516"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Grupo_3666" />
+  <defs
+     id="defs3989">
+    <clipPath
+       id="clip-path">
+      <rect
+         id="Retângulo_2917"
+         data-name="Retângulo 2917"
+         width="1339.299"
+         height="289"
+         x="0"
+         y="0"
+         style="fill:none" />
+    </clipPath>
+    <clipPath
+       id="clip-path-2">
+      <rect
+         id="Retângulo_2916"
+         data-name="Retângulo 2916"
+         width="1289.827"
+         height="289"
+         x="0"
+         y="0"
+         style="fill:none" />
+    </clipPath>
+  </defs>
+  <g
+     id="Grupo_3666"
+     data-name="Grupo 3666"
+     transform="matrix(1,0,0,0.77046863,37.443331,-1374.4177)">
+    <path
+       id="That_s_enough_"
+       data-name="That's enough!"
+       d="m 46.198158,587.71185 41.801996,189.44721 c 0,0 -3.10462,37.87187 11.621776,47.01457 60.83862,-25.2302 135.72282,-53.38125 200.20607,-66.79063 132.241,-27.4 209.847,-9.232 367.633,-41.928 157.786,-32.696 287.3,-143.19 513.765,-187.7 226.465,-44.51 264.519,0.219 264.519,0.219 L 1400.0568,323.12262 1325.3201,6.03932 c 0,0 -174.9121,-41.60932 -376.3841,55.15068 C 900.908,84.256 791.251,170.3 643.086,199.215 494.921,228.13 445.393,219.56 345.914,215.486 101.5,205.476 -13.844812,334.28633 -13.844812,334.28633 Z"
+       transform="rotate(-167,776.13655,1244.2785)"
+       inkscape:connector-curvature="0"
+       style="opacity:0.25;fill:#ff8902"
+       sodipodi:nodetypes="ccccssccccsccc" />
+  </g>
+  <path
+     style="fill:none"
+     d="M 25.291752,13.710662 V 580.57448 H 1369.5368 V -7.602819 H 25.291752 Z"
+     id="path79"
+     inkscape:connector-curvature="0" />
+</svg>
