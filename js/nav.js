@@ -9,9 +9,9 @@ function barraNavbarAnimate(elF, opc) {
   }
 }
 
-function listaToggle(elClass) {
-  let el = document.querySelector(elClass);
-  let bt = document.querySelector(elClass + "-op");
+function listaToggle(bt,el) {
+  // let el = document.querySelector(elClass);
+  // let bt = document.querySelector(elClass + "-op");
   if (el.classList.contains("d-none")) {
     el.classList.remove("d-none");
     el.classList.add("d-block");
@@ -27,15 +27,22 @@ function listaToggle(elClass) {
   }
 }
 
-addClickLista(".inicio-op", ".inicio");
-addClickLista(".menu2-op", ".menu2");
-addClickLista(".menu3-op", ".menu3");
-addClickLista(".contato-op", ".contato");
-addClickLista(".empreend-op", ".empreend");
+// addClickLista(".inicio-op", ".inicio");
+// addClickLista(".menu2-op", ".menu2");
+// addClickLista(".menu3-op", ".menu3");
+// addClickLista(".contato-op", ".contato");
+// addClickLista(".empreend-op", ".empreend");
+ var mpricipal = document.querySelector('.navbar-principal');
+ let tam = mpricipal.getElementsByClassName('navbar-item').length;
+ for(let c =0; c<tam; c++){
+   let item = mpricipal.getElementsByClassName('navbar-item')[c];
+   let a = item.getElementsByTagName('a')[0];
+   let ul = item.getElementsByTagName('ul')[0];
+   addClickLista(a,ul)
+ }
 
-function addClickLista(elClass, opClass) {
-  el = document.querySelector(elClass);
+function addClickLista(el, op) {
   el.addEventListener("click", () => {
-    listaToggle(opClass);
+    listaToggle(el,op);
   });
 }

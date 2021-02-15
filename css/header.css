@@ -58,14 +58,19 @@ header .logo-vitrine img {
 .navbar-principal .navbar-item {
   color: white;
 }
-.navbar-item p {
+.navbar-item a{
+  color: white;
   cursor: pointer;
   width: min-content;
   font-weight: bolder;
   font-size: 1.3rem;
   margin-left: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   animation-fill-mode: forwards;
+}
+.navbar-item ul a{
+  color:rgb(16, 14, 71);
+  font-size: 1.1vw;
 }
 
 .navbar-principal ul {
@@ -84,6 +89,9 @@ header .logo-vitrine img {
   background-color: white;
   padding: 10px 20px;
   color: rgb(16, 14, 71);
+}
+.navbar-item ul .barra-navbar{
+  display: none;
 }
 
 .area-pesq{

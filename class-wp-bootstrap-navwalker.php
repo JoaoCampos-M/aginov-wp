@@ -64,7 +64,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) :
 			}
 			$indent = str_repeat( $t, $depth );
 			// Default class to add to the file.
-			$classes = array( 'dropdown-menu' );
+			$classes = array( 'dropdown-menu d-none' );
 			/**
 			 * Filters the CSS class(es) applied to a menu list element.
 			 *
@@ -198,10 +198,10 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) :
 			$id = apply_filters( 'nav_menu_item_id', 'menu-item-' . $item->ID, $item, $args, $depth );
 			$id = $id ? ' id="' . esc_attr( $id ) . '"' : '';
 			
-
+			//CODIGO ANTIGO
 			//$output .= $indent . '<li ' . $id . $class_names . '>';
 
-			$output .= $indent . '<li ' . $id . $class_names . '>';
+			$output .= $indent . '<li class="navbar-item" >';
 
 			// Initialize array for holding the $atts for the link item.
 			$atts           = array();
@@ -215,11 +215,12 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) :
 
 			// If the item has_children add atts to <a>.
 			if ( $this->has_children && 0 === $depth ) {
-				$atts['href']          = '#';
-				$atts['data-toggle']   = 'dropdown';
-				$atts['aria-haspopup'] = 'true';
-				$atts['aria-expanded'] = 'false';
-				$atts['class']         = 'dropdown-toggle nav-link';
+				$atts['href']          = false;
+				// $atts['href']          = '#';
+				// $atts['data-toggle']   = 'dropdown';
+				// $atts['aria-haspopup'] = 'true';
+				// $atts['aria-expanded'] = 'false';
+				$atts['class']         = 'menu-op nav-link';
 				$atts['id']            = 'menu-item-dropdown-' . $item->ID;
 			} else {
 				if ( true === $this->has_schema ) {
@@ -317,7 +318,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) :
 				$item_output .= self::linkmod_element_close( $linkmod_type );
 			} else {
 				// With no link mod type set this must be a standard <a> tag.
-				$item_output .= '</a>';
+				$item_output .= '</a><div class="barra-navbar"></div>';
 			}
 
 			$item_output .= isset( $args->after ) ? $args->after : '';
