@@ -12,7 +12,7 @@
    viewBox="0 0 1302.0711 178.4054"
    version="1.1"
    id="svg767"
-   sodipodi:docname="background-midias (cópia).svg"
+   sodipodi:docname="background-midias3.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <metadata
      id="metadata771">
@@ -40,8 +40,8 @@
      id="namedview769"
      showgrid="false"
      inkscape:zoom="0.76467072"
-     inkscape:cx="623.70113"
-     inkscape:cy="311.88793"
+     inkscape:cx="510.94674"
+     inkscape:cy="356.54875"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -64,18 +64,40 @@
      id="Grupo_3667"
      data-name="Grupo 3667"
      transform="translate(6.863,-3609.097)">
-    <path
-       id="That_s_enough_"
-       data-name="That's enough!"
-       d="M 43.166849,362.43538 104.48005,348.8262 c 0,0 27.86138,11.06223 202.84838,-27.52877 174.987,-38.591 224.98317,-38.75649 438.27217,-75.42949 213.289,-36.673 83.34164,-22.93487 310.1196,-63.93787 226.778,-41.003 275.2595,-4.77929 275.2595,-4.77929 L 1329.2072,158.7466 1304.113,-0.84017345 c 0,0 -149.27,-21.11882655 -347.929,61.72717345 C 908.827,80.636 800.821,154.535 654.573,179 508.325,203.465 414.959,184.611 316.683,180.77 75.222,171.336 20.116883,234.16332 20.116883,234.16332 Z"
-       transform="rotate(-171,796.94633,1936.4973)"
-       inkscape:connector-curvature="0"
-       style="fill:#f9c001"
-       sodipodi:nodetypes="ccsssccccsccc" />
     <g
-       transform="translate(-6.863,3609.097)"
-       data-name="Camada 2"
-       id="Camada_2" />
+       id="Grupo_3444"
+       data-name="Grupo 3444"
+       transform="translate(-14.569,3609.097)">
+      <g
+         id="Camada_2"
+         data-name="Camada 2"
+         transform="translate(7.706)">
+        <g
+           id="OBJECTS" />
+      </g>
+      <g
+         id="Camada_2-2"
+         data-name="Camada 2"
+         transform="translate(0,24.545)">
+        <g
+           id="OBJECTS-2"
+           data-name="OBJECTS" />
+      </g>
+    </g>
+    <g
+       id="Grupo_3445"
+       data-name="Grupo 3445"
+       transform="matrix(-0.985,-0.174,0.174,-0.985,1250.024,3941.274)"
+       clip-path="url(#clip-path)">
+      <path
+         id="Caminho_15074"
+         data-name="Caminho 15074"
+         d="M 1350.926,18.974 C 1306.109,3.81 1254.761,0.06 1222.023,0 c -61.891,-0.111 -109.355,13.481 -143.992,30.1 -27.36,13.134 -53.354,26.578 -76.83,40.6 -57.815,34.307 -105.876,37.652 -129.522,40.944 -68.7,9.494 -209.02,-1.292 -309.454,15.245 C 362.808,159.724 322.259,239.937 0,226.02"
+         transform="translate(-38.415,58.454)"
+         stroke-miterlimit="10"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ff8902;stroke-width:3;stroke-miterlimit:10" />
+    </g>
   </g>
   <path
      style="fill:none"

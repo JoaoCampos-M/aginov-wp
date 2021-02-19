@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -40,8 +40,8 @@
      id="namedview769"
      showgrid="false"
      inkscape:zoom="0.76467072"
-     inkscape:cx="593.96383"
-     inkscape:cy="73.671131"
+     inkscape:cx="623.70113"
+     inkscape:cy="311.88793"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -67,27 +67,15 @@
     <path
        id="That_s_enough_"
        data-name="That's enough!"
-       d="m -5.916112,3679.4477 -2.4856921,49.5562 2.4849461,58.4985 c 0,0 84.451481,4.6461 258.537928,2.0967 174.08644,-2.5494 238.83741,-0.6936 449.45063,-1.3714 210.61327,-0.6778 162.29013,1.7017 386.5293,0.5097 224.2392,-1.1919 206.607,-1.235 206.607,-1.235 l 0.6003,-62.8728 3.0041,-100.0792 c 0,0 -142.0873,120.4281 -351.81832,66.7338 -146.25554,-37.4435 -161.99965,-51.3167 -314.13591,-51.3009 -160.00194,0.017 -210.1494,87.676 -295.60433,57.6025 -113.76269,-30.9532 -185.87879,-41.4865 -185.87879,-41.4865 0,0 -58.653523,-11.4615 -157.291162,23.3484 z"
+       d="M 36.696572,338.30315 98.21435,325.98562 c 0,0 19.15277,-2.12305 196.65889,-33.16872 176.51244,-30.87187 228.85812,-39.37022 442.14712,-76.04322 213.289,-36.673 94.49126,-16.22687 318.27864,-62.58203 84.1454,-17.42981 130.1613,-34.76014 130.1613,-34.76014 l 133.506,-50.42262 -14.8533,-69.84906345 c 0,0 -149.27,-21.11882655 -347.929,61.72717345 C 908.827,80.636 800.821,154.535 654.573,179 508.325,203.465 414.959,184.611 316.683,180.77 75.222,171.336 20.116883,234.16332 20.116883,234.16332 Z"
+       transform="rotate(-171,796.94633,1936.4973)"
        inkscape:connector-curvature="0"
-       style="fill:#ff8902;stroke-width:1"
-       sodipodi:nodetypes="cccssscccssccc" />
+       style="fill:#ff8902"
+       sodipodi:nodetypes="ccsssccccsccc" />
     <g
-       id="Grupo_3444"
-       data-name="Grupo 3444"
-       transform="matrix(1,0,0,-1.0671794,-6.863,3747.539)"
-       style="stroke-width:0.96801323">
-      <g
-         id="Camada_2-2"
-         data-name="Camada 2"
-         transform="translate(0,24.545)"
-         style="stroke-width:0.96801323">
-        <g
-           id="OBJECTS-2"
-           data-name="OBJECTS"
-           style="stroke-width:0.95694864"
-           transform="scale(1.0232584,1)" />
-      </g>
-    </g>
+       transform="translate(-6.863,3609.097)"
+       data-name="Camada 2"
+       id="Camada_2" />
   </g>
   <path
      style="fill:none"

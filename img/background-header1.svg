@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1415.8513"
+   height="105.17818"
+   viewBox="0 0 1415.8513 105.17818"
+   version="1.1"
+   id="svg308"
+   sodipodi:docname="background-midias.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata312">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="718"
+     id="namedview310"
+     showgrid="false"
+     inkscape:zoom="0.55910394"
+     inkscape:cx="1078.4994"
+     inkscape:cy="335.18562"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="OBJECTS-2" />
+  <defs
+     id="defs292">
+    <clipPath
+       id="clip-path">
+      <path
+         id="Caminho_15084"
+         data-name="Caminho 15084"
+         d="M 0,0 H 1401.976 V 289 H 0 Z"
+         transform="translate(-112.15)"
+         inkscape:connector-curvature="0"
+         style="fill:none" />
+    </clipPath>
+  </defs>
+  <g
+     id="Grupo_3666"
+     data-name="Grupo 3666"
+     transform="translate(111.40811,-702.98676)">
+    <g
+       id="Grupo_3024"
+       data-name="Grupo 3024"
+       transform="translate(-60.405,443.987)" />
+    <g
+       id="Grupo_351"
+       data-name="Grupo 351"
+       transform="matrix(1.1070709,0,0,1,-113.57459,690.868)"
+       style="stroke-width:0.95041281">
+      <path
+         id="Caminho_270"
+         data-name="Caminho 270"
+         d="M 1.083449,79.314 0,118.26479 1280,123.956 V -0.192 C 1192.484,27.68 1017.4892,81.063929 808.9712,85.069929 480.31391,74.062264 299.45314,51.325898 1.083449,79.314 Z"
+         inkscape:connector-curvature="0"
+         style="fill:none;fill-rule:evenodd;stroke-width:0.95041281"
+         sodipodi:nodetypes="cccccc" />
+      <g
+         id="Camada_2-2"
+         data-name="Camada 2"
+         transform="translate(37.768897,-6.6993327)"
+         style="stroke-width:0.95041281">
+        <g
+           id="OBJECTS-2"
+           data-name="OBJECTS"
+           style="stroke-width:0.95041281">
+          <path
+             id="Caminho_271"
+             data-name="Caminho 271"
+             d="M 760.09266,112.3283 C 520.18021,111.5103 223.50477,61.156457 -35.543051,97.395762 227.8147,26.404872 530.62758,83.208978 770.36081,80.098576 980.19327,76.110576 1155.2161,45.770762 1243.3735,17.889762 l 2.2848,43.446357 C 1139.272,88.555119 959.08119,112.9573 760.09266,112.3283 Z"
+             inkscape:connector-curvature="0"
+             style="fill:#206666;fill-rule:evenodd;stroke-width:0.95041281"
+             sodipodi:nodetypes="cccccc" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
