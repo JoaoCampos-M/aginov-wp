@@ -1,12 +1,24 @@
-<?php get_header() ?>
+<?php require_once('banner-index.php'); ?>
+
+<?php 
+  $my_args = array(
+    'post_type' => 'index',
+    'post_per_page' => 1,
+  );
+  $my_query =new WP_Query($my_args);  
+  if($my_query->have_posts()):while( $my_query->have_posts() ): $my_query->the_post(); 
+?>
 <section class="container p-rel">
   <div class="services-description">
     <div class="description-item">
       <h1 class="title-1">Vitrine</h1>
       <h3 class="subtitle-1">de Tecnologia</h3>
-      <p class="text margin-left">
+      <!-- <p class="text margin-left">
         Acesse nosso Portfólio de patentes, softwares e outros ativos e
         <b>INOVE</b> na sua empresa.
+      </p> -->
+      <p class="text margin-left">
+        <?php echo get_post_meta($post->ID ,'vitrine_de_tecnologia', true) ?>
       </p>
       <button type="submit" class="btn-blue">Saber Mais</button>
     </div>
@@ -22,11 +34,14 @@
       <h1 class="title-1 align-r">Ecossistema</h1>
       <h3 class="subtitle-1 f-end">de Inovação</h3>
       <div class="d-flex f-end">
-        <p class="text margin-right  text-align">
+        <!-- <p class="text margin-right  text-align">
           A UNEMAT tem, ao longo dos anos, apoiado ações e fomentado a cultura
           empreendedora e de inovação na sua comunidade universitária, o
           promovendo inspirar ambientes de inovação que se comunicam e
           interagem como um <b>Ecossistema</b>
+        </p> -->
+        <p class="text margin-right  text-align">
+          <?php echo get_post_meta($post->ID,'ecossistema_de_inovacao', true); ?>
         </p>
       </div>
       <button type="submit" class="btn-blue float-r">Saber Mais</button>
@@ -37,7 +52,7 @@
   <img class="img-bg vitrine-square" src="<?php bloginfo('template_url'); ?>/img/square-divided.svg" alt="">
 </section>
 <section class="prop-intelectual container p-rel">
-  <!-- <img src="<?php bloginfo('template_url'); ?>/img/background-propriedade-2.svg" class="prop-int-bg desktop temp2"> -->
+  <!-- <img src="/img/background-propriedade-2.svg" class="prop-int-bg desktop temp2"> -->
   <img src="<?php bloginfo('template_url'); ?>/img/background-propriedade-3.svg" class="prop-int-bg desktop temp6"
     style="z-index: -2;">
   <img src="<?php bloginfo('template_url'); ?>/img/background-propriedade-2.svg" class="prop-int-bg desktop temp3">
@@ -47,11 +62,14 @@
       <h2 class="principal-title-2">Propriedade</h2>
       <p class="caption-2">Intelectual</p>
       <div class="text-container">
-        <p class="txt-1">
+        <!-- <p class="txt-1">
           A Propriedade Intelectual indica a produção do intelecto nos
           segmentos industrial, científico, literário ou artístico. Assim
           algumas criações intelectuais poderão ter uma proteção definida
           por legislação.
+        </p> -->
+        <p class="txt-1" >
+          <?php echo get_post_meta($post->ID,'propriedade_intelectual',true); ?>
         </p>
       </div>
       <a class="btn-saber-mais-1" href="">Saber Mais</a>
@@ -59,6 +77,8 @@
 
     <img class="desktop" src="<?php bloginfo('template_url'); ?>/img/img-computer-propriedade.svg" />
   </div>
+        <?php endwhile;endif; ?>
+        <?php wp_reset_query()?>
 </section>
 <section class="container p-rel">
   <div class="services-description">
@@ -66,9 +86,8 @@
       <div class="cards-lives-groups">
         <?php 
             $my_args = array(
-              'post_type' => 'post',
+              'post_type' => 'events',
               'post_per_page' => 3,
-              'category_name' => 'eventos'
             );
             $my_query =new WP_Query($my_args);          
             ?>
@@ -79,36 +98,35 @@
         <div class="cards-lives">
           <div class="cards-info">
             <p class="cards-info-title"> <?php the_title()?> </p>
-            <p class="cards-info-subtitle"></p>
+            <p class="cards-info-subtitle"><?php echo get_post_meta( $post->ID, 'subtitulo',true) ?></p>
             <div class="row-1">
               <div class="row-2">
                 <img src="<?php bloginfo('template_url'); ?>/img/icon-calendario.svg" alt="">
-                <p class="cards-info-text">10 e 11 AGO 2021</p>
+                <p class="cards-info-text"><?php echo get_post_meta($post->ID, 'data', true);?></p>
               </div>
               <div class="row-2">
                 <img src="<?php bloginfo('template_url'); ?>/img/icon-horario.svg" alt="">
-                <p class="cards-info-text">18:00h as 19:00h</p>
+                <p class="cards-info-text"><?php echo get_post_meta($post->ID, 'horario', true);?></p>
               </div>
             </div>
             <div class="row-1">
               <div class="row-2">
                 <img src="<?php bloginfo('template_url'); ?>/img/icon-localizacao.svg" alt="">
-                <p class="cards-info-text">ONLINE</p>
+                <p class="cards-info-text"><?php echo get_post_meta($post->ID, 'modalidade', true);?></p>
               </div>
               <div class="row-2">
                 <img src="<?php bloginfo('template_url'); ?>/img/icon-informacao.svg" alt="">
-                <p class="cards-info-text">CURSO</p>
+                <p class="cards-info-text"><?php echo get_post_meta($post->ID, 'tipo', true);?></p>
               </div>
             </div>
           </div>
           <div class="cards-categoria">
-            <p>Empreendedorismo</p>
+            <p><?php echo get_post_meta($post->ID, 'tema', true);?></p>
           </div>
           <div class="cards-temas">
             <p class="cards-info-subtitle"><b>Tema:</b></p>
-            <p class="cards-info-text">O século XXI e 1/2 - o que vai mudar no
-              Empreendedorismo mundial?</p>
-            <button type="submit" class="btn-blue">Saber Mais</button>
+            <p class="cards-info-text"><?php the_content(); ?></p>
+           <a href="<?php echo get_post_meta($post->ID, 'link', true);?>" > <button type="submit" class="btn-blue">Saiba Mais</button> </a>
             <div class="row-1">
               <div class="row-2">
               </div>
@@ -228,9 +246,9 @@
 
 </section>
 <img class="bg-contatos img-bg" src="<?php bloginfo('template_url'); ?>/img/background-midias2.svg" alt="">
-<img class="bg-contatos img-bg temp2" src="<?php bloginfo('template_url'); ?>/img/background-midias2.svg" alt="">
-<img class="bg-contatos img-bg temp1" src="<?php bloginfo('template_url'); ?>/img/background-midias.svg" alt="">
-<img class="bg-contatos img-bg temp3" src="<?php bloginfo('template_url'); ?>/img/background-midias3.svg" alt="">
+<img class="bg-contatos img-bg temp1" src="<?php bloginfo('template_url'); ?>/img/background-midias2.svg" alt="">
+<img class="bg-contatos img-bg" src="<?php bloginfo('template_url'); ?>/img/background-midias.svg" alt="">
+<img class="bg-contatos img-bg temp5" src="<?php bloginfo('template_url'); ?>/img/background-midias3.svg" alt="">
 
 <section class="container p-rel mg-t-20">
   <div class="services-description">
@@ -266,7 +284,7 @@
           Vespertino: 14h às 18h<br>
         </p>
       </div>
-      </dixv>
+      </div>
     </div>
 </section>
 <?php get_footer()?>
