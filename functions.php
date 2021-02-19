@@ -18,5 +18,35 @@
   }
   add_action( 'after_setup_theme', 'register_navwalker' );
 
-
+  // Creating Post Type  
+function create_post_type() {
+  // Creating Post Type Events 
+  register_post_type( 'events',
+      array(
+          'taxonomies'  => array( 'category' ),
+          'labels' => array(
+              'name' => __( 'Eventos' ),
+              'singular_name' => __( 'Eventos' )
+          ),
+          'public' => true,
+          'has_archive' => true,
+          'show_in_rest' => true,
+          'supports' => array('title','thumbnail','editor','excerpt','custom-fields',),
+      )
+  );
+  register_post_type( 'index',
+      array(
+          'taxonomies'  => array( 'category' ),
+          'labels' => array(
+              'name' => __( 'Conteúdo Página Principal' ),
+              'singular_name' => __( 'Inicio' )
+          ),
+          'public' => true,
+          'has_archive' => true,
+          'show_in_rest' => true,
+          'supports' => array('custom-fields',),
+      )
+  );
+} 
+add_action( 'init', 'create_post_type' );
 ?>
