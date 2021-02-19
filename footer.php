@@ -1,9 +1,9 @@
   <footer class="p-rel">
-    <img class="bg-footer" src="<?php bloginfo('template_url'); ?>/img/background-footer2.svg ">
-    <!-- <img class="bg-footer temp2" src="<?php bloginfo('template_url'); ?>/img/background-footer2.svg"> -->
-    <img class="bg-footer temp4" src="<?php bloginfo('template_url'); ?>/img/background-footer2.svg ">
-    <img class="bg-footer temp3" src="<?php bloginfo('template_url'); ?>/img/background-footer.svg ">
-        <img class="bg-footer temp5" src="<?php bloginfo('template_url'); ?>/img/background-midias3.svg ">
+  
+    <img class="bg-footer temp2" src="<?php bloginfo('template_url'); ?>/img/background-footer-novo.svg">
+    <img class="bg-footer" src="<?php bloginfo('template_url'); ?>/img/background-footer-novo.svg">
+    <img class="bg-footer temp2" src="<?php bloginfo('template_url'); ?>/img/background-footer-line.svg ">
+    <!-- <img class="bg-footer temp5" src="<?php bloginfo('template_url'); ?>/img/background-midias3.svg "> -->
         
     <div class="container-footer">
       <div class="desenvolvido">
