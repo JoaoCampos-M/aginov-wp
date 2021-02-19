@@ -68,9 +68,13 @@ header .logo-vitrine img {
   margin-bottom: 15px;
   animation-fill-mode: forwards;
 }
+
 .navbar-item ul a{
   color:rgb(16, 14, 71);
   font-size: 1.1vw;
+  font-family: Rubik-Regular;
+  margin-left: 0px;
+  font-weight: normal;
 }
 
 .navbar-principal ul {
@@ -168,7 +172,7 @@ header .logo-vitrine img {
 .bg-header-wave-2 {
   position: absolute;
   width: 100vw;
-  bottom: 0px;
+  bottom: -5vw;
   z-index: -1;
 }
 
