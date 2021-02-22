@@ -10,18 +10,18 @@
   margin-bottom: 20px;
 }
 
-.order-desk{
+.order-desk {
   order: 0;
 }
 
-.order-moba{
+.order-moba {
   order: 1;
 }
 
 .title-1 {
   font-size: 3.5rem;
   font-family: Rubik-Bold;
-  white-space: nowrap
+  white-space: nowrap;
 }
 
 .subtitle-1 {
@@ -41,8 +41,8 @@
   min-width: 265px;
 }
 
-.text-align{
-    text-align: right;
+.text-align {
+  text-align: right;
 }
 
 .margin-left {
@@ -61,7 +61,7 @@
   padding-right: 20px;
 }
 
-.text-align-right{
+.text-align-right {
   text-align: right;
 }
 
@@ -73,22 +73,19 @@
   padding: 10px 50px;
   margin: 10px 0;
   cursor: pointer;
- 
 }
-
-
 
 .img-description {
   width: 30vw;
   min-width: 250px;
 }
 
-.bg-contatos{
+.bg-contatos {
   width: 100vw;
   margin-top: -25vh;
 }
 
-.img-mapa{
+.img-mapa {
   width: 25vw;
 }
 
@@ -241,9 +238,37 @@ section.prop-intelectual {
   width: 40vw;
   margin-left: 8vw;
 }
-.mg-t-20{
+.mg-t-20 {
   margin-top: 20vh;
 }
-.p-abs{
+.p-abs {
   position: absolute;
+}
+.description-item .animated-desktop {
+  width: 60%;
+  float: right;
+  margin-top: 1vw;
+}
+a.midia-button {
+  font: 700 1.5em "Roboto";
+  color: #07164c;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+a.midia-button img {
+  margin: auto 0;
+  width: 30px !important;
+  height: 30px !important;
+}
+a.midia-button p {
+  margin: auto 10px;
+}
+
+#sb_instagram .sbi_photo {
+  display: block;
+  text-decoration: none;
+  width: auto !important;
+  height: 12vw !important;
 }

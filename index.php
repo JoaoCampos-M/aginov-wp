@@ -23,7 +23,9 @@
       <button type="submit" class="btn-blue">Saber Mais</button>
     </div>
     <div class="description-item desktop">
-      <img class="img-description" src="<?php bloginfo('template_url'); ?>/img/img-computer-vitrine.svg" alt="" />
+      <div class="animated-desktop">
+        <?php require('img/data.html');?>
+      </div>
     </div>
   </div>
   <div class="services-description">
@@ -68,7 +70,7 @@
           algumas criações intelectuais poderão ter uma proteção definida
           por legislação.
         </p> -->
-        <p class="txt-1" >
+        <p class="txt-1">
           <?php echo get_post_meta($post->ID,'propriedade_intelectual',true); ?>
         </p>
       </div>
@@ -77,8 +79,8 @@
 
     <img class="desktop" src="<?php bloginfo('template_url'); ?>/img/img-computer-propriedade.svg" />
   </div>
-        <?php endwhile;endif; ?>
-        <?php wp_reset_query()?>
+  <?php endwhile;endif; ?>
+  <?php wp_reset_query()?>
 </section>
 <section class="container p-rel">
   <div class="services-description">
@@ -126,7 +128,8 @@
           <div class="cards-temas">
             <p class="cards-info-subtitle"><b>Tema:</b></p>
             <p class="cards-info-text"><?php the_content(); ?></p>
-           <a href="<?php echo get_post_meta($post->ID, 'link', true);?>" > <button type="submit" class="btn-blue">Saiba Mais</button> </a>
+            <a href="<?php echo get_post_meta($post->ID, 'link', true);?>"> <button type="submit" class="btn-blue">Saiba
+                Mais</button> </a>
             <div class="row-1">
               <div class="row-2">
               </div>
@@ -208,7 +211,24 @@
         <a class="btn-saibamais">Saiba Mais</a>
       </div>
       <div class="card-ms-body check-content-insta d-none">
-        <img src="<?php bloginfo('template_url'); ?>/img/instagram.svg" />
+        <a class="midia-button" href="https://www.instagram.com/pref_caceres" target="_blank">
+          <img src="http://www2.caceres.mt.gov.br/wp-content/themes/prefeitura/images/Social/instagram.png" alt="">
+          <p>Instagram</p>
+        </a>
+        <!-- <img src="<?php bloginfo('template_url'); ?>/img/instagram.svg" /> -->
+        <?php 
+            $my_args = array(
+              'category_name' => 'instagram-feed',
+              'post_per_page' => 1,
+            );
+            $my_query =new WP_Query($my_args);          
+            ?>
+
+        <?php if($my_query->have_posts()): $my_query->the_post();?>
+
+        <?php the_content(); ?>
+        <?php endif; ?>
+        <?php wp_reset_query();?>
         <a class="btn-saibamais">Saiba Mais</a>
       </div>
       <div class="card-ms-body check-content-twit d-none">
@@ -224,22 +244,22 @@
         <img src="<?php bloginfo('template_url'); ?>/img/youtube.svg" alt="" />
       </div>
       <div class="card-ms-body">
-        <img src="<?php bloginfo('template_url'); ?>/img/canal.png" alt="" />
+        
+        <?php 
+          $my_args = array(
+            'category_name'=>'youtube-feed',
+            'posts_per_page' => 1,
+          );
+          $my_query = new WP_Query($my_args);
+          ?>
+          <?php if($my_query->have_posts()): $my_query->the_post(); ?>
+          <?php  the_content();?>
+          <?php endif;
+          wp_reset_query();
+        ?>
         <a class="btn-saibamais">Saiba Mais</a>
       </div>
     </div>
-    <!-- <div class="card-ms-item">
-        <p class="card-ms-titulo">
-          <strong> AGINOV na Mídia </strong>Notícias recomendadas
-        </p>
-        <div class="social-icons">
-          <img src="<?php bloginfo('template_url'); ?>/img/img.svg" alt="" />
-        </div>
-        <div class="card-ms-body">
-          <img src="<?php bloginfo('template_url'); ?>/img/canal.png" alt="" />
-          <a class="btn-saibamais">Saiba Mais</a>
-        </div>
-      </div> -->
   </div>
   <img class="img-bg midias-circle" src="<?php bloginfo('template_url'); ?>/img/circles-complete.svg" alt="">
   <img class="img-bg midias-circle2" src="<?php bloginfo('template_url'); ?>/img/circles-line.svg" alt="">
@@ -284,7 +304,7 @@
           Vespertino: 14h às 18h<br>
         </p>
       </div>
-      </div>
     </div>
+  </div>
 </section>
 <?php get_footer()?>

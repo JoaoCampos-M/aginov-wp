@@ -33,7 +33,8 @@
           </p>
           <a class="btn-saibamais">Saiba Mais</a>
           <div class="card-h-body">
-            <img src="<?php bloginfo('template_url'); ?>/img/img-computer-vitrine.svg" alt="" />
+            
+           <?php require('img/pc-card-inicial.html');?>
           </div>
         </div>
         <div class="card-h-item">
@@ -41,8 +42,9 @@
             <strong> Alianças </strong> Estratégicas
           </p>
           <a class="btn-saibamais">Saiba Mais</a>
-          <div class="card-h-body">
-            <img src="<?php bloginfo('template_url'); ?>/img/img-computer-vitrine.svg" alt="" />
+          <div class="card-h-body" >
+            
+            <img src="<?php bloginfo('template_url'); ?>/img/img-computer-vitrine.svg" alt="">
           </div>
         </div>
         <div class="card-h-item">
@@ -51,7 +53,7 @@
           </p>
           <a class="btn-saibamais">Saiba Mais</a>
           <div class="card-h-body">
-            <img src="<?php bloginfo('template_url'); ?>/img/img-computer-vitrine.svg" alt="" />
+            <img style="z-index:2;" src="<?php bloginfo('template_url'); ?>/img/foguete.gif" alt="" />
           </div>
         </div>
       </div>
