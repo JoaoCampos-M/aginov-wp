@@ -1,5 +1,5 @@
     <header>
-      <div class="menu-icones">
+      <div class="menu-icones desktop">
         <div class="logo-Aginov">
           <img src="<?php bloginfo('template_url'); ?>/img/logo-aginov-desk.svg" alt="" />
         </div>
@@ -50,20 +50,7 @@
           <img class="btn-drop" src="<?php bloginfo('template_url'); ?>/img/menu-dropdown-close.svg" onclick=" menu()"
             alt="">
           <div class="menu-list">
-            <?php      
-            $options =  array(
-                  'items_wrap'        => '%3$s', 
-                  
-                  'menu_class'        => false, 
-                  'menu_id'           => false,
-                  'container'         => 'div',
-                  'container_class'   => 'navbar-principal',
-                  'container_id'      => false,
-                  'walker' => new WP_Bootstrap_Navwalker(),
-              );
-            $menu = wp_nav_menu($options);
-            echo strip_tags($menu, '');
-          ?>
+          
             <ul class="opcao-list">
               <li class="elements-list"><a class="item-menu-color" id="menu-drop-1" href="#">
                   <p class="iten-list-option">Inicio</p>

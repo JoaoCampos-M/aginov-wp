@@ -31,7 +31,7 @@ function create_post_type() {
           'public' => true,
           'has_archive' => true,
           'show_in_rest' => true,
-          'supports' => array('title','thumbnail','editor','excerpt','custom-fields',),
+          'supports' => array('title','custom-fields'),
       )
   );
   register_post_type( 'index',
@@ -47,6 +47,17 @@ function create_post_type() {
           'supports' => array('custom-fields',),
       )
   );
+  register_post_type( 'endereco', array(
+    'taxonomies'  => array( 'category' ),
+    'labels' => array(
+      'name' => __( 'Endereço e Contato' ),
+        'singular_name' => __( 'Endereço' )
+        ),
+      'public' => true,
+      'has_archive' => true,
+      'show_in_rest' => true,
+      'supports' => array('custom-fields',),
+  ));
 } 
 add_action( 'init', 'create_post_type' );
 ?>

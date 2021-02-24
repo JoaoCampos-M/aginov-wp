@@ -256,6 +256,7 @@ a.midia-button {
   display: flex;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0);
+  margin: 10px auto;
 }
 a.midia-button img {
   margin: auto 0;

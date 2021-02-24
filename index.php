@@ -127,7 +127,7 @@
           </div>
           <div class="cards-temas">
             <p class="cards-info-subtitle"><b>Tema:</b></p>
-            <p class="cards-info-text"><?php the_content(); ?></p>
+            <p class="cards-info-text"><?php echo get_post_meta( $post->ID, 'descricao', true ) ?></p>
             <a href="<?php echo get_post_meta($post->ID, 'link', true);?>"> <button type="submit" class="btn-blue">Saiba
                 Mais</button> </a>
             <div class="row-1">
@@ -207,11 +207,22 @@
         </div>
       </div>
       <div class="card-ms-body check-content-face d-block ">
-        <img src="<?php bloginfo('template_url'); ?>/img/facebook.svg" />
+        <?php 
+          $my_args = array(
+            'category_name'=>'facebook-feed',
+            'posts_per_page' => 1,
+          );
+          $my_query = new WP_Query($my_args);
+          ?>
+          <?php if($my_query->have_posts()): $my_query->the_post(); ?>
+          <?php  the_content();?>
+          <?php endif;
+          wp_reset_query();
+        ?>
         <a class="btn-saibamais">Saiba Mais</a>
       </div>
       <div class="card-ms-body check-content-insta d-none">
-        <a class="midia-button" href="https://www.instagram.com/pref_caceres" target="_blank">
+        <a class="midia-button" href="" target="_blank">
           <img src="http://www2.caceres.mt.gov.br/wp-content/themes/prefeitura/images/Social/instagram.png" alt="">
           <p>Instagram</p>
         </a>
@@ -232,7 +243,7 @@
         <a class="btn-saibamais">Saiba Mais</a>
       </div>
       <div class="card-ms-body check-content-twit d-none">
-        <img src="<?php bloginfo('template_url'); ?>/img/twitter.svg" />
+       <a class="twitter-timeline" data-height="380" href="https://twitter.com/UnematOficial?ref_src=twsrc%5Etfw">Tweets by UnematOficial</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         <a class="btn-saibamais">Saiba Mais</a>
       </div>
     </div>
@@ -290,18 +301,30 @@
       <h3 class="caption-2">Transparência Pública</h3>
       <div class="text-container">
         <p class="txt-1 margin-right-green">
-          <strong class="text-1">Fale Conosco</strong>
-          Agência de Inovação da Universidade do Estado de Mato Grosso
-          <br> <br>
-          Pró-Reitoria de Pesquisa e Pós-graduação - PRPPG<br>
-          Av: Tancredo Neves, Nº 1095, Cavalhada III<br>
-          Cep: 78200.000 Cáceres-MT<br>
-          Telefones: +55 (65)3221-0040<br>
-          Email: diretoria.nit@unemat.br<br>
-          <br><br>
-          Horário de expediente:<br>
-          Matutino: 08h às 12h<br>
-          Vespertino: 14h às 18h<br>
+          <?php 
+            $my_args = array(
+              'post_type'=>'endereco',
+              'posts_per_page'=>'1'
+            );
+            $my_query = new WP_Query($my_args);
+            if($my_query->have_posts()):$my_query->the_post();
+            ?>
+            <strong class="text-1">Fale Conosco</strong>
+            Agência de Inovação da Universidade do Estado de Mato Grosso
+            <br> <br>
+            <?php echo get_post_meta($post->ID, 'local', true);?><br>
+            <?php echo get_post_meta($post->ID, 'endereco',true );?><br>
+            Cep: <?php echo get_post_meta( $post->ID, 'cep', true )?> <br>
+            Telefones: <?php echo get_post_meta( $post->ID, 'contato', true);?><br>
+            Email: <?php echo get_post_meta( $post->ID, 'email', true );?><br>
+            <br><br>
+            Horário de expediente:<br>
+            Matutino: 08h às 12h<br>
+            Vespertino: 14h às 18h<br>
+          <?php  
+            endif;
+            wp_reset_query();
+          ?>
         </p>
       </div>
     </div>

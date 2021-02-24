@@ -25,7 +25,7 @@ function checkToggle(obj){
 }
 
 function setContent(el,tg){
-  console.log(el);
+  // console.log(el);
   if (tg){
     el.classList.remove("d-none");
     el.classList.add("d-block");

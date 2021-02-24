@@ -11,6 +11,7 @@
   }
   .card-h-item {
     margin: 10px 5px;
+    
  
   }
   .card-h-titulo {
@@ -86,6 +87,17 @@
   }
 }
 @media (max-width: 480px) {
+  .desenvolvido {
+    margin: 10px auto;
+    margin-top: 20px;
+    width: 70%;
+  }
+  footer p{
+     text-align: center;
+  }
+  .card-h-item .card-h-body{
+    max-height: initial;
+  }
   .desktop {
     display: none;
   }
@@ -98,6 +110,9 @@
   }
   .card-h-item {
     margin: 10px 5px;
+    width: 100%;
+    height: max-content;
+    position: relative;
   }
   .card-h-titulo {
     font-size: 1.1rem;
@@ -135,7 +150,7 @@
   .container-footer {
     position: initial;
     flex-wrap: wrap;
-    background: #206666;
+    background: rgb(1, 129, 148);
     width: 100%;
     margin: 0 auto;
     flex-direction: column;
@@ -160,14 +175,21 @@
   }
   .cards-lives {
     max-width: 100%;
+    width: 100%;
   }
   .prop-intelectual {
     background-image: url("../img/background-propriedade-2.svg");
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .card-ms-titulo{
+    font-size: 1rem;
+  }
+  .card-ms-titulo strong{
+        font-size: 1.1rem;
+  }
 }
-@media (max-width: 800px) {
+@media (max-width: 800px) and (min-width: 481px) {
   .desktop {
     display: none;
   }

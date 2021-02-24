@@ -76,7 +76,7 @@
   background-size: contain;
   cursor: pointer;
 }
-.card-ms-item a {
+.card-ms-item .btn-saibamais {
   display: block;
   font-weight: bold;
   color: white;
@@ -102,6 +102,7 @@
 .card-ms-body {
   margin: 0px 10px;
   box-shadow: 1px 1px 10px lightgray;
+  margin-top: 10px;
 }
 .card-ms-body img {
   width: 100%;
@@ -168,7 +169,7 @@
 
 .row-2 img{
   margin-right: 5px;
-  width: 1vw;
+  width: 2vh;
 }
 
 .cards-info-title{
@@ -211,4 +212,3 @@
 /*
 Outros estilos que mais tarde devem ser movidos para os arquivos certos
 */
-
