@@ -1,7 +1,7 @@
 <?php 
   //chamar a tag tittle
   function agi_title_tag(){
-    add_theme_support('tittle-tag');
+    add_theme_support('title-tag');
   }
   add_action('after_setup_theme','agi_title_tag');
 

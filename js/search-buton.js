@@ -39,8 +39,9 @@ function opensearch(){
 
  function trocaImage(){
      img = document.getElementById('brasao');
-     img.src = "img/brasao-unemat-colorido.svg";
+     let a = document.getElementById("brasaobloginfo").value;
+     img.src = a+"/img/brasao-unemat-colorido.svg";
      img.addEventListener('mouseout',() => {
-        img.src = "img/brasao-unemat.svg";
+        img.src = a+"/img/brasao-unemat.svg";
       });
  }

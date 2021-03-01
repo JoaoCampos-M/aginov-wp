@@ -1,4 +1,4 @@
-<?php require_once('banner-index.php'); ?>
+<?php include('banner-index.php'); ?>
 
 <?php 
   $my_args = array(
@@ -24,7 +24,7 @@
     </div>
     <div class="description-item desktop">
       <div class="animated-desktop">
-        <?php require('img/data.html');?>
+        <?php include('img/data.html');?>
       </div>
     </div>
   </div>

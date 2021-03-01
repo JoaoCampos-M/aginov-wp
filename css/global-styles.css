@@ -43,6 +43,12 @@ a {
 .d-flex {
   display: flex;
 }
+.fd-col{
+  flex-direction: column;
+}
+.j-end{
+  justify-content: flex-end;
+}
 .float-r {
   float: right;
 }
@@ -54,4 +60,13 @@ a {
 }
 .mr-03{
   margin-right: 0.3%;
+}
+.bt-0{
+  bottom:0!important;
+}
+.bt-8{
+  bottom: -9vw;
+}
+.f-warp{
+  flex-wrap:wrap;
 }

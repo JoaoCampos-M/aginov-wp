@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1362.3033"
+   height="284.02548"
+   viewBox="0 0 1362.3033 284.02549"
+   version="1.1"
+   id="svg62"
+   sodipodi:docname="portifolio-wave-2.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata68">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs66" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="718"
+     id="namedview64"
+     showgrid="false"
+     inkscape:zoom="1.3705912"
+     inkscape:cx="1092.7875"
+     inkscape:cy="41.099125"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg62" />
+  <path
+     id="That_s_enough_"
+     data-name="That's enough!"
+     d="m 90.431101,256.92102 134.855639,-1.66143 c 0,0 95.94503,0.1208 276.29493,12.73659 205.94182,14.40599 106.7567,17.88838 324.35612,15.18953 237.02101,-2.93973 104.616,6.65881 305.92511,-15.59835 117.4531,-12.98586 157.0831,-24.75014 157.0831,-24.75014 l 73.8991,-14.71981 -0.5418,-133.228057 c 0,0 -129.6024,-41.405154 -349.4202,-31.410615 -57.57151,5.743308 -68.18588,4.764065 -234.08588,56.164062 -165.9,51.4 -302.283,74.018 -420.266,69.337 -117.983,-4.681 -159.35,-45.4 -249.8,-46.4 C 18.281218,141.5798 0,153.89767 0,153.89767 l 0.05997837,110.91174 z"
+     inkscape:connector-curvature="0"
+     style="fill:#ff8902"
+     sodipodi:nodetypes="ccsssccccsssccc" />
+  <path
+     id="Caminho_270"
+     data-name="Caminho 270"
+     d="m 17.531218,-338.7842 v 42.712 H 1297.5312 v -124.148 c -87.516,27.872 -263.082,74.3 -471.59998,78.306 -241.931,4.628 -559.894,-48 -804.211002,1.651 -1.635,0.332 -2.229,1.065 -4.189,1.479 z"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff;fill-rule:evenodd" />
+</svg>
