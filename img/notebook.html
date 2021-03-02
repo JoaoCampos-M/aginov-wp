@@ -65,13 +65,19 @@ return lottie2;
         container: document.getElementById('lottie2'),
         renderer: 'svg',
         loop: true,
-        autoplay: true,
+        autoplay: false,
         animationData: animationData
     };
 
-    var anim;
-
-    anim = lottie2.loadAnimation(params);
+    var notebook;
+    console.log(params.container.parentNode);
+    notebook = lottie2.loadAnimation(params);
+    params.container.parentNode.addEventListener("mouseover", function(){
+       notebook.play();
+    });
+    params.container.parentNode.addEventListener("mouseleave", function(){
+       notebook.stop();
+    });
 
 </script>
 </body>

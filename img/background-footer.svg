@@ -7,25 +7,27 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1299.113"
-   height="185.69299999999998"
+   width="1305.0955"
+   height="288.35986"
+   viewBox="0 0 1305.0955 288.35986"
    version="1.1"
-   id="svg65"
+   id="svg20"
    sodipodi:docname="background-footer.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
-     id="metadata71">
+     id="metadata26">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs69" />
+     id="defs24" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -35,49 +37,28 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="718"
-     id="namedview67"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview22"
      showgrid="false"
-     inkscape:zoom="0.6379192"
-     inkscape:cx="727.79475"
-     inkscape:cy="47.4176"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:zoom="0.66208534"
+     inkscape:cx="784.43286"
+     inkscape:cy="110.00645"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="OBJECTS" />
-  <g
-     id="g54">
-    <title
-       id="title51">background</title>
-    <rect
-       fill="none"
-       id="canvas_background"
-       height="187.693"
-       width="1301.113"
-       y="-1"
-       x="-1" />
-  </g>
-  <g
-     id="g63">
-    <title
-       id="title56">Layer 1</title>
-    <g
-       id="Grupo_3406">
-      <g
-         id="Camada_2"
-         transform="matrix(1.1115451,0,0,1,0.52609231,0)"
-         style="stroke-width:0.94849807">
-        <g
-           id="OBJECTS"
-           style="stroke-width:0.94849807">
-          <path
-             d="m 464.67659,96.53858 c 233.018,-0.747 522.736,-50.032 772.77101,-23.455 -238.06401,-44.2 -545.71701,3.114 -781.17501,-1.1 -203.802,-3.639 -375.364,-46.076 -460.989,-71.555 v 39.129 c 103.329,24.874 276.122,57.559 469.393,56.981 z"
-             id="Caminho_271"
-             inkscape:connector-curvature="0"
-             style="fill:#ff8902;fill-rule:evenodd;stroke-width:0.94849807" />
-        </g>
-      </g>
-    </g>
-  </g>
+     inkscape:current-layer="svg20" />
+  <path
+     id="Caminho_11207"
+     data-name="Caminho 11207"
+     d="m -24.979882,232.26101 c -3.156587,-29.96075 -7.862373,-84.9193 -7.862373,-84.9193 0,0 -6.364935,-86.266991 7.783369,-84.440941 C 47.141838,72.22019 127.92622,96.4206 213.6911,106.63416 c 110.18028,13.12241 218.91608,26.0379 325.22017,22.65556 11.77161,-0.37481 37.65151,-6.22834 49.42747,-6.97018 3.98411,-0.25131 32.50026,0.27252 36.24915,-0.0157 142.97889,-11.00521 379.66141,-17.9726 514.60191,-16.16478 52.2328,3.10404 88.3807,7.10484 135.1954,13.8355 46.8147,6.73066 52.0744,13.09331 52.0744,13.09331 l 3.1556,235.92766 c 0,0 -1206.98173,-6.9652 -1354.595082,-14.39382 z"
+     inkscape:connector-curvature="0"
+     style="fill:#018194;stroke-width:1.01486146"
+     sodipodi:nodetypes="ccccccccscccc" />
+  <path
+     style="fill:#ff8902;fill-rule:evenodd"
+     inkscape:connector-curvature="0"
+     d="m 446.42125,137.04102 c 233.01801,-0.747 522.73601,-50.032013 772.77085,-23.45501 -238.06394,-44.200003 -545.71684,3.114 -781.17485,-1.1 -203.802,-3.639 -375.363995,-46.076003 -460.988995,-71.555003 v 39.129 c 103.329,24.874003 276.121995,57.559013 469.392995,56.981013 z"
+     data-name="Caminho 271"
+     id="Caminho_271" />
 </svg>

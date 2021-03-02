@@ -31,7 +31,7 @@
           </p>
           <a class="btn-saibamais">Saiba Mais</a>
           <div class="card-h-body p-rel">
-            <?php require('img/pc-card-inicial.html');?>
+            <?php require('img/notebook.html');?>
           </div>
         </div>
         <div class="card-h-item">
@@ -48,7 +48,8 @@
             <strong> Empreendedorismo </strong> e Logística
           </p>
           <a class="btn-saibamais">Saiba Mais</a>
-          <div class="card-h-body p-rel">            
+          <div class="card-h-body p-rel">
+            <?php include('img/rocket.html');?>            
           </div>
         </div>
       </div>

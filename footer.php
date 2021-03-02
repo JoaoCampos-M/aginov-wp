@@ -1,8 +1,7 @@
   <footer class="p-rel">
   
-    <img class="bg-footer temp2" src="<?php bloginfo('template_url'); ?>/img/background-footer-novo.svg">
-    <img class="bg-footer" src="<?php bloginfo('template_url'); ?>/img/background-footer-novo.svg">
-    <img class="bg-footer temp2" src="<?php bloginfo('template_url'); ?>/img/background-footer-line.svg ">
+    <img class="bg-footer" src="<?php bloginfo('template_url'); ?>/img/background-footer.svg">
+    <img class="bg-footer temp2" src="<?php bloginfo('template_url'); ?>/img/background-footer.svg">
         
     <div class="container-footer">
       <div class="desenvolvido d-flex fd-col j-end">
@@ -37,6 +36,5 @@
   <script src="<?php bloginfo('template_url'); ?>/js/map.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/menu-dropdown.js"></script>
   <script src="<?php bloginfo('template_url'); ?>/js/social-toggle2.js" ></script>
-  
 </body>
 </html>

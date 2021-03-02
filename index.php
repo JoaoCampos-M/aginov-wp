@@ -8,7 +8,7 @@
   $my_query =new WP_Query($my_args);  
   if($my_query->have_posts()):while( $my_query->have_posts() ): $my_query->the_post(); 
 ?>
-<section class="container p-rel">
+<section class="container p-rel mt-5">
   <div class="services-description">
     <div class="description-item">
       <h1 class="title-1">Vitrine</h1>
@@ -281,7 +281,7 @@
 <img class="bg-contatos img-bg" src="<?php bloginfo('template_url'); ?>/img/background-midias.svg" alt="">
 <img class="bg-contatos img-bg temp5" src="<?php bloginfo('template_url'); ?>/img/background-midias3.svg" alt="">
 
-<section class="container p-rel mg-t-20">
+<section class="container p-rel mg-t-20 mb-10">
   <div class="services-description">
     <div class="description-item text-align-right desktop">
       <h3 class="caption-2">Venha Conhecer a</h3>

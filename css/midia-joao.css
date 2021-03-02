@@ -95,6 +95,12 @@
   footer p{
      text-align: center;
   }
+  .icon{
+    margin-bottom:10px;
+  }
+  .icon img{
+    width:30px;
+  }
   .card-h-item .card-h-body{
     max-height: initial;
   }

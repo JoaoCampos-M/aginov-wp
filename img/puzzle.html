@@ -70,9 +70,16 @@ return lottie_puzzle;
         animationData: animationData
     };
 
-    var anim;
+    var puzzle;
 
-    anim = lottie_puzzle.loadAnimation(params);
+    puzzle = lottie_puzzle.loadAnimation(params);
+    params.container.parentNode.addEventListener("mouseover", function(){
+       puzzle.play();
+    });
+    params.container.parentNode.addEventListener("mouseleave", function(){
+       puzzle.stop();
+    });
+
 
 </script>
 </body>
