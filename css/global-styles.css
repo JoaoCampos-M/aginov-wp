@@ -49,6 +49,9 @@ a {
 .j-end{
   justify-content: flex-end;
 }
+.j-cent{
+  justify-content: center;
+}
 .float-r {
   float: right;
 }
