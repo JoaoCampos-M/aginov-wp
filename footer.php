@@ -4,16 +4,16 @@
     <img class="bg-footer temp2" src="<?php bloginfo('template_url'); ?>/img/background-footer.svg">
         
     <div class="container-footer">
-      <div class="desenvolvido d-flex fd-col j-end">
+      <div class="desenvolvido d-flex fd-col j-cent">
         <p class="color-1 font-1">Unemat – Universidade do Mato Grosso Desenvolvido por Risc - Centro de Inovação</p>
       </div>
-      <div class="endereco desktop d-flex fd-col j-end ">
+      <div class="endereco desktop d-flex fd-col j-cent ">
         <p class="color-1 font-3 margin">Endereço</p>
         <p class="color-1 font-4">Av. Tal, 2230</p>
         <p class="color-1 font-4">Cavalhada II, Cáceres </p>
         <p class="color-1 font-4">Brasil - 782xxxx</p>
       </div>
-      <div class="fale-conosco d-flex fd-col j-end">
+      <div class="fale-conosco d-flex fd-col j-cent">
         <p class="color-1 font-2 margin">Fale conosco</p>
         <p class="color-1 font-1">Contato@unemat.br</p>
         <p class="color-1 font-1">+55 (65) 99999-9999 </p>

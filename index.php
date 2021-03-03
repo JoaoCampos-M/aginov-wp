@@ -1,13 +1,5 @@
+<?php get_header(); ?>
 <?php include('banner-index.php'); ?>
-
-<?php 
-  $my_args = array(
-    'post_type' => 'index',
-    'post_per_page' => 1,
-  );
-  $my_query =new WP_Query($my_args);  
-  if($my_query->have_posts()):while( $my_query->have_posts() ): $my_query->the_post(); 
-?>
 <section class="container p-rel mt-5">
   <div class="services-description">
     <div class="description-item">
@@ -18,9 +10,9 @@
         <b>INOVE</b> na sua empresa.
       </p> -->
       <p class="text margin-left">
-        <?php echo get_post_meta($post->ID ,'vitrine_de_tecnologia', true) ?>
+        <?php echo get_theme_mod('vitrine_tecnologia',""); ?>
       </p>
-      <button type="submit" class="btn-blue">Saber Mais</button>
+      <a class="btn-blue" href="<?php echo get_theme_mod('vitrine_link',"");?>" >Saber Mais</a>
     </div>
     <div class="description-item desktop">
       <div class="animated-desktop">
@@ -43,10 +35,10 @@
           interagem como um <b>Ecossistema</b>
         </p> -->
         <p class="text margin-right  text-align">
-          <?php echo get_post_meta($post->ID,'ecossistema_de_inovacao', true); ?>
+          <?php echo get_theme_mod('ecossistema_text',""); ?>
         </p>
       </div>
-      <button type="submit" class="btn-blue float-r">Saber Mais</button>
+      <a href="<?php echo get_theme_mod('ecossistema_link'); ?>" class="btn-blue float-r">Saber Mais</a>
     </div>
   </div>
   <img class="img-bg vitrine-circle" src="<?php bloginfo('template_url'); ?>/img/circles-line.svg" alt="">
@@ -65,36 +57,32 @@
       <p class="caption-2">Intelectual</p>
       <div class="text-container">
         <!-- <p class="txt-1">
-          A Propriedade Intelectual indica a produção do intelecto nos
-          segmentos industrial, científico, literário ou artístico. Assim
-          algumas criações intelectuais poderão ter uma proteção definida
-          por legislação.
+
         </p> -->
         <p class="txt-1">
-          <?php echo get_post_meta($post->ID,'propriedade_intelectual',true); ?>
+          <?php echo get_theme_mod('propriedade_text',""); ?>
         </p>
       </div>
-      <a class="btn-saber-mais-1" href="">Saber Mais</a>
+      <a class="btn-saber-mais-1" href="<?php echo get_theme_mod('propriedade_link');?>">Saber Mais</a>
     </div>
 
     <img class="desktop" src="<?php bloginfo('template_url'); ?>/img/img-computer-propriedade.svg" />
   </div>
-  <?php endwhile;endif; ?>
-  <?php wp_reset_query()?>
+
 </section>
 <section class="container p-rel">
   <div class="services-description">
     <div class="description-item mg-1 order-desk">
       <div class="cards-lives-groups">
-        <?php 
+        <?php
             $my_args = array(
               'post_type' => 'events',
               'post_per_page' => 3,
             );
-            $my_query =new WP_Query($my_args);          
+            $my_query =new WP_Query($my_args);
             ?>
 
-        <?php 
+        <?php
             if($my_query->have_posts()):while( $my_query->have_posts() ): $my_query->the_post();?>
 
         <div class="cards-lives">
@@ -207,7 +195,7 @@
         </div>
       </div>
       <div class="card-ms-body check-content-face d-block ">
-        <?php 
+        <?php
           $my_args = array(
             'category_name'=>'facebook-feed',
             'posts_per_page' => 1,
@@ -227,12 +215,12 @@
           <p>Instagram</p>
         </a>
         <!-- <img src="<?php bloginfo('template_url'); ?>/img/instagram.svg" /> -->
-        <?php 
+        <?php
             $my_args = array(
               'category_name' => 'instagram-feed',
               'post_per_page' => 1,
             );
-            $my_query =new WP_Query($my_args);          
+            $my_query =new WP_Query($my_args);
             ?>
 
         <?php if($my_query->have_posts()): $my_query->the_post();?>
@@ -255,8 +243,8 @@
         <img src="<?php bloginfo('template_url'); ?>/img/youtube.svg" alt="" />
       </div>
       <div class="card-ms-body">
-        
-        <?php 
+
+        <?php
           $my_args = array(
             'category_name'=>'youtube-feed',
             'posts_per_page' => 1,
@@ -301,7 +289,7 @@
       <h3 class="caption-2">Transparência Pública</h3>
       <div class="text-container">
         <p class="txt-1 margin-right-green">
-          <?php 
+          <?php
             $my_args = array(
               'post_type'=>'endereco',
               'posts_per_page'=>'1'
@@ -312,16 +300,16 @@
             <strong class="text-1">Fale Conosco</strong>
             Agência de Inovação da Universidade do Estado de Mato Grosso
             <br> <br>
-            <?php echo get_post_meta($post->ID, 'local', true);?><br>
-            <?php echo get_post_meta($post->ID, 'endereco',true );?><br>
-            Cep: <?php echo get_post_meta( $post->ID, 'cep', true )?> <br>
-            Telefones: <?php echo get_post_meta( $post->ID, 'contato', true);?><br>
-            Email: <?php echo get_post_meta( $post->ID, 'email', true );?><br>
+            <?php echo get_theme_mod('rua');?>, N° <?php echo get_theme_mod('numero'); ?>, <?php echo get_theme_mod('bairro'); ?><br>
+            <?php //echo get_post_meta($post->ID, 'endereco',true );?>
+            Cep: <?php echo get_theme_mod('cep');?> <?php echo get_theme_mod('cidade');?> <br>
+            Telefones: <?php echo get_theme_mod( 'telefone');?><br>
+            Email: <?php echo get_theme_mod('email');?><br>
             <br><br>
             Horário de expediente:<br>
             Matutino: 08h às 12h<br>
             Vespertino: 14h às 18h<br>
-          <?php  
+          <?php
             endif;
             wp_reset_query();
           ?>

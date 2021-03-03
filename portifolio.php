@@ -1,4 +1,5 @@
 <?php /*Template name: Portifólio */ ?>
+<?php get_header(); ?>
 <?php include('banner-portifolio.php');?>
 <section>
       <img class="bg-header-cicle-1" src="<?php bloginfo('template_url'); ?>/img/circles-line.svg" />
