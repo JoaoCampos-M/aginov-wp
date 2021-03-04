@@ -15,6 +15,9 @@
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/midia-joao.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/toggle.css" />
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" />
+  <script src="<?php bloginfo('template_url' );?>/js/jquery-3.6.0.min.js"></script>
+
   <?php wp_head();?>
+
 </head>
 <body>
