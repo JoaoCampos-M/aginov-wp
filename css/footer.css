@@ -24,7 +24,8 @@ footer p {
 }
 
 .logo-footer img {
-  margin: auto;
+  max-width: 110px;
+  width: 5vw;
 }
 
 .desenvolvido {
@@ -37,4 +38,9 @@ footer p {
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
+}
+
+.container-footer .fale-conosco .icon img{
+  width: 20px;
+  margin-bottom: 1px;
 }

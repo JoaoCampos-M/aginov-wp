@@ -71,7 +71,9 @@ function verify(obj){
 }
 
 for(let c =0;c<3;c++){
-  redes[c].control.addEventListener('change',()=>{
-    verify(redes[c]);
-  });
+	if(redes[c].control!=undefined && redes[c].control!=null){
+		redes[c].control.addEventListener('change',()=>{
+			verify(redes[c]);
+		});
+	}
 }

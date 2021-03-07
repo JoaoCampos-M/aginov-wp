@@ -14,8 +14,10 @@ function mapToggle(elClass){
 addClickMap('.map-indicator-1','.map-preview-1');
 function addClickMap(elClass,elClassOp){
   let el=document.querySelector(elClass);
-  el.addEventListener('click',()=>{
-    mapToggle(elClassOp);
-  });
+  if(el != undefined){
+	el.addEventListener('click',()=>{
+		mapToggle(elClassOp);
+	});
+  }
 }
 

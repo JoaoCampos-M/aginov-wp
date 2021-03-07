@@ -11,8 +11,8 @@
   }
   .card-h-item {
     margin: 10px 5px;
-    
- 
+
+
   }
   .card-h-titulo {
     font-size: 1.1rem;
@@ -83,7 +83,7 @@
   }
   .bg-footer {
     bottom: initial;
-    margin-top: -6vh;
+    margin-top: -9vh;
   }
 }
 @media (max-width: 480px) {

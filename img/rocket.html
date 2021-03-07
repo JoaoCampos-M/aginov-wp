@@ -53,7 +53,7 @@ return lottie_rocket;
 <div id="lottie_rocket"></div>
 
 <script>
-    if (url == undefined) {
+	 if (url == undefined) {
         var url = window.location.href;
         url = url.split('/');
     }
@@ -81,8 +81,7 @@ return lottie_rocket;
         animationData: animationData
     };
 
-    var rocket;
-
+	 var rocket;
     rocket = lottie_rocket.loadAnimation(params);
     params.container.addEventListener("mouseover", function(){
         rocket.play();

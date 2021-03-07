@@ -14,8 +14,7 @@
         Acesse nosso Portfólio de patentes, softwares e outros ativos e INOVE na sua empresa.</p>
       <button type="submit" class="btn-blue">Saber Mais</button>
     </div>
-      <img class="" src="<?php bloginfo('template_url'); ?>/img/portifolio.svg"
-      alt="">
+      <img class="desktop" src="<?php bloginfo('template_url'); ?>/img/portifolio.svg" alt="">
       </div>
     </section>
     <img class="bg-header-wave-2 img-bg temp2 bt-0" src="<?php bloginfo('template_url'); ?>/img/portifolio-wave.svg"
@@ -26,4 +25,3 @@
     <img class="bg-header-wave-2 img-bg temp1 bt-8" src="<?php bloginfo('template_url'); ?>/img/background-header3.svg"
       alt="">
   </div>
-  

@@ -1,9 +1,10 @@
-  <footer class="p-rel">
-  
+  <footer class="p-rel mt-5">
+
     <img class="bg-footer" src="<?php bloginfo('template_url'); ?>/img/background-footer.svg">
     <img class="bg-footer temp2" src="<?php bloginfo('template_url'); ?>/img/background-footer.svg">
-        
+
     <div class="container-footer">
+		 <!-- <a href="<?php echo home_url(); ?>">Navegar</a> -->
       <div class="desenvolvido d-flex fd-col j-cent">
         <p class="color-1 font-1">Unemat – Universidade do Mato Grosso Desenvolvido por Risc - Centro de Inovação</p>
       </div>
@@ -26,7 +27,7 @@
         </div>
       </div>
       <div class="logo-footer desktop">
-        <img  src="http://localhost/aginov-wp/wp-content/themes/AginovTema/img/brasao-unemat-colorido.svg" alt="" >
+        <img class="brasao_unemat_footer"  src="<?php bloginfo('template_url');?>/img/brasao-unemat.svg" alt="" >
       </div>
     </div>
   </footer>
