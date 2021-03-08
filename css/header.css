@@ -7,7 +7,7 @@ header {
 
 .zindex{
   z-index: -2 !important;
-  
+
 }
 .bg-header-wave {
   position: absolute;
@@ -39,7 +39,7 @@ header .logo-vitrine img {
 
 .menu-icones {
   display: flex;
-  width: 95vw;
+  width: 98vw;
   margin: 0px auto;
   justify-content: space-around;
 }
@@ -108,7 +108,7 @@ header .logo-vitrine img {
 .search-forms {
   max-width: 180px;
   min-height: 40px;
-  
+
 }
 
 .barra-pesquisa {
@@ -141,7 +141,7 @@ header .logo-vitrine img {
   width: 25px;
   padding: 0 3px;
   background: none;
-  
+
 }
 .d-none {
   display: none;
@@ -196,8 +196,8 @@ header .logo-vitrine img {
   justify-content: center;
   z-index: 1;
   border: solid .5px #018194 ;
-  
-  
+
+
 }
 
 .elements-list{

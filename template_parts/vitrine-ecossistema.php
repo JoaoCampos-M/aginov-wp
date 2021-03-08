@@ -38,7 +38,7 @@
           promovendo inspirar ambientes de inovação que se comunicam e
           interagem como um <b>Ecossistema</b>
         </p> -->
-        <p class="text margin-right  text-align">
+        <p class="text margin-right  align-r">
           <?php echo get_theme_mod('ecossistema_text',""); ?>
         </p>
       </div>

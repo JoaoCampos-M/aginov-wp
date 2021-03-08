@@ -1,4 +1,4 @@
-<?php /*template name: Subpage */?>
+<?php /*template name: Propriedade Intelectual*/?>
 <?php get_header();?>
 
 <?php include('banner-portifolio.php'); ?>

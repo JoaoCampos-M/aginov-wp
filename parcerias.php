@@ -1,4 +1,4 @@
-<?php /*template name: Subpage */?>
+<?php /*template name: Parcerias */?>
 <?php get_header();?>
 
 <?php include('banner-portifolio.php'); ?>
