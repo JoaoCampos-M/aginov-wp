@@ -6,28 +6,32 @@
     <div class="container-footer">
 		 <!-- <a href="<?php echo home_url(); ?>">Navegar</a> -->
       <div class="desenvolvido d-flex fd-col j-cent">
-        <p class="color-1 font-1">Unemat – Universidade do Mato Grosso Desenvolvido por Risc - Centro de Inovação</p>
+		<div class="logo-footer desktop d-flex j-cent">
+        <img class="brasao_unemat_footer"  src="<?php bloginfo('template_url');?>/img/brasao-unemat.svg" alt="" >
       </div>
-      <div class="endereco desktop d-flex fd-col j-cent ">
+        <p class="color-1 font-1 txt-cent">Unemat<br/> Universidade do Estado de Mato Grosso </p>
+      </div>
+      <div class="endereco desktop d-flex fd-col j-end ">
         <p class="color-1 font-3 margin">Endereço</p>
         <p class="color-1 font-4">Av. Tal, 2230</p>
         <p class="color-1 font-4">Cavalhada II, Cáceres </p>
         <p class="color-1 font-4">Brasil - 782xxxx</p>
       </div>
-      <div class="fale-conosco d-flex fd-col j-cent">
-        <p class="color-1 font-2 margin">Fale conosco</p>
-        <p class="color-1 font-1">Contato@unemat.br</p>
-        <p class="color-1 font-1">+55 (65) 99999-9999 </p>
+      <div class="fale-conosco d-flex fd-col j-end">
 
-
-        <div class="icon">
-          <img src="<?php bloginfo('template_url'); ?>/img/facebook-icon.svg" alt="">
-          <img src="<?php bloginfo('template_url'); ?>/img/twitter-3.svg" alt="">
-          <img src="<?php bloginfo('template_url'); ?>/img/instagram-2016.svg" alt="">
+			<p class="color-1 font-2 margin">Fale conosco</p>
+			<p class="color-1 font-1">Contato@unemat.br</p>
+			<p class="color-1 font-1">+55 (65) 99999-9999 </p>
+			<div class="icon">
+			<img src="<?php bloginfo('template_url');?>/img/twitter-info.svg" alt="">
+          <img src="<?php bloginfo('template_url');?>/img/facebook-info.svg" alt="">
+          <img src="<?php bloginfo('template_url');?>/img/instagram-2016.svg" alt="">
         </div>
       </div>
-      <div class="logo-footer desktop">
-        <img class="brasao_unemat_footer"  src="<?php bloginfo('template_url');?>/img/brasao-unemat.svg" alt="" >
+      <div class="logo-footer desktop d-flex fd-col j-end">
+		<img class="risc"  src="<?php bloginfo('template_url');?>/img/RISC.png" alt="" >
+
+		<p> Desenvolvido por Risc - Centro de Inovação</p>
       </div>
     </div>
   </footer>

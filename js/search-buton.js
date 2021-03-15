@@ -48,7 +48,7 @@ console.log(imgFoot);
 if((imgFoot != undefined) && (imgFoot != null)){
 
 	imgFoot.addEventListener('mouseover',()=>{
-		console.log('ativou mouseover');
+		// console.log('ativou mouseover');
 		imgSet();
 	})
 }

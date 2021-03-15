@@ -1,4 +1,4 @@
-<section class="container p-rel mg-t-20 mb-10">
+<section id="trasparencia" class="container p-rel mg-t-20 mb-10">
   <div class="services-description">
     <div class="description-item text-align-right desktop">
       <h3 class="caption-2">Venha Conhecer a</h3>
@@ -18,14 +18,7 @@
       <h3 class="caption-2">Transparência Pública</h3>
       <div class="text-container">
         <p class="txt-1 margin-right-green">
-          <?php
-            $my_args = array(
-              'post_type'=>'endereco',
-              'posts_per_page'=>'1'
-            );
-            $my_query = new WP_Query($my_args);
-            if($my_query->have_posts()):$my_query->the_post();
-            ?>
+
             <strong class="text-1">Fale Conosco</strong>
             Agência de Inovação da Universidade do Estado de Mato Grosso
             <br> <br>
@@ -38,10 +31,6 @@
             Horário de expediente:<br>
             Matutino: 08h às 12h<br>
             Vespertino: 14h às 18h<br>
-          <?php
-            endif;
-            wp_reset_query();
-          ?>
         </p>
       </div>
     </div>

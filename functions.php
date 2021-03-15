@@ -34,6 +34,20 @@ function create_post_type() {
           'supports' => array('title','custom-fields'),
       )
   );
+  register_post_type( 'propriedade',
+  array(
+      'taxonomies'  => array( 'category' ),
+      'labels' => array(
+          'name' => __( 'Propriedade Intelectual' ),
+          'singular_name' => __( 'propriedade intelectual' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+      'show_in_rest' => true,
+      'supports' => array('title','editor')
+  )
+);
+
 }
 add_action( 'init', 'create_post_type' );
 

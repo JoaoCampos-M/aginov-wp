@@ -13,7 +13,7 @@
    version="1.1"
    id="svg3799"
    sodipodi:docname="background-header.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <metadata
      id="metadata3803">
     <rdf:RDF>
@@ -35,14 +35,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1366"
-     inkscape:window-height="705"
+     inkscape:window-height="718"
      id="namedview3801"
      showgrid="false"
-     inkscape:zoom="1.026315"
-     inkscape:cx="534.72349"
-     inkscape:cy="104.4989"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:zoom="0.36285715"
+     inkscape:cx="670.5314"
+     inkscape:cy="-27.306886"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="Grupo_de_máscara_9" />
   <defs
@@ -66,8 +66,8 @@
     <path
        id="Caminho_15079"
        data-name="Caminho 15079"
-       d="M216.532-2.1s98.212,41.763,185.841,159.745,87.679,258.882,251.346,464.622,259.718,313.8-189.586,515.38c-25.61,11.49,145.018-174.735,145.018-174.735L107.777,276.235-1.179,120.629Z"
-       transform="matrix(-0.574, 0.819, -0.819, -0.574, 1626.71, -2740.942)"
-       fill="#ff8902" />
+       d="m 1504.1405,-2572.3974 c 0,0 -90.5776,56.4637 -237.5039,60.5102 -146.9263,4.0464 -262.3521,-76.7892 -524.79798,-60.8407 -262.44592,15.9485 -406.08033,32.5879 -313.27385,-451.099 5.28983,-27.5699 59.86763,219.0676 59.86763,219.0676 l 850.1771,-16.4727 189.9821,0.083 z"
+       inkscape:connector-curvature="0"
+       style="fill:#ff8902;stroke-width:1.00011849" />
   </g>
 </svg>

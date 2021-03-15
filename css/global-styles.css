@@ -38,7 +38,9 @@ strong {
 li,ul{
   list-style: none;
 }
-
+.txt-cent{
+	text-align: center;
+}
 a {
   text-decoration: none;
   cursor: pointer;

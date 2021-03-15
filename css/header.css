@@ -24,11 +24,11 @@ header .logo-Aginov{
 }
 
 header .logo-Aginov img{
-  width: 100%;
+  width: 80%;
 }
 
 header .logo-vitrine{
-  width: 9vw;
+  width: 7vw;
   max-height: 158px;
 }
 
@@ -106,7 +106,7 @@ header .logo-vitrine img {
 }
 
 .search-forms {
-  max-width: 180px;
+  max-width: 9vw;
   min-height: 40px;
 
 }
@@ -120,7 +120,7 @@ header .logo-vitrine img {
   border: 1px;
   border-radius: 15px;
   padding: 2px 25px 2px 5px;
-  width: 170px;
+  width: 100%;
 }
 
 .search-button {
@@ -166,16 +166,15 @@ header .logo-vitrine img {
 
 .baner-inicio {
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
 }
 
 .bg-header-wave-2 {
   position: absolute;
   width: 100vw;
-  bottom: -5vw;
+  bottom: 5vw;
   z-index: -1;
 }
-
 
 /* menu mobile */
 .dropdown  .btn-drop{

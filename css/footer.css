@@ -26,8 +26,13 @@ footer p {
 .logo-footer img {
   max-width: 110px;
   width: 5vw;
+	margin:0px auto;
 }
-
+.logo-footer .risc{
+	max-width: initial;
+	width: 8vw;
+	margin: 5px auto;
+}
 .desenvolvido {
   margin-top: 25px;
   width: 30%;
@@ -37,10 +42,10 @@ footer p {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .container-footer .fale-conosco .icon img{
-  width: 20px;
+  width: 30px;
   margin-bottom: 1px;
 }

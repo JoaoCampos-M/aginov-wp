@@ -14,6 +14,7 @@ var face = {
 };
 var redes = [face,insta,twit];
 
+ 
 function checkToggle(obj){
   let result;
   if(obj.checked == true){

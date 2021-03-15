@@ -1,7 +1,7 @@
 <?php /*template name: Subpage */?>
 <?php get_header();?>
 
-<?php include('banner-portifolio.php'); ?>
+<?php include('banner-portifolio.php');  ?>
 
 <section class="section-info container d-flex">
   <div class="menu-info">

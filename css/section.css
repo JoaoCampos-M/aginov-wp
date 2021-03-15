@@ -278,10 +278,18 @@ a.midia-button p {
 .section-info {
 	position: relative;
 	margin: 3vw 0 3vw 0;
+	padding: 30px 13vw;
+}
+.section-info .i-selected{
+	background-color: #ff8902;
+}
+.img-bn-portifolio{
+	width: 70%;
+  margin: 10px auto;
 }
 
 .menu-info {
-	width: 40%;
+	width: 42%;
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 5vh;
@@ -293,6 +301,7 @@ a.midia-button p {
 }
 
 .item-menu-info {
+	cursor: pointer;
 	padding: 3px 15px;
 	border: 1px solid #f5f5f5;
 	background-color: var(--verde);
@@ -363,8 +372,9 @@ a.midia-button p {
 }
 
 .info-content {
-	width: 50%;
+	width: 55%;
 	padding: 0px 20px;
+	margin: 0px auto;
 }
 .text-legenda {
 	color: white;
@@ -381,6 +391,7 @@ a.midia-button p {
 	min-width: 265px;
 	padding: 5px 0;
 	width: 100%;
+	text-align: justify ;
 }
 .paragraph-title,.info-txt{
 	color: var(--verde);
