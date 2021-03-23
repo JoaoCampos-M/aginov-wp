@@ -29,7 +29,6 @@ header .logo-Aginov img{
 
 header .logo-vitrine{
   width: 7vw;
-  max-height: 158px;
 }
 
 header .logo-vitrine img {
@@ -156,7 +155,7 @@ header .logo-vitrine img {
 
 .barra-navbar {
   height: 3px;
-  width: 20%;
+  width: 1.2rem;;
   background-color: white;
   margin-left: 15px;
   animation-fill-mode: forwards;

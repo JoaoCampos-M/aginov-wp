@@ -45,7 +45,7 @@
       <a href="<?php echo get_theme_mod('ecossistema_link'); ?>" class="btn-blue float-r">Saber Mais</a>
     </div>
   </div>
-  <img class="img-bg vitrine-circle" src="<?php bloginfo('template_url'); ?>/img/circles-line.svg" alt="">
+  <img class="img-bg vitrine-circle circle1" src="<?php bloginfo('template_url'); ?>/img/circles-line.svg" alt="">
   <img class="img-bg vitrine-circle2" src="<?php bloginfo('template_url'); ?>/img/circles-line.svg" alt="">
   <img class="img-bg vitrine-square" src="<?php bloginfo('template_url'); ?>/img/square-divided.svg" alt="">
 </section>

@@ -164,7 +164,7 @@ section.prop-intelectual {
 }
 .img-bg {
 	position: absolute;
-	z-index: -1;
+	z-index: -2;
 }
 .vitrine-circle {
 	top: 0;
@@ -289,7 +289,7 @@ a.midia-button p {
 }
 
 .menu-info {
-	width: 42%;
+	width: 25%;
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 5vh;
@@ -372,7 +372,7 @@ a.midia-button p {
 }
 
 .info-content {
-	width: 55%;
+	width: 75%;
 	padding: 0px 20px;
 	margin: 0px auto;
 }
@@ -399,5 +399,19 @@ a.midia-button p {
 .info-principal-title{
 	color: var(--verde);
 	font-family: Rubik-Bold;
-	font-size: 2.5rem;
+	font-size: 3rem;
+	margin-bottom: 4vh;
+}
+.info-content .description-item{
+	max-width: initial;
+}
+.circle1{
+  animation: circle1 15s 0s ease-in-out infinite normal;
+}
+
+.circle2{
+  animation: circle2 14s 0s ease-in-out infinite normal;
+}
+.square1{
+  animation: square1 10s 0s ease-in-out infinite normal;
 }

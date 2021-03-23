@@ -1,5 +1,4 @@
-<?php /*template name: Propriedade Intelectual (Categoria 1)*/ ?>
-
+<?php /*template name: Propriedade Intelectual (Categoria 2)*/ ?>
 <?php get_header(); ?>
 
 <?php include('menu.php'); ?>
@@ -10,7 +9,7 @@
 
 		<?php
 		$my_args = array(
-			'category_name' => 'PropriedadeIntelectual',
+			'category_name' => 'PropriedadePage',
 			'posts_per_page' => 3
 		);
 
@@ -31,8 +30,8 @@
 		endif;
 		wp_reset_query() ?>
 		<div class="buttons-list">
-		<a class="btn-menu" href="http://localhost/aginov-wp/index.php/propriedade/">page1</a>
-			<a class="btn-menu" href="http://localhost/aginov-wp/index.php/propriedade-intelectual/propriedadepage/">page2</a>
+			<a class="btn-menu" href="http://localhost/aginov-wp/index.php/propriedade/">page1</a>
+			<a class="btn-menu" href="http://localhost/aginov-wp/index.php/propriedadepage/">page2</a>
 		</div>
 
 	</div>
@@ -41,7 +40,7 @@
 		<h1 class="info-principal-title">Propriedade Intelectual</h1>
 		<?php
 			$my_args = array(
-				'category_name' => 'PropriedadeIntelectual',
+				'category_name' => 'PropriedadePage',
 				'posts_per_page' => 1,
 			);
 			$my_query = new WP_Query($my_args);
@@ -61,15 +60,5 @@
 		<?php wp_reset_query(); ?>
 
 </section>
-<div>
 
-<?php
-global $wp_query;
-$meuID = $wp_query->post->ID;
-$args = array(
-	'child_of' => $meuID,
-);
-	wp_list_pages($args);
-?>
-</div>
 <?php get_footer() ?>

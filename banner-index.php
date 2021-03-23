@@ -2,8 +2,8 @@
   <?php include('menu.php'); ?>
   <input id="templateUrl" class="d-none" type="text" value="<?php bloginfo('template_url')?>">
   <section>
-    <img class="bg-header-cicle-1" src="<?php bloginfo('template_url'); ?>/img/circles-line.svg" />
-    <img class="bg-header-square-1" src="<?php bloginfo('template_url'); ?>/img/square.svg" alt="" />
+    <img class="bg-header-cicle-1 circle2" src="<?php bloginfo('template_url'); ?>/img/circles-line.svg" />
+    <img class="bg-header-square-1 square1" src="<?php bloginfo('template_url'); ?>/img/square.svg" alt="" />
     <div class="cards-header">
       <div class="card-h-item">
         <p class="card-h-titulo">

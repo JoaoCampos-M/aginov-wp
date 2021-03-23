@@ -50,6 +50,11 @@ function create_post_type() {
 
 }
 add_action( 'init', 'create_post_type' );
-
+/*
+function enable_categories_for_pages() {
+  register_taxonomy_for_object_type('category', 'page');
+}
+add_action( 'init', 'enable_categories_for_pages' );
+*/
 require get_template_directory().'/inc/costumizer.php';
 ?>
