@@ -45,7 +45,21 @@ function create_post_type() {
       'has_archive' => true,
       'show_in_rest' => true,
       'supports' => array('title','editor')
-  )
+	)
+);
+
+register_post_type( 'parcerias',
+array(
+ 'taxonomies'  => array( 'category' ),
+ 'labels' => array(
+	  'name' => __( 'Parcerias' ),
+	  'singular_name' => __( 'Parcerias' )
+ ),
+ 'public' => true,
+ 'has_archive' => true,
+ 'show_in_rest' => true,
+ 'supports' => array('title','editor')
+)
 );
 
 }

@@ -1,7 +1,6 @@
-<?php /*template name: Propriedade Intelectual (Categoria 3)
+<?php /*
 		Template Name: single-parcerias
-		Template Post Type: parcerias
-
+		Template Post Type: parcerias, page
 */ ?>
 <?php get_header(); ?>
 

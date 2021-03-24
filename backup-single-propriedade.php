@@ -16,10 +16,11 @@ include('menu.php');
 		$t = get_the_title();
 		$c = get_the_content();
 		$categories = get_the_category($pos->ID);
+		$format = get_post_format( $post->ID );
 		foreach ( $categories as $category ) {
 			$cat = $category->cat_name;
 		}
-
+		echo $format;
 	?>
 <?php endif;?>
 <div class="menu-info">
@@ -27,7 +28,6 @@ include('menu.php');
 
 <?php
    $my_args = array(
-		'post_type'=>'propriedade',
 		'category_name' => $cat,
 		'posts_per_page' => 3
   	);
@@ -51,7 +51,7 @@ include('menu.php');
 				<h4 class="paragraph-title"><?php echo $t; ?></h4>
 			</a>
 			<div class="d-flex border-l m-tb-10">
-				<div class="info-txt"><?php echo $c;?></div>
+				<div class="info-txt"><?php echo $c; ?></div>
 			</div>
 	</div>
 </section>

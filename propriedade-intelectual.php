@@ -10,6 +10,7 @@
 
 		<?php
 		$my_args = array(
+			'post_type'=>'propriedade',
 			'category_name' => 'PropriedadeIntelectual',
 			'posts_per_page' => 3
 		);
@@ -31,8 +32,8 @@
 		endif;
 		wp_reset_query() ?>
 		<div class="buttons-list">
-		<a class="btn-menu" href="http://localhost/aginov-wp/index.php/propriedade/">page1</a>
-			<a class="btn-menu" href="http://localhost/aginov-wp/index.php/propriedade-intelectual/propriedadepage/">page2</a>
+		<a class="btn-menu" href="http://aginov.risc.lan/index.php/propriedade/">page1</a>
+			<a class="btn-menu" href="http://aginov.risc.lan/index.php/propriedade-intelectual/propriedadepage/">page2</a>
 		</div>
 
 	</div>
@@ -41,6 +42,7 @@
 		<h1 class="info-principal-title">Propriedade Intelectual</h1>
 		<?php
 			$my_args = array(
+				'post_type'=>'propriedade',
 				'category_name' => 'PropriedadeIntelectual',
 				'posts_per_page' => 1,
 			);
