@@ -64,7 +64,7 @@
 			<div class="social-icons">
 				<img src="<?php bloginfo('template_url'); ?>/img/youtube.svg" alt="" />
 			</div>
-			<div class="card-ms-body">
+			<div class="card-ms-body h-35w">
 				<?php
 					echo do_shortcode("[youtube-feed]");
 				?>

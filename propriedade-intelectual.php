@@ -9,13 +9,13 @@
 		<img class="desktop img-bn-portifolio" src="<?php bloginfo('template_url'); ?>/img/img-computer-propriedade.svg" alt="">
 
 		<?php
-		$my_args = array(
-			'post_type'=>'propriedade',
-			'category_name' => 'PropriedadeIntelectual',
-			'posts_per_page' => 3
-		);
+			$my_args = array(
+				'post_type'=>'propriedade',
+				'category_name' => 'PropriedadeIntelectual',
+				'posts_per_page' => 3
+			);
 
-		$my_query = new WP_Query($my_args);
+			$my_query = new WP_Query($my_args);
 		?>
 		<?php if ($my_query->have_posts()) : while ($my_query->have_posts()) : $my_query->the_post(); ?>
 				<!--
@@ -61,17 +61,20 @@
 		<?php endwhile;
 		endif; ?>
 		<?php wp_reset_query(); ?>
-
+		<img src="<?php bloginfo('template_url'); ?>/img/background-propriedade.svg" class="prop-int-bg desktop temp5">
+		<img src="<?php bloginfo('template_url'); ?>/img/wave-linha-subpagina.svg" class="prop-int-bg desktop temp2">
 </section>
 <div>
 
 <?php
-global $wp_query;
-$meuID = $wp_query->post->ID;
-$args = array(
-	'child_of' => $meuID,
-);
-	wp_list_pages($args);
+// global $wp_query;
+// $meuID = $wp_query->post->ID;
+// $args = array(
+// 	'child_of' => $meuID,
+// );
+// 	wp_list_pages($args);
 ?>
 </div>
+<?php include("template_parts/transparencia-publica.php");?>
+
 <?php get_footer() ?>

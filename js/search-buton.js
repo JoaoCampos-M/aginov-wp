@@ -35,28 +35,51 @@ function opensearch() {
 	}
 }
 
-function trocaImage() {
-	img = document.getElementById("brasao");
-	let a = document.getElementById("brasaobloginfo").value;
-	img.src = a + "/img/brasao-unemat-colorido.svg";
-	img.addEventListener("mouseout", () => {
-		img.src = a + "/img/brasao-unemat.svg";
-	});
-}
-let imgFoot = document.querySelector(".brasao_unemat_footer");
-console.log(imgFoot);
-if((imgFoot != undefined) && (imgFoot != null)){
+// function trocaImage() {
+// 	img = document.getElementById("brasao");
+// 	let a = document.getElementById("brasaobloginfo").value;
+// 	img.src = a + "/img/brasao-unemat-colorido.svg";
+// 	img.addEventListener("mouseout", () => {
+// 		img.src = a + "/img/brasao-unemat.svg";
+// 	});
+// }
+// let imgFoot = document.querySelector(".brasao_unemat_footer");
+// console.log(imgFoot);
+// if((imgFoot != undefined) && (imgFoot != null)){
 
-	imgFoot.addEventListener('mouseover',()=>{
-		// console.log('ativou mouseover');
-		imgSet();
-	})
+// 	imgFoot.addEventListener('mouseover',()=>{
+// 		console.log('ativou mouseover');
+// 		imgSet();
+// 	})
+// }
+// function imgSet(){
+// 	let img = document.querySelector(".brasao_unemat_footer");
+// 	let a = document.getElementById("brasaobloginfo").value;
+// 	img.src = a + "/img/brasao-unemat-colorido.svg";
+// 	img.addEventListener("mouseout", () => {
+// 		img.src = a + "/img/brasao-unemat.svg";
+// 	});
+// }
+
+function faztroca(urlA, urlN, qr){
+	img = document.querySelector(qr);
+	let valor = document.getElementById('brasaobloginfo').value;
+	console.log(valor);
+	img.src = valor+urlN;
+	img.addEventListener('mouseout',() => {
+		img.src = valor+urlA;
+	 });
 }
-function imgSet(){
-	let img = document.querySelector(".brasao_unemat_footer");
-	let a = document.getElementById("brasaobloginfo").value;
-	img.src = a + "/img/brasao-unemat-colorido.svg";
-	img.addEventListener("mouseout", () => {
-		img.src = a + "/img/brasao-unemat.svg";
+
+trocaImage('/img/brasao-unemat.svg','/img/brasao-unemat-colorido.svg','#brasao');
+trocaImage('/img/brasao-unemat.svg','/img/brasao-unemat-colorido.svg','.brasao_unemat_footer');
+trocaImage('/img/RiscLogobranca.svg','/img/RiscLogoFUNDOBRANCO','#brasaoRisc');
+
+
+function trocaImage(urlA, urlN, qr){
+	img = document.querySelector(qr);
+	console.log(img);
+	img.addEventListener('mouseover', () =>{
+		 faztroca(urlA, urlN, qr);
 	});
 }

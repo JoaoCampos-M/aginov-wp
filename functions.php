@@ -23,15 +23,19 @@ function create_post_type() {
   // Creating Post Type Events
   register_post_type( 'events',
       array(
-          'taxonomies'  => array( 'category' ),
-          'labels' => array(
-              'name' => __( 'Eventos' ),
-              'singular_name' => __( 'Eventos' )
-          ),
-          'public' => true,
-          'has_archive' => true,
-          'show_in_rest' => true,
-          'supports' => array('title','custom-fields'),
+			'taxonomies'  => array( 'category' ),
+			'labels' => array(
+				'name' => __( 'Eventos' ),
+				'singular_name' => __( 'Eventos' )
+			),
+			'public' => true,
+			'has_archive' => true,
+			'show_in_rest' => true,
+			'supports' => array('title','custom-fields'),
+			'show_in_admin_bar'   => false,
+			'show_in_nav_menus'   => false,
+			'publicly_queryable'  => false,
+			'query_var'           => false
       )
   );
   register_post_type( 'propriedade',
@@ -49,17 +53,17 @@ function create_post_type() {
 );
 
 register_post_type( 'parcerias',
-array(
- 'taxonomies'  => array( 'category' ),
- 'labels' => array(
-	  'name' => __( 'Parcerias' ),
-	  'singular_name' => __( 'Parcerias' )
- ),
- 'public' => true,
- 'has_archive' => true,
- 'show_in_rest' => true,
- 'supports' => array('title','editor')
-)
+	array(
+		'taxonomies'  => array( 'category' ),
+		'labels' => array(
+			'name' => __( 'Parcerias' ),
+			'singular_name' => __( 'Parcerias' )
+		),
+		'public' => true,
+		'has_archive' => true,
+		'show_in_rest' => true,
+		'supports' => array('title','editor')
+	)
 );
 
 }

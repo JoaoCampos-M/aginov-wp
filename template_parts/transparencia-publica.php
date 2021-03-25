@@ -1,4 +1,4 @@
-<section id="trasparencia" class="container p-rel mg-t-20 mb-10">
+<section id="trasparencia" class="container p-rel mg-t-12 mb-10">
   <div class="services-description">
     <div class="description-item text-align-right desktop">
       <h3 class="caption-2">Venha Conhecer a</h3>
