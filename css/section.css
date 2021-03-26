@@ -412,6 +412,19 @@ a.midia-button p {
 .circle2{
   animation: circle2 14s 0s ease-in-out infinite normal;
 }
+.circle3{
+  animation: circle2 50s 0s ease-in-out infinite normal;
+}
+.circle4{
+  animation: circle3 20s 0s ease-in-out infinite normal;
+}
 .square1{
   animation: square1 10s 0s ease-in-out infinite normal;
+}
+.square2{
+  animation: square1 18s 0s ease-in-out infinite normal;
+}
+.bg-contatos-prop {
+	width: 100vw;
+	margin-top: -16vh;
 }

@@ -72,8 +72,8 @@
 			</div>
 		</div>
 	</div>
-	<img class="img-bg midias-circle" src="<?php bloginfo('template_url'); ?>/img/circles-complete.svg" alt="">
-	<img class="img-bg midias-circle2" src="<?php bloginfo('template_url'); ?>/img/circles-line.svg" alt="">
+	<img class="img-bg midias-circle circle3" src="<?php bloginfo('template_url'); ?>/img/circles-complete.svg" alt="">
+	<img class="img-bg midias-circle2 circle4" src="<?php bloginfo('template_url'); ?>/img/circles-line.svg" alt="">
 
 </section>
 <img class="bg-contatos img-bg" src="<?php bloginfo('template_url'); ?>/img/background-midias2.svg" alt="">

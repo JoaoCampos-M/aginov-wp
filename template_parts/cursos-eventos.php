@@ -7,16 +7,16 @@
 				  wp_reset_postdata();
             $my_args = array(
               'post_type' => 'events',
-				  'post_per_page' => 3
+				      'post_per_page' => 3
             );
             $my_query =new WP_Query($my_args);
             ?>
 
         <?php
-            if($my_query->have_posts()):while( $my_query->have_posts() ): $my_query->the_post();?>
+            if($my_query->have_posts()):while( $my_query->have_posts()): $my_query->the_post();?>
         <div class="cards-lives">
           <div class="cards-info">
-            <p class="cards-info-title d-flex fd-col j-cent"> <?php the_title()?> </p>
+            <p class="cards-info-title d-flex fd-col j-cent"> <?php the_title();?> </p>
             <p class="cards-info-subtitle"><?php echo get_post_meta( $post->ID, 'subtitulo',true) ?></p>
             <div class="row-1">
               <div class="row-2">

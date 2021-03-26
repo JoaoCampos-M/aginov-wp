@@ -46,6 +46,6 @@
     </div>
   </div>
   <img class="img-bg vitrine-circle circle1" src="<?php bloginfo('template_url'); ?>/img/circles-line.svg" alt="">
-  <img class="img-bg vitrine-circle2" src="<?php bloginfo('template_url'); ?>/img/circles-line.svg" alt="">
-  <img class="img-bg vitrine-square" src="<?php bloginfo('template_url'); ?>/img/square-divided.svg" alt="">
+  <img class="img-bg vitrine-circle2 circle3" src="<?php bloginfo('template_url'); ?>/img/circles-line.svg" alt="">
+  <img class="img-bg vitrine-square square2" src="<?php bloginfo('template_url'); ?>/img/square-divided.svg" alt="">
 </section>

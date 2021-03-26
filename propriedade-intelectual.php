@@ -3,6 +3,7 @@
 <?php get_header(); ?>
 
 <?php include('menu.php'); ?>
+<div class="">
 <section class="section-info container d-flex">
 
 	<div class="menu-info">
@@ -60,10 +61,14 @@
 		</div>
 		<?php endwhile;
 		endif; ?>
+	</div>
 		<?php wp_reset_query(); ?>
-		<img src="<?php bloginfo('template_url'); ?>/img/background-propriedade.svg" class="prop-int-bg desktop temp5">
-		<img src="<?php bloginfo('template_url'); ?>/img/wave-linha-subpagina.svg" class="prop-int-bg desktop temp2">
 </section>
+<img class="bg-contatos-prop img-bg" src="<?php bloginfo('template_url'); ?>/img/background-midias2.svg" alt="">
+<img class="bg-contatos-prop img-bg temp1" src="<?php bloginfo('template_url'); ?>/img/background-midias2.svg" alt="">
+<img class="bg-contatos-prop img-bg" src="<?php bloginfo('template_url'); ?>/img/background-midias.svg" alt="">
+<img class="bg-contatos-prop img-bg temp5" src="<?php bloginfo('template_url'); ?>/img/background-midias3.svg" alt="">
+</div>
 <div>
 
 <?php

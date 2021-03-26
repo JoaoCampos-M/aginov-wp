@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -71,21 +71,51 @@
       <g
          id="Camada_2-2"
          data-name="Camada 2"
-         transform="matrix(1.0226135,0,0,1,5.2310098,24.545)"
-         style="stroke-width:0.98888141">
+         transform="matrix(1.0349481,0,0,1,5.2310098,24.545)"
+         style="stroke-width:0.98297095">
         <g
            id="OBJECTS-2"
            data-name="OBJECTS"
-           style="stroke-width:0.98888141">
+           style="stroke-width:0.98297095">
           <path
              id="Caminho_271"
              data-name="Caminho 271"
              d="m 480.772,0 c 238.667,0.817 535.409,54.748 791.5,25.666 C 1028.436,74.032 713.326,22.259 472.16,26.866 263.422,30.853 87.7,77.291 0,105.172 V 62.354 C 105.834,35.135 282.816,-0.631 480.772,0 Z"
              transform="translate(0,0.01)"
              inkscape:connector-curvature="0"
-             style="fill:#018194;fill-rule:evenodd;stroke-width:0.98888141" />
+             style="fill:#018194;fill-rule:evenodd;stroke-width:0.98297095"
+             sodipodi:nodetypes="cccccc" />
         </g>
       </g>
+      <rect
+         style="fill:none"
+         id="rect72"
+         width="366.17065"
+         height="48.386841"
+         x="637.09656"
+         y="26.706112"
+         ry="0" />
+      <rect
+         style="fill:none"
+         id="rect74"
+         width="40.540325"
+         height="2.615505"
+         x="875.10748"
+         y="31.937122" />
+      <rect
+         style="fill:none"
+         id="rect76"
+         width="1544.4557"
+         height="339.25894"
+         x="6.7598581"
+         y="0" />
+      <rect
+         style="fill:none"
+         id="rect78"
+         width="1.3077525"
+         height="85.003906"
+         x="256.54059"
+         y="52.86116" />
     </g>
   </g>
   <path
