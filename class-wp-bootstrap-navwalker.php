@@ -197,7 +197,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) :
 			 */
 			$id = apply_filters( 'nav_menu_item_id', 'menu-item-' . $item->ID, $item, $args, $depth );
 			$id = $id ? ' id="' . esc_attr( $id ) . '"' : '';
-			
+
 			//CODIGO ANTIGO
 			//$output .= $indent . '<li ' . $id . $class_names . '>';
 
@@ -221,7 +221,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) :
 				// $atts['aria-haspopup'] = 'true';
 				// $atts['aria-expanded'] = 'false';
 				$atts['class']         = 'menu-op nav-link';
-				$atts['id']            = 'menu-item-dropdown-' . $item->ID;
+				// $atts['id']            = 'menu-item-dropdown-' . $item->ID;
 			} else {
 				if ( true === $this->has_schema ) {
 					$atts['itemprop'] = 'url';

@@ -16,7 +16,9 @@
   function register_navwalker(){
     require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
   }
+
   add_action( 'after_setup_theme', 'register_navwalker' );
+
 
   // Creating Post Type
 function create_post_type() {
@@ -31,7 +33,7 @@ function create_post_type() {
 			'public' => true,
 			'has_archive' => true,
 			'show_in_rest' => true,
-			'supports' => array('title','custom-fields'),
+			'supports' => array('title','custom-fields','editor','thumbnail'),
 			'show_in_admin_bar'   => false,
 			'show_in_nav_menus'   => false,
 			'publicly_queryable'  => false,

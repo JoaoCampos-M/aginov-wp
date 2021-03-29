@@ -183,6 +183,9 @@ header .logo-vitrine img {
   position: absolute;
 }
 
+.opcao-list .barra-navbar{
+	display: none;
+}
 .close-dropdown{
   top: 0;
   bottom: 0;
@@ -192,13 +195,11 @@ header .logo-vitrine img {
   background-color: #018194 ;
   overflow: hidden;
   justify-content: center;
-  z-index: 1;
+  z-index: 5;
   border: solid .5px #018194 ;
-
-
 }
 
-.elements-list{
+.opcao-list .navbar-item{
   margin: 30px 0;
   text-align: center;
 }
@@ -219,8 +220,11 @@ header .logo-vitrine img {
   color: white;
 }
 
-.item-menu-drop a{
+.opcao-list .navbar-item a{
   font-size: 0.8rem;
+	color: white;
+	text-decoration: none;
+	font-family: Rubik-Regular;
 }
 
 .bg-dropdown{

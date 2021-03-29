@@ -78,7 +78,7 @@ trocaImage('/img/RiscLogobranca.svg','/img/RiscLogoFUNDOBRANCO','#brasaoRisc');
 
 function trocaImage(urlA, urlN, qr){
 	img = document.querySelector(qr);
-	console.log(img);
+	// console.log(img);
 	img.addEventListener('mouseover', () =>{
 		 faztroca(urlA, urlN, qr);
 	});

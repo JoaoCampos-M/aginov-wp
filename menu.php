@@ -3,10 +3,10 @@
     <div class="logo-Aginov">
       <img src="<?php bloginfo('template_url'); ?>/img/logo-aginov-desk.svg" alt="" />
     </div>
-    <?php      
+    <?php
       $options =  array(
-            'items_wrap'        => '%3$s', 
-            'menu_class'        => false, 
+            'items_wrap'        => '%3$s',
+            'menu_class'        => false,
             'menu_id'           => false,
             'container'         => 'div',
             'container_class'   => 'navbar-principal',
@@ -50,7 +50,24 @@
         alt="">
       <div class="menu-list">
 
+		<?php
+      $options =  array(
+			'items_wrap'        => '%3$s',
+			'menu_class'        => false,
+			'menu_id'           => false,
+			'container'         => 'div',
+			'container_class'   => 'opcao-list',
+			'container_id'      => false,
+			'walker' => new WP_Bootstrap_Navwalker(),
+	  );
+	$menu = wp_nav_menu($options);
+	echo strip_tags($menu, '');
+    ?>
+	 <!--
         <ul class="opcao-list">
+
+
+
           <li class="elements-list"><a class="item-menu-color" id="menu-drop-1" href="#">
               <p class="iten-list-option">Inicio</p>
             </a>
@@ -102,7 +119,8 @@
             </ul>
           </li>
         </ul>
-      </div>
+		  -->
+		</div>
       <img class="bg-dropdown" src="<?php bloginfo('template_url'); ?>/img/background-footer.svg" alt="">
     </div>
     <nav class="nav-mobile navbar-principal">

@@ -49,12 +49,14 @@ function addClickLista(el, op) {
 
 
 var AsideContainer = document.querySelector(".section-info");
-let cont = AsideContainer.getElementsByClassName("item-menu-info").length;
-console.log(cont);
-
-for(let x=0; x<cont; x++){
-  let item = AsideContainer.getElementsByClassName('item-menu-info')[x];
-  if(item != undefined){
-    console.log(item);
-  }
+if(!(AsideContainer == undefined)){
+		let cont = AsideContainer.getElementsByClassName("item-menu-info").length;
+		//console.log(cont);
+		for(let x=0; x<cont; x++){
+		let item = AsideContainer.getElementsByClassName('item-menu-info')[x];
+		if(item != undefined){
+			console.log(item);
+		}
+	}
 }
+
