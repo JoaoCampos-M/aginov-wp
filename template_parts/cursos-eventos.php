@@ -43,9 +43,9 @@
             <p><?php echo get_post_meta($post->ID, 'tema', true);?></p>
           </div>
           <div class="cards-temas">
-            <p class="cards-info-subtitle"><b>Tema:</b></p>
-            <p class="cards-info-text"><?php echo get_post_meta( $post->ID, 'descricao', true ) ?></p>
-            <a href="<?php echo get_post_meta($post->ID, 'link', true);?>"> <button type="submit" class="btn-blue">Saiba
+            <p class="cards-info-subtitle"><b>Descrição:</b></p>
+            <div class="cards-info-text"><?php the_excerpt(); ?></div>
+            <a href="<?php the_permalink();?>"> <button type="submit" class="btn-blue">Saiba
                 Mais</button> </a>
             <div class="row-1">
               <div class="row-2">
