@@ -2,6 +2,7 @@
   //chamar a tag tittle
   function agi_title_tag(){
     add_theme_support('title-tag');
+	 add_theme_support ('post-thumbnails');
   }
   add_action('after_setup_theme','agi_title_tag');
 
@@ -9,6 +10,12 @@
   register_nav_menus(array(
     'principal' => __('Menu principal','Aginov')
   ));
+
+	// Definir o tamanho o resumo
+	add_filter( 'excerpt_length', function($length) {
+		return 10;
+	} );
+
 
   /**
   * Register Custom Navigation Walker
@@ -33,11 +40,7 @@ function create_post_type() {
 			'public' => true,
 			'has_archive' => true,
 			'show_in_rest' => true,
-			'supports' => array('title','custom-fields','editor','thumbnail'),
-			'show_in_admin_bar'   => false,
-			'show_in_nav_menus'   => false,
-			'publicly_queryable'  => false,
-			'query_var'           => false
+			'supports' => array('title','custom-fields','editor','thumbnail')
       )
   );
   register_post_type( 'propriedade',
