@@ -160,7 +160,7 @@
 
 .cards-lives{
  	width: 18vw;
-  min-width: 250px;
+	min-width: 265px;
   box-shadow: 0px 3px 29px -9px rgba(0,0,0,0.75);
   display: flex;
   flex-direction: column;
@@ -169,14 +169,14 @@
 
 .cards-info{
   background-color: #ff8902;
-  padding:15px;
+	padding: 10px 5px;
   display: flex;
   flex-direction: column  ;
   align-items: center;
 }
 
 .row-1{
-  width: 95%;
+  width: 98%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -210,8 +210,9 @@
 }
 
 .cards-info-text{
-  font-size: 0.7rem;
-  font-family: Rubik-Light;
+	font-size: 0.75rem;
+	font-family: 'Rubik-Regular';
+	height: inherit;
 }
 
 .cards-categoria{
@@ -233,6 +234,7 @@
   flex-direction: column  ;
   align-items: center;
   text-align: center;
+	height: 100%;
 }
 /*
 Outros estilos que mais tarde devem ser movidos para os arquivos certos
