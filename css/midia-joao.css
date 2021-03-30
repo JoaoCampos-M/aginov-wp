@@ -213,6 +213,9 @@
     bottom: initial;
     margin-top: -9vh;
   }
+	.vitrine-square{
+		right: 11%!important;
+	}
 }
 @media (max-width: 800px) and (min-width: 481px) {
 	.desktop {
