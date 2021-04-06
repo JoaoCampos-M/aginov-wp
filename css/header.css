@@ -178,8 +178,8 @@ header .logo-vitrine img {
 /* menu mobile */
 .dropdown  .btn-drop{
   width: 30px;
-  top: 5px;
-  left: 5px;
+	top: 1.5vh;
+	right: 1.5vh;
   position: absolute;
 }
 

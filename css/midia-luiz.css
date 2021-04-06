@@ -20,7 +20,7 @@
     padding-top: 0;
   }
 }
-@media (max-width:800px) { 
+@media (max-width:800px) {
   .menu-icones{
     display: none;
   }
@@ -33,8 +33,8 @@
 
   .navbar-principal {
     display: flex;
-    width: 83vw;
-    justify-content: space-between;
+    width: 100vw;
+    justify-content: flex-start;
     margin-top: 5px;
   }
   .search-bar {
@@ -46,19 +46,19 @@
   }
 
   header .logo-Aginov{
-    width: 30vw;
+    width: 40vw;
     min-width: 100px;
-  
+
   }
 
   .order-desk{
     order: 1;
   }
-  
+
   .order-moba{
     order: 0;
   }
-  
+
 }
 /* @media (max-width:801px) { */
    /* tablet, landscape iPad, lo-res laptops ands desktops */
@@ -66,9 +66,9 @@
 /* }; */
 /* @media (max-width:1025px) {  */
   /* big landscape tablets, laptops, and desktops */
-  
+
 /* } */
 /* @media (max-width:1281px) {  */
   /* hi-res laptops and desktops */
-  
+
 /* } */

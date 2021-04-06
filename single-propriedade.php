@@ -41,7 +41,7 @@ include('menu.php');
 		</a>
 		<?php endwhile; endif;  wp_reset_query();?>
 		<div class="buttons-list">
-			<a class="btn-menu" href="http://aginov.risc.lan/index.php/propriedade/">page1</a>
+			<a class="btn-menu" href="http://aginov.risc.lan/propriedade-intelectual/">page1</a>
 			<a class="btn-menu" href="http://aginov.risc.lan/index.php/propriedade-intelectual/propriedadepage/">page2</a>
 		</div>
 	</div>

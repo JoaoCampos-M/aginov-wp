@@ -43,7 +43,7 @@
   </div>
   <div class="menu-icones-mobile">
     <div id="open" class="dropdown open-dropdown" onclick=" menu() ">
-      <img class="btn-drop" src="<?php bloginfo('template_url'); ?>/img/menu-dropdown-open.svg" alt="">
+      <img class="btn-drop" src="<?php bloginfo('template_url'); ?>/img/menu-dropdown-open-2.svg" alt="">
     </div>
 
     <div id="close" class=" dropdown d-none close-dropdown">
@@ -69,8 +69,9 @@
     </div>
     <nav class="nav-mobile navbar-principal">
       <div class="logo-Aginov">
-        <img src="<?php bloginfo('template_url'); ?>/img/logo-aginov-mobi.svg" alt="" />
+        <img src="<?php bloginfo('template_url'); ?>/img/sigla.svg" alt="Logo Aginov" />
       </div>
+		<!--
       <form class="pesquisa " id="pesquisa" action="" method="post">
         <div class="barra-pesquisa">
           <input type="search" class="search-bar" />
@@ -80,9 +81,10 @@
           </button>
         </div>
       </form>
+		-->
     </nav>
   </div>
   <img class="bg-header-wave " src="<?php bloginfo('template_url'); ?>/img/background-header-2.svg" />
-  <img class="bg-header-wave header-temp-1 zindex" src="<?php bloginfo('template_url'); ?>/img/background-header.svg" />
+  <img class="bg-header-wave header-temp-1 zindex desktop" src="<?php bloginfo('template_url'); ?>/img/background-header.svg" />
   <img class="bg-header-wave zindex mr-03" src="<?php bloginfo('template_url'); ?>/img/background-header.svg" />
 </header>

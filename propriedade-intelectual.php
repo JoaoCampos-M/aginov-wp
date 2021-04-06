@@ -33,7 +33,7 @@
 		endif;
 		wp_reset_query() ?>
 		<div class="buttons-list">
-		<a class="btn-menu" href="http://aginov.risc.lan/index.php/propriedade/">page1</a>
+		<a class="btn-menu" href="http://aginov.risc.lan/propriedade-intelectual/">page1</a>
 			<a class="btn-menu" href="http://aginov.risc.lan/index.php/propriedade-intelectual/propriedadepage/">page2</a>
 		</div>
 
@@ -71,14 +71,16 @@
 </div>
 <div>
 
-<?php
-// global $wp_query;
-// $meuID = $wp_query->post->ID;
-// $args = array(
-// 	'child_of' => $meuID,
-// );
-// 	wp_list_pages($args);
-?>
+	<?php
+	global $wp_query;
+	$meuID = $wp_query->post->ID;
+	$args = array(
+		// 'include' => array($meuID),
+		'child_of' => $meuID,
+		'title_li' => __ (''),
+	);
+		wp_list_pages($args);
+	?>
 </div>
 <?php include("template_parts/transparencia-publica.php");?>
 

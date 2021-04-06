@@ -33,7 +33,7 @@
 		endif;
 		wp_reset_query() ?>
       <div class="buttons-list">
-        <a class="btn-menu" href="http://aginov.risc.lan/index.php/propriedade/">page1</a>
+        <a class="btn-menu" href="http://aginov.risc.lan/propriedade-intelectual/">page1</a>
         <a class="btn-menu" href="http://aginov.risc.lan/index.php/propriedadepage/">page2</a>
       </div>
 
