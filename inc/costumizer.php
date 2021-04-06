@@ -3,18 +3,17 @@
   function customize_registro($customize){
   //Conteúdo
   $customize->add_panel( 'page_content', array(
-    'capability'     => 'edit_theme_options',
-    'theme_supports' => '',
-    'title'          => 'Conteúdo das seções',
-          'priority' => 10
+		'capability'     => 'edit_theme_options',
+   	'theme_supports' => '',
+   	'title'          => 'Página Inicial',
+   	'priority' => 10
   ));
 
   $customize -> add_section('header', array(
-    'title' => __('Vitrine de Tecnologia','PostsBlog'),
-    'description'=> sprintf(__('Textos das seções do site','PostsBlog')),
-    'priority' => 21,
-    'panel'=> 'page_content'
-
+   	'title' => __('Vitrine de Tecnologia','PostsBlog'),
+   	'description'=> sprintf(__('Textos das seções do site','PostsBlog')),
+   	'priority' => 21,
+   	'panel'=> 'page_content'
   ));
   $customize -> add_setting('vitrine_tecnologia',array(
     'default' => _x('vazio','PostsBlog'),
@@ -73,7 +72,7 @@
     'type' => 'text'
   ));
 
-    //Propriedade Intelectual
+//Propriedade Intelectual
     $customize -> add_section('propriedade', array(
       'title' => __('Propriedade Intelectual','PostsBlog'),
       'description'=> sprintf(__('Textos das seções do site','PostsBlog')),
@@ -106,10 +105,10 @@
     ));
 
     $customize->add_panel( 'transparencia', array(
-      'capability'     => 'edit_theme_options',
+		'capability'     => 'edit_theme_options',
       'theme_supports' => '',
       'title'          => 'Transparência pública',
-            'priority' => 10
+   	'priority' => 10
     ));
     $customize -> add_section('endereco', array(
       'title' => __('Endereço','PostsBlog'),
@@ -202,8 +201,7 @@
       'priority' => 1,
       'type' => 'text'
     ));
-
-  }
+}
 
   add_action('customize_register', 'customize_registro');
 ?>

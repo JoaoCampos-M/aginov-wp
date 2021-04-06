@@ -432,6 +432,13 @@ a.midia-button p {
 .square2{
   animation: square1 18s 0s ease-in-out infinite normal;
 }
+
+.hash1{
+	animation: hash1 12s 0s ease-in-out infinite normal;
+}
+.hash2{
+	animation: hash1 4s 0s ease-in-out infinite normal;
+}
 .bg-contatos-prop {
 	width: 100vw;
 	margin-top: -16vh;

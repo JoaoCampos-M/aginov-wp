@@ -135,6 +135,9 @@
 		height: max-content;
 		position: relative;
 	}
+	.card-ms-body{
+		min-height: 435px;
+	}
 	.card-h-titulo {
 		font-size: 1.1rem;
 	}
@@ -216,6 +219,11 @@
 	.vitrine-square{
 		right: 11%!important;
 	}
+	.thumb-noticias{
+    float: left;
+    max-width: max(100%, 400px);
+    margin-right:1vw;
+}
 }
 @media (max-width: 800px) and (min-width: 481px) {
 	.desktop {

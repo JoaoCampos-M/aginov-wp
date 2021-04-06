@@ -7,7 +7,7 @@
 				  wp_reset_postdata();
             $my_args = array(
               'post_type' => 'events',
-				      'post_per_page' => 3
+				   'post_per_page' => 3
             );
             $my_query =new WP_Query($my_args);
             ?>
@@ -79,8 +79,8 @@
     </div>
   </div>
   <img class="img-bg events-calendar" src="<?php bloginfo('template_url'); ?>/img/calendar.svg" alt="">
-  <img class="img-bg events-circle" src="<?php bloginfo('template_url'); ?>/img/circles-point.svg" alt="">
-  <img class="img-bg events-hash1" src="<?php bloginfo('template_url'); ?>/img/hashtag.svg" alt="">
-  <img class="img-bg events-hash2" src="<?php bloginfo('template_url'); ?>/img/hashtag.svg" alt="">
+  <img class="img-bg events-circle circle2" src="<?php bloginfo('template_url'); ?>/img/circles-point.svg" alt="">
+  <img class="img-bg events-hash1 hash1" src="<?php bloginfo('template_url'); ?>/img/hashtag.svg" alt="">
+  <img class="img-bg events-hash2 hash2" src="<?php bloginfo('template_url'); ?>/img/hashtag.svg" alt="">
   <img class="img-bg events-spot" src="<?php bloginfo('template_url'); ?>/img/mancha.svg" alt="">
 </section>
