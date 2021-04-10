@@ -135,7 +135,7 @@
 		height: max-content;
 		position: relative;
 	}
-	.card-ms-body{
+	.card-ms-body {
 		min-height: 435px;
 	}
 	.card-h-titulo {
@@ -213,17 +213,42 @@
 		font-size: 1.1rem;
 	}
 	.bg-footer {
-    bottom: initial;
-    margin-top: -9vh;
-  }
-	.vitrine-square{
-		right: 11%!important;
+		bottom: initial;
+		margin-top: -9vh;
 	}
-	.thumb-noticias{
-    float: left;
-    max-width: max(100%, 400px);
-    margin-right:1vw;
-}
+	.vitrine-square {
+		right: 11% !important;
+	}
+	.thumb-noticias {
+		float: left;
+		max-width: max(100%, 400px);
+		margin-right: 1vw;
+	}
+	/* Ajuste das animações para mobile */
+	.vitrine-circle{
+		width: 32vw;
+	}
+	.vitrine-circle2{
+		width: 60vw;
+	}
+	.events-circle{
+		top: 9vh;
+    width: 50vw;
+	}
+	.midias-circle{
+		width: 50vw;
+	}
+	.midias-circle2{
+		width: 38vw;
+	}
+	.events-calendar{
+		width: 36vw;
+    margin-left: 5vw;
+	}
+	.bg-header-cicle-1{
+		width: 45vw;
+    margin-left: 5vw;
+	}
 }
 @media (max-width: 800px) and (min-width: 481px) {
 	.desktop {

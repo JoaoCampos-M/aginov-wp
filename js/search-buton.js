@@ -35,24 +35,26 @@ function opensearch() {
 	}
 }
 
-function faztroca(urlA, urlN, qr){
+function faztroca(urlA, urlN, qr) {
 	img = document.querySelector(qr);
-	let valor = document.getElementById('brasaobloginfo').value;
+	let valor = document.getElementById("brasaobloginfo").value;
 	console.log(valor);
-	img.src = valor+urlN;
-	img.addEventListener('mouseout',() => {
-		img.src = valor+urlA;
-	 });
+	img.src = valor + urlN;
+	img.addEventListener("mouseout", () => {
+		img.src = valor + urlA;
+	});
 }
 
-trocaImage('/img/brasao-unemat.svg','/img/brasao-unemat-colorido.svg','#brasao');
-trocaImage('/img/brasao-unemat.svg','/img/brasao-unemat-colorido.svg','.brasao_unemat_footer');
-trocaImage('/img/RiscLogobranca.svg','/img/RiscLogoFUNDOBRANCO.svg','#brasaoRisc');
+trocaImage("/img/brasao-unemat.svg","/img/brasao-unemat-colorido.svg","#brasao");
+trocaImage("/img/brasao-unemat.svg","/img/brasao-unemat-colorido.svg",".brasao_unemat_footer");
+trocaImage("/img/RiscLogobranca.svg","/img/RiscLogoFUNDOBRANCO.svg","#brasaoRisc");
 
-
-function trocaImage(urlA, urlN, qr){
-	img = document.querySelector(qr);
-	img.addEventListener('mouseover', () =>{
-		 faztroca(urlA, urlN, qr);
-	});
+function trocaImage(urlA, urlN, qr) {
+	console.log(qr);
+	if (qr != null) {
+		img = document.querySelector(qr);
+		img.addEventListener("mouseover", () => {
+			faztroca(urlA, urlN, qr);
+		});
+	}
 }

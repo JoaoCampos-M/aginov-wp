@@ -9,7 +9,7 @@
         <div class="logo-footer desktop d-flex j-cent">
           <img class="brasao_unemat_footer" src="<?php bloginfo('template_url');?>/img/brasao-unemat.svg" alt="">
         </div>
-        <p class="color-1 font-1 txt-cent">Unemat<br /> Universidade do Estado de Mato Grosso </p>
+        <p class="color-1 font-1 txt-cent"> Universidade do Estado de Mato Grosso </p>
       </div>
       <div class="endereco desktop d-flex fd-col j-end ">
         <p class="color-1 font-3 margin">Endereço</p>

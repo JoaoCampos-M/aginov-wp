@@ -12,7 +12,7 @@
       <?php
 		$my_args = array(
 			'post_type'=>'propriedade',
-			'category_name' => 'PropriedadePage',
+			'category_name' => 'PropriedadeIntelectual Categoria 2',
 			'posts_per_page' => 3
 		);
 
@@ -32,10 +32,33 @@
       <?php endwhile;
 		endif;
 		wp_reset_query() ?>
+      <?php
+				$my_args = array(
+					'post_type' => 'page',
+					'pagename' => 'propriedade-intelectual'
+				);
+				$my_query =new WP_Query($my_args);
+				$pId;
+			?>
+      <?php if($my_query->have_posts()):while( $my_query->have_posts()): $my_query->the_post();?>
+      <?php $pId=get_the_ID();?>
+      <?php  endwhile; endif; wp_reset_query();?>
       <div class="buttons-list">
-        <a class="btn-menu" href="http://aginov.risc.lan/propriedade-intelectual/">page1</a>
-        <a class="btn-menu" href="http://aginov.risc.lan/index.php/propriedadepage/">page2</a>
+        <a class="btn-menu" href="http://aginov.risc.lan/propriedade-intelectual/">Página 1</a>
+        <?php
+				$my_args = array(
+					'post_type'  => 'page',
+					'post_parent'=> $pId
+				);
+				$my_query =new WP_Query($my_args);
+				$cont=1;
+			?>
+        <?php if($my_query->have_posts()):while( $my_query->have_posts()): $my_query->the_post();?>
+        <?php $cont++;?>
+        <a class="btn-menu" href="<?php the_permalink(); ?>">Página <?php echo $cont; ?></a>
+        <?php endwhile; endif; wp_reset_query(); ?>
       </div>
+
 
     </div>
 
@@ -44,7 +67,7 @@
       <?php
 			$my_args = array(
 				'post_type'=>'propriedade',
-				'category_name' => 'PropriedadePage',
+				'category_name' => 'PropriedadeIntelectual Categoria 2',
 				'posts_per_page' => 1,
 			);
 			$my_query = new WP_Query($my_args);
