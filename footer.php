@@ -6,12 +6,12 @@
     <div class="container-footer">
       <!-- <a href="<?php echo home_url(); ?>">Navegar</a> -->
       <div class="desenvolvido d-flex fd-col j-cent">
-        <div class="logo-footer desktop d-flex j-cent">
+        <div class="logo-footer d-flex j-cent">
           <img class="brasao_unemat_footer" src="<?php bloginfo('template_url');?>/img/brasao-unemat.svg" alt="">
         </div>
         <p class="color-1 font-1 txt-cent"> Universidade do Estado de Mato Grosso </p>
       </div>
-      <div class="endereco desktop d-flex fd-col j-end ">
+      <div class="endereco desktop d-flex fd-col j-end">
         <p class="color-1 font-3 margin">Endereço</p>
         <p class="color-1 font-4">Av. Tal, 2230</p>
         <p class="color-1 font-4">Cavalhada II, Cáceres </p>
@@ -19,19 +19,19 @@
       </div>
       <div class="fale-conosco d-flex fd-col j-end">
 
-        <p class="color-1 font-2 margin">Fale conosco</p>
-        <p class="color-1 font-1">Contato@unemat.br</p>
-        <p class="color-1 font-1">+55 (65) 99999-9999 </p>
+        <p class="color-1 font-2 margin desktop">Fale conosco</p>
+        <p class="color-1 font-1 desktop">Contato@unemat.br</p>
+        <p class="color-1 font-1 desktop">+55 (65) 99999-9999 </p>
         <div class="icon">
           <img src="<?php bloginfo('template_url');?>/img/twitter-info.svg" alt="">
           <img src="<?php bloginfo('template_url');?>/img/facebook-info.svg" alt="">
           <img src="<?php bloginfo('template_url');?>/img/instagram-2016.svg" alt="">
         </div>
       </div>
-      <div class="logo-footer desktop d-flex fd-col j-end">
-        <div class="logo-footer desktop d-flex fd-col j-end">
+      <div class="logo-footer d-flex fd-col j-end">
+        <div class="logo-footer d-flex fd-col j-end">
           <img class="risc" id="brasaoRisc" src="<?php bloginfo('template_url');?>/img/RiscLogobranca.svg" alt="">
-          <p> Desenvolvido por Risc - Centro de Inovação</p>
+          <p class="desktop" > Desenvolvido por Risc - Centro de Inovação</p>
         </div>
       </div>
   </footer>

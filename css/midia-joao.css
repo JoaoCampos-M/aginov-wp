@@ -249,6 +249,20 @@
 		width: 45vw;
     margin-left: 5vw;
 	}
+	/*Ajuste de logo footer*/
+	.logo-footer img {
+		width: 20vw;
+	}
+	.logo-footer .risc {
+		width: 20vw;
+	}
+
+	/*Ajuste do botão saiba mais em midias sociais*/
+	.card-ms-item .btn-saibamais{
+		font-size: 1rem;
+		padding: 5px 15px;
+    margin: 5px auto;
+	}
 }
 @media (max-width: 800px) and (min-width: 481px) {
 	.desktop {
