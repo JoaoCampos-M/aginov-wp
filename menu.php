@@ -69,14 +69,14 @@
     </div>
     <nav class="nav-mobile navbar-principal">
       <div class="logo-Aginov">
-        <img src="<?php bloginfo('template_url'); ?>/img/sigla.svg" alt="Logo Aginov" />
+        <img src="<?php bloginfo('template_url'); ?>/img/logo-mobile.svg" alt="Logo Aginov" />
       </div>
 		<!--
       <form class="pesquisa " id="pesquisa" action="" method="post">
         <div class="barra-pesquisa">
           <input type="search" class="search-bar" />
           <button class="search-button" type="submit" value="">
-            <img class="search-button-img" src="<?php bloginfo('template_url'); ?>/img/lupa-azul.svg" alt=""
+            <img class="search-button-img" src="<?php //bloginfo('template_url'); ?>/img/lupa-azul.svg" alt=""
               onclick="opensearch()" />
           </button>
         </div>

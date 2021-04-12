@@ -1,51 +1,50 @@
 footer {
-  position: relative;
-  height: 20vh;
+	position: relative;
+	height: 20vh;
 }
 
 footer p {
-  color: white;
+	color: white;
 }
 .bg-footer {
-  margin-bottom: -10px;
-  width: 100vw;
-  bottom: 0;
-  position: absolute;
+	margin-bottom: -10px;
+	width: 100vw;
+	bottom: 0;
+	position: absolute;
 }
 
 .container-footer {
-  width: 75vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  position: absolute;
-  bottom: 0;
-  left: 10vw;
+	width: 75vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 0;
+	left: 10vw;
 }
 
 .logo-footer img {
-  max-width: 110px;
-  width: 5vw;
-	margin:0px auto;
+	width: 6.8vw;
+	margin: 0px auto;
 }
-.logo-footer .risc{
+.logo-footer .risc {
 	max-width: initial;
 	width: 8vw;
 	margin: 5px auto;
 }
 .desenvolvido {
-  margin-top: 25px;
-  width: 30%;
+	margin-top: 25px;
+	width: 30%;
 }
 
 .icon {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 10px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
 }
 
-.container-footer .fale-conosco .icon img{
-  width: 30px;
-  margin-bottom: 1px;
+.container-footer .fale-conosco .icon img {
+	width: 30px;
+	margin-bottom: 1px;
 }

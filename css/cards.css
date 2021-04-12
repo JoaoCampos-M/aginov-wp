@@ -41,15 +41,15 @@
 
 .cards-midias-sociais {
   display: flex;
-  justify-content: space-around;
-  width: 70vw;
+  justify-content: space-between;
+  width: 83vw;
   margin: 0px auto;
   margin-top: 5vh;
 }
 .card-ms-item {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 42%;
   background-color: white;
   margin: 0px 5px;
   padding: 5px 10px;
@@ -160,7 +160,7 @@
 }
 
 .cards-lives{
- 	width: 18vw;
+ 	width: 20vw;
 	min-width: 265px;
   box-shadow: 0px 3px 29px -9px rgba(0,0,0,0.75);
   display: flex;
@@ -170,7 +170,7 @@
 
 .cards-info{
   background-color: #ff8902;
-	padding: 15px 7px;
+	padding: 15px 1vw;
   display: flex;
   flex-direction: column  ;
   align-items: center;
