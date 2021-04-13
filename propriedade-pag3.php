@@ -41,7 +41,8 @@
         <?php
 				$my_args = array(
 					'post_type'  => 'page',
-					'post_parent'=> $pId
+					'post_parent'=> $pId,
+					'order' => 'ASC'
 				);
 				$my_query =new WP_Query($my_args);
 				$cont=1;

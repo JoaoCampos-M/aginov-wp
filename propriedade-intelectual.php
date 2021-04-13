@@ -34,7 +34,7 @@
       <?php
 				$my_args = array(
 					'post_type' => 'page',
-					'pagename' => 'propriedade-intelectual'
+					'pagename' => 'propriedade-intelectual',
 				);
 				$my_query =new WP_Query($my_args);
 				$pId;
@@ -47,7 +47,8 @@
 			<?php
 				$my_args = array(
 					'post_type'  => 'page',
-					'post_parent'=> $pId
+					'post_parent'=> $pId,
+					'order' => 'ASC'
 				);
 				$my_query =new WP_Query($my_args);
 				$cont=1;
