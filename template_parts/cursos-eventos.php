@@ -5,15 +5,17 @@
         <?php
 		  		wp_reset_query();
 				  wp_reset_postdata();
+				  $cont=0;
             $my_args = array(
-              'post_type' => 'events',
-				   'post_per_page' => 3
+            	'post_type' => 'events',
+					'post_per_page' => 3,
+					'order' => 'DESC'
             );
             $my_query =new WP_Query($my_args);
             ?>
 
         <?php
-            if($my_query->have_posts()):while( $my_query->have_posts()): $my_query->the_post();?>
+            if($my_query->have_posts()):while( $my_query->have_posts() && $cont<3 ): $my_query->the_post();?>
         <div class="cards-lives">
           <div class="cards-info">
             <p class="cards-info-title d-flex fd-col j-cent"> <?php the_title();?> </p>
@@ -60,7 +62,7 @@
           </div>
         </div>
 
-        <?php endwhile;endif;  ?>
+        <?php $cont++;  endwhile;endif;  ?>
         <?php wp_reset_query()?>
       </div>
     </div>
