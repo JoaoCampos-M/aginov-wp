@@ -170,7 +170,7 @@ section.prop-intelectual {
 	top: 0;
 	left: 0;
 	margin-left: 5vw;
-	width: 23vw;
+	width: 20vw;
 	opacity: 0.5;
 	transform: rotateY(180deg);
 }
@@ -179,7 +179,7 @@ section.prop-intelectual {
 	right: 0;
 	margin-right: 8vw;
 	margin-bottom: 12vh;
-	width: 30vw;
+	width: 23vw;
 	opacity: 0.5;
 }
 .align-r {
@@ -191,7 +191,8 @@ section.prop-intelectual {
 .vitrine-square {
 	top: 0px;
 	right: 0px;
-	margin-top: 15vh;
+	margin-top: 12vh;
+	width: 10vw;
 }
 .midias-circle2 {
 	top: 0;
@@ -382,7 +383,7 @@ a.midia-button p {
 	color: white;
 }
 .border-l {
-	border-left: 8px solid var(--verde);
+	border-left: 6px solid var(--verde);
 	padding-left: 20px;
 }
 .info-txt {
@@ -391,7 +392,7 @@ a.midia-button p {
 	font-family: Rubik-Regular;
 	font-size: 1.3rem;
 	min-width: 265px;
-	padding: 5px 0;
+	padding: 3px 0;
 	width: 100%;
 	text-align: justify ;
 }
@@ -402,7 +403,7 @@ a.midia-button p {
 	color: var(--verde);
 	font-family: Rubik-Bold;
 	font-size: 3rem;
-	margin-bottom: 4vh;
+	margin-bottom: 8vh;
 }
 .info-content .description-item{
 	max-width: initial;
@@ -425,7 +426,7 @@ a.midia-button p {
   animation: square1 10s 0s ease-in-out infinite normal;
 }
 .square2{
-  animation: square1 18s 0s ease-in-out infinite normal;
+  animation: square2 8s 0s ease-in-out infinite normal;
 }
 
 .hash1{
@@ -453,7 +454,7 @@ a.midia-button p {
 	flex-direction: column;
 	margin-bottom: 5vh;
 	order: 1;
-
+	margin-top: 11vh;
 }
 
 .img-menu{
