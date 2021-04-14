@@ -153,6 +153,21 @@
   }
 }
 
+@keyframes square2{
+  0%{
+    transform: scale(1);
+		right: 0vw;
+  }
+  50%{
+    transform: scale(1.2);
+		right: 2vw;
+  }
+  100%{
+    transform: scale(1);
+		right: 0vw;
+  }
+}
+
 @keyframes hash1{
 	0%{
     transform: scale(1);
