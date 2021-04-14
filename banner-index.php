@@ -11,7 +11,7 @@
         </p>
         <a class="btn-saibamais">Saiba Mais</a>
         <div class="card-h-body p-rel">
-          <?php require('img/notebook.html');?>
+          <?php include('img/notebook.html');?>
         </div>
       </div>
       <div class="card-h-item">
