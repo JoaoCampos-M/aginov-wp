@@ -1,18 +1,3 @@
-var element = document.getElementById("pesquisa");
-if (element.addEventListener) {
-	element.addEventListener(
-		"submit",
-		function (evt) {
-			evt.preventDefault();
-		},
-		true
-	);
-} else {
-	element.attachEvent("onsubmit", function (evt) {
-		evt.preventDefault();
-	});
-}
-
 function opensearch() {
 	open = document.getElementById("pesquisa-img");
 	pesq = document.getElementById("pesquisa");
