@@ -22,23 +22,6 @@
         <img id="brasao" src="<?php bloginfo('template_url'); ?>/img/brasao-unemat.svg" alt=""
           onmouseover="trocaImage()" />
       </div>
-      <div>
-        <div class="search-forms">
-          <div class="pesquisa-img">
-            <img class="search-button-img" src="<?php bloginfo('template_url'); ?>/img/lupa-branca.svg"
-              id="pesquisa-img" onclick="opensearch()" alt="" srcset="" />
-          </div>
-          <form class="pesquisa d-none" id="pesquisa" action="" method="post">
-            <div class="barra-pesquisa">
-              <input type="search" class="search-bar" />
-              <button class="search-button" type="submit" value="">
-                <img class="search-button-img" src="<?php bloginfo('template_url'); ?>/img/lupa-azul.svg" alt=""
-                  onclick="opensearch()" />
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
     </div>
   </div>
   <div class="menu-icones-mobile">
@@ -71,20 +54,10 @@
       <div class="logo-Aginov">
         <img src="<?php bloginfo('template_url'); ?>/img/logo-mobile.svg" alt="Logo Aginov" />
       </div>
-		<!--
-      <form class="pesquisa " id="pesquisa" action="" method="post">
-        <div class="barra-pesquisa">
-          <input type="search" class="search-bar" />
-          <button class="search-button" type="submit" value="">
-            <img class="search-button-img" src="<?php //bloginfo('template_url'); ?>/img/lupa-azul.svg" alt=""
-              onclick="opensearch()" />
-          </button>
-        </div>
-      </form>
-		-->
     </nav>
   </div>
   <img class="bg-header-wave " src="<?php bloginfo('template_url'); ?>/img/background-header-2.svg" />
-  <img class="bg-header-wave header-temp-1 zindex desktop" src="<?php bloginfo('template_url'); ?>/img/background-header.svg" />
+  <img class="bg-header-wave header-temp-1 zindex desktop"
+    src="<?php bloginfo('template_url'); ?>/img/background-header.svg" />
   <img class="bg-header-wave zindex mr-03" src="<?php bloginfo('template_url'); ?>/img/background-header.svg" />
 </header>
