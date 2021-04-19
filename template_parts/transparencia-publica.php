@@ -14,12 +14,12 @@
       </div>
     </div>
     <div class="description-item text-align-right">
-      <h1 class="principal-title-2">Contato</h1>
-      <h3 class="caption-2">Transparência Pública</h3>
+      <h1 class="principal-title-2 desktop">Contato</h1>
+      <h3 class="caption-2 desktop">Transparência Pública</h3>
       <div class="text-container">
         <p class="txt-1 margin-right-green">
 
-            <strong class="text-1">Fale Conosco</strong>
+            <strong class="text-1 contact-title-mob">Fale Conosco</strong>
             Agência de Inovação da Universidade do Estado de Mato Grosso
             <br> <br>
             <?php echo get_theme_mod('rua');?>, N° <?php echo get_theme_mod('numero'); ?>, <?php echo get_theme_mod('bairro'); ?><br>

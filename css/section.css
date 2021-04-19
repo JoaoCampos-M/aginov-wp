@@ -176,8 +176,7 @@ section.prop-intelectual {
 }
 .vitrine-circle2 {
 	bottom: 0;
-	right: 0;
-	margin-right: 8vw;
+	right: 28vw;
 	margin-bottom: 12vh;
 	width: 23vw;
 	opacity: 0.5;
@@ -196,8 +195,7 @@ section.prop-intelectual {
 }
 .midias-circle2 {
 	top: 0;
-	right: 0;
-	margin-right: 8vw;
+	right: 8vw;
 	margin-top: 12vh;
 	width: 30vw;
 	opacity: 0.6;
@@ -211,8 +209,7 @@ section.prop-intelectual {
 }
 .events-circle {
 	top: 0;
-	right: 0;
-	margin-right: 8vw;
+	right: 15vw;
 	width: 20vw;
 }
 .events-calendar {
@@ -542,9 +539,16 @@ a.midia-button p {
 	color: black;
 } */
 .content-news .news-date{
-	margin: 1vh 0px;
+	margin-bottom: 1vh;
 	color: rgb(99, 97, 97);
 	/* font-weight: bold; */
+}
+.content-news .news-author{
+	margin: 0px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: rgb(99, 97, 97);
+	/* line-height: initial; */
 }
 .thumb-noticias{
 	float: left;
@@ -553,4 +557,17 @@ a.midia-button p {
 }
 .thumb-noticias p{
 	text-align: justify;
+}
+
+/*formatações da página que lista todos os eventos*/
+.event-list-page{
+
+}
+
+.event-list-page .cards-lives{
+	margin: 15px 4%;
+}
+
+.event-list-page .cards-lives-groups{
+	justify-content: initial;
 }

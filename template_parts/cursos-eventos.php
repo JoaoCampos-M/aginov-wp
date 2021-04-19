@@ -77,7 +77,7 @@
         </p>
       </div>
 
-      <button type="submit" class="btn-blue float-r desktop">Saber Mais</button>
+      <a href="http://aginov.risc.lan/eventos/" class="btn-blue float-r desktop">Ver Mais</a>
     </div>
   </div>
   <img class="img-bg events-calendar" src="<?php bloginfo('template_url'); ?>/img/calendar.svg" alt="">

@@ -190,6 +190,7 @@
 	.card-ms-item {
 		width: 100%;
 		margin: 10px 0px;
+		max-width: 85vw;
 	}
 	.w-50 {
 		max-width: 100%;
@@ -225,29 +226,29 @@
 		margin-right: 1vw;
 	}
 	/* Ajuste das animações para mobile */
-	.vitrine-circle{
+	.vitrine-circle {
 		width: 32vw;
 	}
-	.vitrine-circle2{
+	.vitrine-circle2 {
 		width: 60vw;
 	}
-	.events-circle{
+	.events-circle {
 		top: 9vh;
-    width: 50vw;
-	}
-	.midias-circle{
 		width: 50vw;
 	}
-	.midias-circle2{
+	.midias-circle {
+		width: 50vw;
+	}
+	.midias-circle2 {
 		width: 38vw;
 	}
-	.events-calendar{
+	.events-calendar {
 		width: 36vw;
-    margin-left: 5vw;
+		margin-left: 5vw;
 	}
-	.bg-header-cicle-1{
+	.bg-header-cicle-1 {
 		width: 45vw;
-    margin-left: 5vw;
+		margin-left: 5vw;
 	}
 	/*Ajuste de logo footer*/
 	.logo-footer img {
@@ -258,10 +259,17 @@
 	}
 
 	/*Ajuste do botão saiba mais em midias sociais*/
-	.card-ms-item .btn-saibamais{
+	.card-ms-item .btn-saibamais {
 		font-size: 1rem;
 		padding: 5px 15px;
-    margin: 5px auto;
+		margin: 5px auto;
+	}
+	.contact-title-mob {
+		font-size: 1.6rem;
+		margin: 10px 0px;
+	}
+	.bg-contatos-prop{
+		margin-top: 0vh;
 	}
 }
 @media (max-width: 800px) and (min-width: 481px) {
