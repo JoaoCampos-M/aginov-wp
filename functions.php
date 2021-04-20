@@ -79,5 +79,44 @@ function enable_categories_for_pages() {
 }
 add_action( 'init', 'enable_categories_for_pages' );
 */
+
+function postdados($postid){
+
+	$post = (object) array(
+		'titulo' => get_the_title($postid),
+		'subtitulo' => get_post_meta($postid,"subtitulo",true),
+		'resumo' => get_the_excerpt($postid),
+		'data' => get_post_meta($postid, 'data', true),
+		'horario' => get_post_meta($postid, 'horario', true),
+		'modalidade' => get_post_meta($postid, 'modalidade', true),
+		'tipo' => get_post_meta($postid, 'tipo', true),
+		'tema' => get_post_meta($postid, 'tema', true),
+		'link' => get_the_permalink($postid)
+	);
+
+	return $post;
+}
+
+function get_ajax_posts() {
+	// Query Arguments
+	$my_args = array(
+		'post_type' => 'events',
+		'post_per_page' => 40
+	);
+	$posts_l=array();
+	$posts = get_posts( $my_args );
+	foreach ( $posts as $post ) {
+		array_push($posts_l,  postdados($post->ID));
+	}
+	echo json_encode( $posts_l );
+
+	exit; // exit ajax call(or it will return useless information to the response)
+}
+
+
+// Fire AJAX action for both logged in and non-logged in users
+add_action('wp_ajax_get_ajax_posts', 'get_ajax_posts');
+add_action('wp_ajax_nopriv_get_ajax_posts', 'get_ajax_posts');
+
 require get_template_directory().'/inc/costumizer.php';
 ?>

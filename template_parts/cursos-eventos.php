@@ -19,7 +19,7 @@
         <div class="cards-lives">
           <div class="cards-info">
             <p class="cards-info-title d-flex fd-col j-cent"> <?php the_title();?> </p>
-            <p class="cards-info-subtitle"><?php echo get_post_meta( $post->ID, 'subtitulo',true) ?></p>
+            <p class="cards-info-subtitle"><?php echo get_post_meta( $post->ID, 'subtitulo',true); ?></p>
             <div class="row-1">
               <div class="row-2">
                 <img src="<?php bloginfo('template_url'); ?>/img/icon-calendario.svg" alt="">
