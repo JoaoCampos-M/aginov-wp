@@ -4,7 +4,9 @@ class Card {
 	constructor(obj) {
 		this.Item = obj;
 		let container = document.querySelector(".cards-lives-groups");
-		container.appendChild(this.cardcontainer());
+		if(this.Item != undefined){
+			container.appendChild(this.cardcontainer());
+		}
 	}
 	cardcontainer() {
 		let div = document.createElement("div");
@@ -100,6 +102,8 @@ class Card {
 			cardInfo.appendChild(row1);
 			cardInfo.appendChild(row2);
 			return cardInfo;
+		}else{
+			return undefined;
 		}
 
 
@@ -113,6 +117,8 @@ class Card {
 			p.appendChild(document.createTextNode(this.Item.tema));
 			cardtheme.appendChild(p);
 			return cardtheme;
+		}else{
+			return undefined;
 		}
 
 	}
@@ -164,6 +170,8 @@ class Card {
 			cardlink.appendChild(link);
 			cardlink.appendChild(row1);
 			return cardlink;
+		}else{
+			return undefined;
 		}
 
 	}
@@ -180,8 +188,13 @@ class Card {
 
 		txt1 = txt1.replaceAll(/don&#8217;/g,"don'");
 		txt1 = txt1.replaceAll(/&rsqb/g,"");
+
+		txt1 = txt1.replaceAll(/&#8221;/g,'"');
+
+		txt1 = txt1.replaceAll(/&#8216;/g,"'");
 		return txt1;
 	}
+
 }
 var maxposts = 0;
 var allEvents;

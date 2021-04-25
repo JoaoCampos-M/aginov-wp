@@ -101,7 +101,8 @@ function get_ajax_posts() {
 	// Query Arguments
 	$my_args = array(
 		'post_type' => 'events',
-		'post_per_page' => 40
+		'post_per_page' => 40,
+		'nopaging' => true
 	);
 	$posts_l=array();
 	$posts = get_posts( $my_args );

@@ -18,7 +18,8 @@
 				  wp_reset_postdata();
             $my_args = array(
             	'post_type' => 'eventos',
-					'post_per_page' => 3
+					'post_per_page' => 3,
+					'nopaging' => false
             );
             $my_query =new WP_Query($my_args);
           ?>
