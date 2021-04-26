@@ -27,7 +27,7 @@
     </div>
     -->
       <a href="<?php the_permalink(); ?>" class="item-menu-info">
-        <strong class="text-legenda m-dados"><?php the_title(); ?></strong>
+		<strong class="text-legenda m-dados"><?php echo get_post_meta($post->ID,'titulo_no_menu', true);?></strong>
         <!-- <p class="text-legenda m-dados">Descrição do item</p> -->
       </a>
       <?php endwhile; endif;wp_reset_query(); ?>
