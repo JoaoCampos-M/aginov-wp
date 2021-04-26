@@ -199,6 +199,7 @@ class Card {
 var maxposts = 0;
 var allEvents;
 var eventsLength;
+var initpost = 0;
 function postsContagem() {
 	let container = document.querySelector(".cards-lives-groups");
 	container.innerHTML = "";
@@ -208,10 +209,12 @@ function postsContagem() {
 		subc++;
 		maxposts++;
 	}
-	console.log(allEvents);
-	console.log(eventsLength);
-
-	for (let c = 0; c < maxposts; c++) {
+	for (let c = initpost; c < maxposts; c++) {
 		new Card(allEvents[c]);
 	}
+	if(maxposts>=9 && maxposts<eventsLength){
+		initpost+=3;
+	}
+	console.log('initpost');
+	console.log(initpost);
 }
