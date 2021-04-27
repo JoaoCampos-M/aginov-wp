@@ -9,7 +9,7 @@
 ?>
 <div>
 
-  <section class="section-info container">
+  <section class="sc-cardsEvents container">
     <h1 class="info-principal-title">Todos os Eventos</h1>
     <div class="event-list-page mg-1 order-desk">
       <div class="cards-lives-groups">
@@ -74,7 +74,7 @@
         <?php endwhile;endif;  ?>
         <?php wp_reset_query()?>
       </div>
-      <a onclick="postsContagem();" class="btn-blue float-r desktop">Ver Mais</a>
+      <a onclick="postsContagem();" class="btn-blue float-r">Ver Mais</a>
     </div>
   </section>
   <img class="bg-contatos-prop img-bg" src="<?php bloginfo('template_url'); ?>/img/background-midias2.svg" alt="">

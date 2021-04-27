@@ -15,7 +15,7 @@
             ?>
 
         <?php
-            if($my_query->have_posts()):while( $my_query->have_posts() && $cont<3 ): $my_query->the_post();?>
+            if($my_query->have_posts()):while( $my_query->have_posts() && $cont<4 ): $my_query->the_post();?>
         <div class="cards-lives">
           <div class="cards-info">
             <p class="cards-info-title d-flex fd-col j-cent"> <?php the_title();?> </p>
@@ -79,6 +79,9 @@
 
       <a href="http://aginov.risc.lan/eventos/" class="btn-blue float-r desktop">Ver Mais</a>
     </div>
+  </div class="d-flex j-cent mb-10" >
+  <div>
+  <a href="http://aginov.risc.lan/eventos/" class="btn-blue">Ver Mais</a>
   </div>
   <img class="img-bg events-calendar" src="<?php bloginfo('template_url'); ?>/img/calendar.svg" alt="">
   <img class="img-bg events-circle circle2" src="<?php bloginfo('template_url'); ?>/img/circles-point.svg" alt="">

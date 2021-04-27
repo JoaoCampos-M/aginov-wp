@@ -445,6 +445,12 @@ a.midia-button p {
 	padding-top: 40px;
 }
 
+.sc-cardsEvents{
+	position: relative;
+	margin: 0vw 0 6vw 0;
+	padding: 30px 7.5vw;
+}
+
 .menu-info{
 	width: 20%;
 	display: flex;
