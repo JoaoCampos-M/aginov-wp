@@ -40,6 +40,8 @@ function create_post_type() {
 			'public' => true,
 			'has_archive' => true,
 			'show_in_rest' => true,
+			'show_ui' => true,
+			'show_in_menu' => 'edit.php?post_type=events',
 			'supports' => array('title','custom-fields','editor','thumbnail')
       )
   );
@@ -53,6 +55,8 @@ function create_post_type() {
       'public' => true,
       'has_archive' => true,
       'show_in_rest' => true,
+			'show_ui' => true,
+			'show_in_menu' => 'edit.php?post_type=events',
       'supports' => array('title','editor')
 	)
 );
@@ -67,6 +71,8 @@ register_post_type( 'parcerias',
 		'public' => true,
 		'has_archive' => true,
 		'show_in_rest' => true,
+		'show_ui' => true,
+		'show_in_menu' => 'edit.php?post_type=events',
 		'supports' => array('title','editor')
 	)
 );
@@ -114,10 +120,51 @@ function get_ajax_posts() {
 	exit; // exit ajax call(or it will return useless information to the response)
 }
 
-
 // Fire AJAX action for both logged in and non-logged in users
 add_action('wp_ajax_get_ajax_posts', 'get_ajax_posts');
 add_action('wp_ajax_nopriv_get_ajax_posts', 'get_ajax_posts');
+
+
+
+
+//testa funcionalidade de adicionar menu para os tipos de post
+
+/*
+function wpdocs_register_my_custom_menu_page() {
+	add_menu_page(
+		 __( 'Custom Menu Title', 'textdomain' ),
+		 'Menu Superor',
+		 'manage_options',
+		 'myplugin/myplugin-admin.php',
+		 '',
+		 plugins_url( 'myplugin/images/icon.png' ),
+		 6
+	);
+}
+add_action( 'admin_menu', 'wpdocs_register_my_custom_menu_page' );
+*/
+
+function menuSuperiorGroup(){
+	$page_title='Custom title';
+	$menu_title="Menu Superior";
+	$capability="manage_options";
+	$menu_slug="edit.php?post_type=events";
+	$function ='';
+	$icon_url='';
+	$position=6;
+
+	add_menu_page(
+		$page_title,
+	 	$menu_title,
+		$capability,
+		$menu_slug,
+		$function,
+		$icon_url,
+		$position
+	);
+}
+
+add_action( 'admin_menu', 'menuSuperiorGroup' );
 
 require get_template_directory().'/inc/costumizer.php';
 ?>
