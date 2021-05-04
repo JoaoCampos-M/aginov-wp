@@ -129,20 +129,6 @@ add_action('wp_ajax_nopriv_get_ajax_posts', 'get_ajax_posts');
 
 //testa funcionalidade de adicionar menu para os tipos de post
 
-/*
-function wpdocs_register_my_custom_menu_page() {
-	add_menu_page(
-		 __( 'Custom Menu Title', 'textdomain' ),
-		 'Menu Superor',
-		 'manage_options',
-		 'myplugin/myplugin-admin.php',
-		 '',
-		 plugins_url( 'myplugin/images/icon.png' ),
-		 6
-	);
-}
-add_action( 'admin_menu', 'wpdocs_register_my_custom_menu_page' );
-*/
 
 function menuSuperiorGroup(){
 	$page_title='Custom title';
@@ -153,6 +139,18 @@ function menuSuperiorGroup(){
 	$icon_url='';
 	$position=6;
 
+	add_menu_page(
+		$page_title,
+	 	$menu_title,
+		$capability,
+		$menu_slug,
+		$function,
+		$icon_url,
+		$position
+	);
+
+	$menu_title="Corpo do Site";
+	$menu_slug="http://aginov.risc.lan/wp-admin/";
 	add_menu_page(
 		$page_title,
 	 	$menu_title,

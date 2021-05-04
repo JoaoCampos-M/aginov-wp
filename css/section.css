@@ -577,3 +577,6 @@ a.midia-button p {
 .event-list-page .cards-lives-groups{
 	justify-content: initial;
 }
+.at-style-responsive .at-share-btn{
+	padding: 1px!important;
+}
