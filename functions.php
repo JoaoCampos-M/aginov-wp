@@ -151,6 +151,7 @@ function menuSuperiorGroup(){
 
 	$menu_title="Corpo do Site";
 	$menu_slug="http://aginov.risc.lan/wp-admin/";
+	$capability="manage_options";
 	add_menu_page(
 		$page_title,
 	 	$menu_title,
@@ -160,9 +161,22 @@ function menuSuperiorGroup(){
 		$icon_url,
 		$position
 	);
+
 }
 
 add_action( 'admin_menu', 'menuSuperiorGroup' );
+	$parent_slug="http://aginov.risc.lan/wp-admin/";
+	$page_title="personalize";
+	$menu_title="Personalizar";
+	$capability="manage_options";
+	$menu_slug="http://aginov.risc.lan/wp-admin/customize.php?return=%2Fwp-admin%2F";
+	add_submenu_page($parent_slug,$page_title,$menu_title,$capability,$menu_slug);
 
+	$parent_slug="http://aginov.risc.lan/wp-admin/";
+	$page_title="test";
+	$menu_title="teste";
+	$capability="manage_options";
+	$menu_slug="http://aginov.risc.lan/wp-admin/customize.php?return=%2Fwp-admin%2F";
+	add_submenu_page($parent_slug,$page_title,$menu_title,$capability,$menu_slug);
 require get_template_directory().'/inc/costumizer.php';
 ?>
