@@ -132,12 +132,12 @@ add_action('wp_ajax_nopriv_get_ajax_posts', 'get_ajax_posts');
 
 function menuSuperiorGroup(){
 	$page_title='Custom title';
-	$menu_title="Menu Superior";
-	$capability="manage_options";
+	$menu_title="Sub Páginas";
+	$capability="admcontent";
 	$menu_slug="edit.php?post_type=events";
 	$function ='';
 	$icon_url='';
-	$position=6;
+	$position=50;
 
 	add_menu_page(
 		$page_title,
@@ -149,9 +149,9 @@ function menuSuperiorGroup(){
 		$position
 	);
 
-	$menu_title="Corpo do Site";
+	$menu_title="Página Inicial";
 	$menu_slug="http://aginov.risc.lan/wp-admin/";
-	$capability="manage_options";
+	$capability="admcontent";
 	add_menu_page(
 		$page_title,
 	 	$menu_title,
@@ -167,16 +167,19 @@ function menuSuperiorGroup(){
 add_action( 'admin_menu', 'menuSuperiorGroup' );
 	$parent_slug="http://aginov.risc.lan/wp-admin/";
 	$page_title="personalize";
-	$menu_title="Personalizar";
-	$capability="manage_options";
+	$menu_title="Editar Página Inicial";
+	$capability="admcontent";
 	$menu_slug="http://aginov.risc.lan/wp-admin/customize.php?return=%2Fwp-admin%2F";
 	add_submenu_page($parent_slug,$page_title,$menu_title,$capability,$menu_slug);
 
-	$parent_slug="http://aginov.risc.lan/wp-admin/";
-	$page_title="test";
-	$menu_title="teste";
-	$capability="manage_options";
-	$menu_slug="http://aginov.risc.lan/wp-admin/customize.php?return=%2Fwp-admin%2F";
-	add_submenu_page($parent_slug,$page_title,$menu_title,$capability,$menu_slug);
+	// remove item no menu Personalizar (Customize)
+	function my_customize_register2() {
+	global $wp_customize;
+	$wp_customize->remove_panel('nav_menus');  //Modify this line as needed
+	$wp_customize->remove_section('static_front_page');  //Modify this line as needed
+	$wp_customize->remove_section('custom_css');  //Modify this line as needed
+	}
+
+	add_action( 'customize_register', 'my_customize_register2',11 );
 require get_template_directory().'/inc/costumizer.php';
 ?>

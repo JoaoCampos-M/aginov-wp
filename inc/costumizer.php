@@ -5,7 +5,7 @@
   $customize->add_panel( 'page_content', array(
 		'capability'     => 'edit_theme_options',
    	'theme_supports' => '',
-   	'title'          => 'Página Inicial',
+   	'title'          => 'Home',
    	'priority' => 10
   ));
 
@@ -107,7 +107,7 @@
     $customize->add_panel( 'transparencia', array(
 		'capability'     => 'edit_theme_options',
       'theme_supports' => '',
-      'title'          => 'Transparência pública',
+      'title'          => 'Rodapé',
    	'priority' => 10
     ));
     $customize -> add_section('endereco', array(
