@@ -162,23 +162,65 @@ function menuSuperiorGroup(){
 		$position
 	);
 
+	$menu_title="Menus";
+	$menu_slug="http://aginov.risc.lan/wp-admin/nav-menus.php";
+	$capability="admcontent";
+	add_menu_page(
+		$page_title,
+	 	$menu_title,
+		$capability,
+		$menu_slug,
+		$function,
+		$icon_url,
+		$position
+	);
+
 }
 
 add_action( 'admin_menu', 'menuSuperiorGroup' );
+
+
+	/* Adiciona submenus nos menus personalizados criados pelos devs */
 	$parent_slug="http://aginov.risc.lan/wp-admin/";
 	$page_title="personalize";
 	$menu_title="Editar Página Inicial";
 	$capability="admcontent";
 	$menu_slug="http://aginov.risc.lan/wp-admin/customize.php?return=%2Fwp-admin%2F";
-	add_submenu_page($parent_slug,$page_title,$menu_title,$capability,$menu_slug);
 
+	add_submenu_page($parent_slug,$page_title,$menu_title,$capability,$menu_slug);
+/*
+	$parent_slug="http://aginov.risc.lan/wp-admin/nav-menus.php";
+	$page_title="menu";
+	$menu_title="Menu da Página Principal";
+	$capability="admcontent";
+	$menu_slug="http://aginov.risc.lan/wp-admin/nav-menus.php";
+
+	add_submenu_page($parent_slug,$page_title,$menu_title,$capability,$menu_slug);
+*/
 	// remove item no menu Personalizar (Customize)
 	function my_customize_register2() {
-	global $wp_customize;
-	$wp_customize->remove_panel('nav_menus');  //Modify this line as needed
-	$wp_customize->remove_section('static_front_page');  //Modify this line as needed
-	$wp_customize->remove_section('custom_css');  //Modify this line as needed
+		global $wp_customize;
+		$wp_customize->remove_panel('nav_menus');  //Modify this line as needed
+		$wp_customize->remove_section('static_front_page');  //Modify this line as needed
+		$wp_customize->remove_section('custom_css');  //Modify this line as needed
 	}
+	// remove itens do painel admin
+	function remove_menus(){
+
+		remove_menu_page( 'edit-comments.php' ); //Comments - comentários
+		remove_menu_page( 'edit.php' ); //Comments - comentários
+
+		remove_submenu_page( 'themes.php', 'nav-menus.php' );
+		remove_menu_page( 'customize.php' );
+		remove_menu_page( 'themes.php' ); //Appearance - aparência (recomendo!)
+		// remove_menu_page( 'plugins.php' ); //Plugins (recomendo!)
+		// remove_menu_page( 'users.php' ); //Users - usuários
+		 remove_menu_page( 'tools.php' ); //Tools - ferramentas (recomendo!)
+		// remove_menu_page( 'options-general.php' ); //Settings - configurações
+		// remove_menu_page( 'admin.php?page=revslider' ); //revolution slider, se estiver instalado
+
+  }
+  add_action( 'admin_menu', 'remove_menus' );
 
 	add_action( 'customize_register', 'my_customize_register2',11 );
 require get_template_directory().'/inc/costumizer.php';

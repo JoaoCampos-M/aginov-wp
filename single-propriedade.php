@@ -23,8 +23,7 @@ include('menu.php');
 		?>
 	<?php endif;?>
 	<div class="menu-info">
-		<img class="desktop img-bn-portifolio" src="<?php bloginfo('template_url'); ?>/img/img-computer-propriedade.svg"
-			alt="">
+	<?php the_post_thumbnail('thumbnail',  array( 'class' => 'desktop img-bn-portifolio' )); ?>
 
 		<?php
 		$my_args = array(

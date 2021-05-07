@@ -7,8 +7,7 @@
   <section class="section-info container d-flex">
 
     <div class="menu-info">
-      <img class="desktop img-bn-portifolio" src="<?php bloginfo('template_url'); ?>/img/img-computer-propriedade.svg"
-        alt="">
+     <?php the_post_thumbnail('thumbnail',  array( 'class' => 'desktop img-bn-portifolio' )); ?>
 
       <?php
 			$my_args = array(
@@ -62,7 +61,7 @@
     </div>
 
     <div class="info-content">
-      <h1 class="info-principal-title">Propriedade Intelectual</h1>
+      <h1 class="info-principal-title"><?php the_title();?></h1>
       <?php
 			$my_args = array(
 				'post_type'=>'propriedade',
