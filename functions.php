@@ -129,7 +129,6 @@ add_action('wp_ajax_nopriv_get_ajax_posts', 'get_ajax_posts');
 
 //testa funcionalidade de adicionar menu para os tipos de post
 
-
 function menuSuperiorGroup(){
 	$page_title='Custom title';
 	$menu_title="Sub Páginas";
@@ -209,19 +208,14 @@ add_action( 'admin_menu', 'menuSuperiorGroup' );
 
 		remove_menu_page( 'edit-comments.php' ); //Comments - comentários
 		remove_menu_page( 'edit.php' ); //Comments - comentários
-
 		remove_submenu_page( 'themes.php', 'nav-menus.php' );
 		remove_menu_page( 'customize.php' );
 		remove_menu_page( 'themes.php' ); //Appearance - aparência (recomendo!)
-		// remove_menu_page( 'plugins.php' ); //Plugins (recomendo!)
-		// remove_menu_page( 'users.php' ); //Users - usuários
 		 remove_menu_page( 'tools.php' ); //Tools - ferramentas (recomendo!)
-		// remove_menu_page( 'options-general.php' ); //Settings - configurações
-		// remove_menu_page( 'admin.php?page=revslider' ); //revolution slider, se estiver instalado
 
   }
   add_action( 'admin_menu', 'remove_menus' );
 
 	add_action( 'customize_register', 'my_customize_register2',11 );
-require get_template_directory().'/inc/costumizer.php';
+	require get_template_directory().'/inc/costumizer.php';
 ?>

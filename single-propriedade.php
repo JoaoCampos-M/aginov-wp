@@ -23,7 +23,7 @@ include('menu.php');
 		?>
 	<?php endif;?>
 	<div class="menu-info">
-	<?php the_post_thumbnail('thumbnail',  array( 'class' => 'desktop img-bn-portifolio' )); ?>
+	<img src="<?php $postparent = $post->post_parent; echo get_the_post_thumbnail_url(200,  array( 'class' => 'desktop img-bn-portifolio' )); ?>" class="desktop img-bn-portifolio">
 
 		<?php
 		$my_args = array(
