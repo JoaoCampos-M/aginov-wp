@@ -187,7 +187,6 @@ add_action( 'admin_menu', 'menuSuperiorGroup' );
 	$menu_slug="http://aginov.risc.lan/wp-admin/customize.php?return=%2Fwp-admin%2F";
 
 	add_submenu_page($parent_slug,$page_title,$menu_title,$capability,$menu_slug);
-/*
 	$parent_slug="http://aginov.risc.lan/wp-admin/nav-menus.php";
 	$page_title="menu";
 	$menu_title="Menu da Página Principal";
@@ -195,7 +194,6 @@ add_action( 'admin_menu', 'menuSuperiorGroup' );
 	$menu_slug="http://aginov.risc.lan/wp-admin/nav-menus.php";
 
 	add_submenu_page($parent_slug,$page_title,$menu_title,$capability,$menu_slug);
-*/
 	// remove item no menu Personalizar (Customize)
 	function my_customize_register2() {
 		global $wp_customize;
@@ -210,7 +208,6 @@ add_action( 'admin_menu', 'menuSuperiorGroup' );
 		remove_menu_page( 'edit.php' ); //Comments - comentários
 		remove_submenu_page( 'themes.php', 'nav-menus.php' );
 		remove_menu_page( 'customize.php' );
-		remove_menu_page( 'themes.php' ); //Appearance - aparência (recomendo!)
 		 remove_menu_page( 'tools.php' ); //Tools - ferramentas (recomendo!)
 
   }
